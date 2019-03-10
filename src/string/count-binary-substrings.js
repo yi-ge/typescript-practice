@@ -24,7 +24,7 @@
 //   return count
 // }
 
-// RegExp too big
+// 报RegExp too big
 // export default (s) => {
 //   // 建立数据结构，堆栈，保存数据
 //   let r = []
