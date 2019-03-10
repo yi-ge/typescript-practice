@@ -1,0 +1,35 @@
+{
+  "name": "js-practice",
+  "version": "0.0.1",
+  "description": "JavaScript Practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi-ge/js-practice.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "yi-ge <a@wyr.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yi-ge/js-practice/issues"
+  },
+  "homepage": "https://github.com/yi-ge/js-practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-jest": "^24.3.1",
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.3.1"
+  }
+}
