@@ -18,7 +18,7 @@ export default (digits) => {
   if (nums.length === 0) return []
 
   const code = []
-  
+
   nums.forEach(item => {
     if (map.get(item)) {
       code.push(map.get(item))

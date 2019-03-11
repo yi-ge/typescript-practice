@@ -13,9 +13,9 @@ const gcd = (a, b) => {
 export default (deck) => {
   const str = deck.sort((a, b) => a - b).join(',') + ','
 
-  const group = str.match(/(\d+\,)\1+|\d+\,/g)
+  const group = str.match(/(\d+,)\1+|\d+,/g)
 
-  while(group.length > 1) {
+  while (group.length > 1) {
     const a = group.shift().split(',').length - 1
     const b = group.shift().split(',').length - 1
 
