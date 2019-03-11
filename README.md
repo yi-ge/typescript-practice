@@ -22,3 +22,9 @@
 - [删除排序数组中的重复项](src/array/remove-duplicates-from-sorted-array.js)
   - LeetCode 26. 删除排序数组中的重复项 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
   - LintCode 100. 删除排序数组中的重复数字 https://www.lintcode.com/problem/remove-duplicates-from-sorted-array/description
+
+## 数学
+
+- [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
+  - LeetCode 172. 阶乘后的零 https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/
+  - LintCode 2. 尾部的零 https://www.lintcode.com/problem/trailing-zeros/description
