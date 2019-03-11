@@ -23,6 +23,10 @@
   - LeetCode 26. 删除排序数组中的重复项 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
   - LintCode 100. 删除排序数组中的重复数字 https://www.lintcode.com/problem/remove-duplicates-from-sorted-array/description
 
+- [能否种花](src/array/can-place-flowers.js)
+  - LeetCode 605. 种花问题 https://leetcode-cn.com/problems/can-place-flowers/
+  - LintCode 1138. 能否放置花 https://www.lintcode.com/problem/can-place-flowers/description
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
