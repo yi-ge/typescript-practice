@@ -1,0 +1,20 @@
+import loopAscArray from '../../src/array/loop-asc-array'
+
+test('loopAscArray', () => {
+  expect(loopAscArray([0, 3, 4, 6, 7], 0)).toEqual(true)
+  expect(loopAscArray([6, 7, 0, 3, 4], 0)).toEqual(true)
+  expect(loopAscArray([6, 7, 0, 3, 4], 5)).toEqual(false)
+  expect(loopAscArray([1, 2, 3, 4, 5], 6)).toEqual(false)
+  expect(loopAscArray([1, 2, 3, 4, 5], 1)).toEqual(true)
+  expect(loopAscArray([3, 4, 5, 1, 1, 2], 1)).toEqual(true)
+  expect(loopAscArray([3, 4, 5, 1, 1, 2], 6)).toEqual(false)
+  expect(loopAscArray([3, 4, 5, 1, 1, 2], 0)).toEqual(false)
+  expect(loopAscArray([1, 0, 1, 1, 1], 0)).toEqual(true)
+  expect(loopAscArray([1, 0, 1, 1, 1], 2)).toEqual(false)
+  expect(loopAscArray([3], 2)).toEqual(false)
+  expect(loopAscArray([2], 2)).toEqual(true)
+  expect(loopAscArray([1, 1, 1], 2)).toEqual(false)
+  expect(loopAscArray([1, 1, 1], 1)).toEqual(true)
+  expect(loopAscArray([1, 1, 1, 0], 1)).toEqual(true)
+  expect(loopAscArray([1, 1, 1, 0], 2)).toEqual(false)
+})
