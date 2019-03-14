@@ -40,6 +40,14 @@
     输入：nums = [6, 7, 0, 3, 4]， target = 5
     输出：false
 
+- [循环数组中的环-暂无解](src/array/circular-array-loop.js)
+  - LeetCode 457. 环形数组循环 https://leetcode-cn.com/problems/circular-array-loop/
+  - LintCode 1229. 循环数组中的环 https://www.lintcode.com/problem/circular-array-loop/description
+
+- [格雷编码](src/array/gray-code.js)
+  - LeetCode 89. 格雷编码 https://leetcode-cn.com/problems/gray-code/
+  - LintCode 411. 格雷编码 https://www.lintcode.com/problem/gray-code/description
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
