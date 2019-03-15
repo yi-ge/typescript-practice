@@ -14,6 +14,10 @@
   - LeetCode 459. 重复的子字符串 https://leetcode-cn.com/problems/repeated-substring-pattern/
   - LintCode 1227. 重复的子串模式 https://www.lintcode.com/problem/repeated-substring-pattern/description
 
+- [正则表达式匹配](src/string/regular-expression-matching.js)
+  - LeetCode 10. 正则表达式匹配 https://leetcode-cn.com/problems/regular-expression-matching/
+  - LintCode 154. 正则表达式匹配 https://www.lintcode.com/problem/regular-expression-matching/description
+
 ## 数组
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
