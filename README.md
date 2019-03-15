@@ -48,6 +48,9 @@
   - LeetCode 89. 格雷编码 https://leetcode-cn.com/problems/gray-code/
   - LintCode 411. 格雷编码 https://www.lintcode.com/problem/gray-code/description
 
+- [数组划分](src/array/partition-array.js)
+  - LintCode 31. 数组划分 https://www.lintcode.com/problem/partition-array/description
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
