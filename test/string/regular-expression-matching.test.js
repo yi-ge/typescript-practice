@@ -8,5 +8,5 @@ test('regularExpressionMatching', () => {
   expect(regularExpressionMatching('ab', '.*')).toEqual(true)
   expect(regularExpressionMatching('aab', 'c*a*b')).toEqual(true)
   expect(regularExpressionMatching('mississippi', 'mis*is*p*.')).toEqual(false)
-  expect(regularExpressionMatching('mississippi', 'mis*is*p*.')).toEqual(false)
+  expect(regularExpressionMatching('mississippi', 'mis*is*ip*.')).toEqual(true)
 })
