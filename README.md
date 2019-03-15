@@ -10,6 +10,10 @@
   - LeetCode 696. 计数二进制子串 https://leetcode-cn.com/problems/count-binary-substrings/
   - LintCode 1079. 连续子串计数 https://www.lintcode.com/problem/count-binary-substrings/description
 
+- [重复的子串](src/string/repeated-substring-pattern.js)
+  - LeetCode 459. 重复的子字符串 https://leetcode-cn.com/problems/repeated-substring-pattern/
+  - LintCode 1227. 重复的子串模式 https://www.lintcode.com/problem/repeated-substring-pattern/description
+
 ## 数组
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
@@ -56,3 +60,4 @@
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
   - LeetCode 172. 阶乘后的零 https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/
   - LintCode 2. 尾部的零 https://www.lintcode.com/problem/trailing-zeros/description
+

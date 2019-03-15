@@ -19,7 +19,6 @@ export default (n) => {
   }
 
   return make(n).map(val => {
-    console.log(val)
     return parseInt(val, 2)
   })
 }
