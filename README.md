@@ -59,6 +59,8 @@
 - [数组划分](src/array/partition-array.js)
   - LintCode 31. 数组划分 https://www.lintcode.com/problem/partition-array/description
 
+- [冒泡排序](src/array/bubble-sort.js)
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
