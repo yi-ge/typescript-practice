@@ -66,6 +66,11 @@
 - [按奇偶排序数组](src/array/sort-array-by-parity.js)
   - LeetCode 922. 按奇偶排序数组 II https://leetcode-cn.com/problems/sort-array-by-parity-ii/
 
+- [数组中的第K个最大元素](src/array/kth-largest-element-in-an-array.js)
+  - LeetCode 215. 数组中的第K个最大元素 https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
+  - LintCode 5. 第k大元素 https://www.lintcode.com/problem/kth-largest-element/description
+  - LintCode 606. 第K大的元素 II https://www.lintcode.com/problem/kth-largest-element-ii/description
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
