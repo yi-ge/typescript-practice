@@ -1,6 +1,6 @@
 import bubbleSort from '../../src/array/bubble-sort'
 
-test('', () => {
+test('bubbleSort', () => {
   expect(bubbleSort([1, 2, 3])).toEqual([1, 2, 3])
   expect(bubbleSort([3, 2, 1])).toEqual([1, 2, 3])
   expect(bubbleSort([])).toEqual([])
