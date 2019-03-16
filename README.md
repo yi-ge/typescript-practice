@@ -63,6 +63,9 @@
 
 - [选择排序](src/array/select-sort.js)
 
+- [按奇偶排序数组](src/array/sort-array-by-parity.js)
+  - LeetCode 922. 按奇偶排序数组 II https://leetcode-cn.com/problems/sort-array-by-parity-ii/
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
