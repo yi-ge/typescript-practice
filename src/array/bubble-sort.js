@@ -4,9 +4,8 @@
 // 稳定
 
 export default (arr) => {
-  for (let n = 0, len = arr.length - 1; n < len; n++) {
-    let down = true
-    for (let i = 0, len = arr.length - 1 - n; i < len; i++) {
+  for (let n = 0, len = arr.length - 1, down = true; n < len; n++) {
+    for (let i = 0, iLen = len - n; i < iLen; i++) {
       if (arr[i + 1] < arr[i]) {
         const tmp = arr[i]
         arr[i] = arr[i + 1]
