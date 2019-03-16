@@ -61,6 +61,8 @@
 
 - [冒泡排序](src/array/bubble-sort.js)
 
+- [选择排序](src/array/select-sort.js)
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
