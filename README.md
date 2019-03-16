@@ -68,12 +68,14 @@
 
 - [数组中的第K个最大元素](src/array/kth-largest-element-in-an-array.js)
   - LeetCode 215. 数组中的第K个最大元素 https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
+  - LeetCode 414. 第三大的数【相似，需去重】 https://leetcode-cn.com/problems/third-maximum-number/submissions/
   - LintCode 5. 第k大元素 https://www.lintcode.com/problem/kth-largest-element/description
   - LintCode 606. 第K大的元素 II https://www.lintcode.com/problem/kth-largest-element-ii/description
+  - LintCode 544. 前K大数【相似】 https://www.lintcode.com/problem/top-k-largest-numbers/description
+  - LintCode 479. 数组第二大数【相似】 https://www.lintcode.com/problem/second-max-of-array/description
 
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
   - LeetCode 172. 阶乘后的零 https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/
   - LintCode 2. 尾部的零 https://www.lintcode.com/problem/trailing-zeros/description
-
