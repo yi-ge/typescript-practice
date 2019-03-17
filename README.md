@@ -74,6 +74,10 @@
   - LintCode 544. 前K大数【相似】 https://www.lintcode.com/problem/top-k-largest-numbers/description
   - LintCode 479. 数组第二大数【相似】 https://www.lintcode.com/problem/second-max-of-array/description
 
+- [最大间距](src/array/maximum-gap.js)
+  - LeetCode 164. 最大间距 https://leetcode-cn.com/problems/maximum-gap/
+  - LintCode 400. 最大间距 https://www.lintcode.com/problem/maximum-gap/
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
