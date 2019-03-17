@@ -18,7 +18,7 @@
   - LeetCode 10. 正则表达式匹配 https://leetcode-cn.com/problems/regular-expression-matching/
   - LintCode 154. 正则表达式匹配 https://www.lintcode.com/problem/regular-expression-matching/description
 
-- [恢复IP地址]()
+- [恢复IP地址](src/string/restore-ip-addresses.js)
   - LeetCode 93. 复原IP地址 https://leetcode-cn.com/problems/restore-ip-addresses/
   - LintCode 426. 恢复IP地址 https://www.lintcode.com/problem/restore-ip-addresses/description
 
