@@ -82,6 +82,9 @@
   - LeetCode 41. 缺失的第一个正数 https://leetcode-cn.com/problems/first-missing-positive/
   - LintCode 189. 丢失的第一个正整数 https://www.lintcode.com/problem/first-missing-positive/description
   - LintCode 681. 缺失的第一个素数【相似】 https://www.lintcode.com/problem/first-missing-prime-number/description
+  
+- [缺失的第一个素数](src/array/first-missing-prime-number.js)
+  - LintCode 681. 缺失的第一个素数 https://www.lintcode.com/problem/first-missing-prime-number/description
 
 ## 数学
 
