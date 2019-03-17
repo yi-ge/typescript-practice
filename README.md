@@ -78,6 +78,11 @@
   - LeetCode 164. 最大间距 https://leetcode-cn.com/problems/maximum-gap/
   - LintCode 400. 最大间距 https://www.lintcode.com/problem/maximum-gap/
 
+- [缺失的第一个正数](src/array/first-missing-positive.js)
+  - LeetCode 41. 缺失的第一个正数 https://leetcode-cn.com/problems/first-missing-positive/
+  - LintCode 189. 丢失的第一个正整数 https://www.lintcode.com/problem/first-missing-positive/description
+  - LintCode 681. 缺失的第一个素数【相似】 https://www.lintcode.com/problem/first-missing-prime-number/description
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
