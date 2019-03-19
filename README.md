@@ -90,6 +90,10 @@
 - [缺失的第一个素数](src/array/first-missing-prime-number.js)
   - LintCode 681. 缺失的第一个素数 https://www.lintcode.com/problem/first-missing-prime-number/description
 
+- [串联所有单词的子串](src/array/substring-with-concatenation-of-all-words.js)
+  - LeetCode 30. 串联所有单词的子串 https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/
+  - LintCode 1362. 包含所有单词连接的子串 https://www.lintcode.com/problem/substring-with-concatenation-of-all-words/description
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
