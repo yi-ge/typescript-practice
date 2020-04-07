@@ -1,0 +1,636 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200407.214622.91055.0.001.json",
+    "dumpEventTime": "2020-04-07T21:46:22Z",
+    "dumpEventTimeStamp": "1586267182399",
+    "processId": 91055,
+    "cwd": "/Users/wangyi/Project/js-practice",
+    "commandLine": [
+      "/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node",
+      "/Users/wangyi/Project/js-practice/node_modules/.bin/jest",
+      "best-time-to-buy-and-sell-stock-ii",
+      "--watch"
+    ],
+    "nodejsVersion": "v13.7.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "darwin",
+    "componentVersions": {
+      "node": "13.7.0",
+      "v8": "7.9.317.25-node.28",
+      "uv": "1.34.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "openssl": "1.1.1d",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.7.0/node-v13.7.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.7.0/node-v13.7.0.tar.gz"
+    },
+    "osName": "Darwin",
+    "osRelease": "19.4.0",
+    "osVersion": "Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz",
+        "speed": 2500,
+        "user": 30507320,
+        "nice": 0,
+        "sys": 23403530,
+        "idle": 243665480,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz",
+        "speed": 2500,
+        "user": 1596550,
+        "nice": 0,
+        "sys": 2213950,
+        "idle": 293752820,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz",
+        "speed": 2500,
+        "user": 27304190,
+        "nice": 0,
+        "sys": 15826230,
+        "idle": 254437580,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz",
+        "speed": 2500,
+        "user": 1621430,
+        "nice": 0,
+        "sys": 1897450,
+        "idle": 294043520,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz",
+        "speed": 2500,
+        "user": 21564570,
+        "nice": 0,
+        "sys": 11325410,
+        "idle": 264676110,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz",
+        "speed": 2500,
+        "user": 1648550,
+        "nice": 0,
+        "sys": 1684560,
+        "idle": 294228360,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz",
+        "speed": 2500,
+        "user": 18303690,
+        "nice": 0,
+        "sys": 8956470,
+        "idle": 270304090,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz",
+        "speed": 2500,
+        "user": 1648910,
+        "nice": 0,
+        "sys": 1520740,
+        "idle": 294390900,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 1
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "34:36:3b:cc:51:50",
+        "address": "fe80::ce7:af90:44e9:3438",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "34:36:3b:cc:51:50",
+        "address": "192.168.11.112",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "awdl0",
+        "internal": false,
+        "mac": "4a:b8:0a:d6:83:57",
+        "address": "fe80::48b8:aff:fed6:8357",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 7
+      },
+      {
+        "name": "llw0",
+        "internal": false,
+        "mac": "4a:b8:0a:d6:83:57",
+        "address": "fe80::48b8:aff:fed6:8357",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      },
+      {
+        "name": "utun0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::cdc2:e783:ff5f:acf",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "utun1",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::293:cf78:6606:7209",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "utun2",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::c27d:b906:280f:63d9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      }
+    ],
+    "host": "yige"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x000000010015a0d6",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::String>) [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000100082550",
+      "symbol": "node::OnFatalError(char const*, char const*) [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000100182b97",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000100182b33",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x000000010030afb5",
+      "symbol": "v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001002de839",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller(v8::internal::RootIndex, int, v8::internal::Object, v8::internal::AllocationType) [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000100446198",
+      "symbol": "v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::FastPackedSmiElementsAccessor, v8::internal::(anonymous namespace)::ElementsKindTraits<(v8::internal::ElementsKind)0> >::GrowCapacity(v8::internal::Handle<v8::internal::JSObject>, unsigned int) [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001005fb684",
+      "symbol": "v8::internal::Runtime_GrowArrayElements(int, unsigned long*, v8::internal::Isolate*) [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000100954639",
+      "symbol": "Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x00000fa6089f29ff",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00000001008e07bb",
+      "symbol": "Builtins_InterpreterEntryTrampoline [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001008e07bb",
+      "symbol": "Builtins_InterpreterEntryTrampoline [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001008e07bb",
+      "symbol": "Builtins_InterpreterEntryTrampoline [/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1601912832,
+    "totalCommittedMemory": 1572659536,
+    "usedMemory": 1560778352,
+    "availableMemory": 612661248,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33328,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 4874640,
+        "capacity": 16758784,
+        "used": 0,
+        "available": 16758784
+      },
+      "old_space": {
+        "memorySize": 55451648,
+        "committedMemory": 55450608,
+        "capacity": 50179616,
+        "used": 50179616,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 1740800,
+        "committedMemory": 1632832,
+        "capacity": 1134176,
+        "used": 1134176,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3149824,
+        "committedMemory": 2914144,
+        "capacity": 1753040,
+        "used": 1753040,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 605192192,
+        "committedMemory": 605192192,
+        "capacity": 605164816,
+        "used": 605164816,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 902512640,
+        "committedMemory": 902512640,
+        "capacity": 902510880,
+        "used": 902510880,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 10.0222,
+    "kernelCpuSeconds": 3.62588,
+    "cpuConsumptionPercent": 1.3998,
+    "maxRss": 1844386463744,
+    "pageFaults": {
+      "IORequired": 24,
+      "IONotRequired": 761102
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "LDFLAGS": "-L/usr/local/opt/curl/lib",
+    "MANPATH": "/usr/local/opt/coreutils/libexec/gnuman:/Users/wangyi/.nvm/versions/node/v13.7.0/share/man:/usr/share/man:/usr/local/share/man:/opt/X11/share/man:/usr/local/opt/coreutils/libexec/gnuman",
+    "TERM_PROGRAM": "vscode",
+    "VIRTUALENVWRAPPER_PROJECT_FILENAME": ".project",
+    "VIRTUALENVWRAPPER_SCRIPT": "/usr/local/bin/virtualenvwrapper.sh",
+    "rvm_bin_path": "/Users/wangyi/.rvm/bin",
+    "NODE": "/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node",
+    "INIT_CWD": "/Users/wangyi/Project/js-practice",
+    "ANDROID_HOME": "/Users/wangyi/Library/Android/sdk",
+    "NVM_CD_FLAGS": "-q",
+    "npm_package_homepage": "https://github.com/yi-ge/js-practice#readme",
+    "npm_config_version_git_tag": "true",
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh",
+    "npm_package_devDependencies_jest": "^25.2.7",
+    "CLICOLOR": "1",
+    "HOMEBREW_BOTTLE_DOMAIN": "https://mirrors.ustc.edu.cn/homebrew-bottles",
+    "CPPFLAGS": "-I/usr/local/opt/curl/include",
+    "TMPDIR": "/var/folders/h2/tj0yfnjn5dzgj80wt06zl0c40000gn/T/",
+    "npm_package_devDependencies_eslint_plugin_jest": "^23.8.2",
+    "npm_package_devDependencies_eslint_config_standard": "^14.1.1",
+    "GOBIN": "/usr/local/go/bin",
+    "npm_package_scripts_lint": "eslint --ext .js .",
+    "npm_config_init_license": "MIT",
+    "TERM_PROGRAM_VERSION": "1.43.2",
+    "TERM_SESSION_ID": "w0t0p0:68AE8EF8-EB35-4ACD-9251-3003873ACD90",
+    "npm_config_registry": "https://mirrors.huaweicloud.com/repository/npm/",
+    "ZSH": "/Users/wangyi/.oh-my-zsh",
+    "npm_package_repository_url": "git+https://github.com/yi-ge/js-practice.git",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_jest": "jest",
+    "rvm_stored_umask": "022",
+    "NVM_DIR": "/Users/wangyi/.nvm",
+    "USER": "wangyi",
+    "npm_package_description": "JavaScript Practice.",
+    "npm_package_license": "MIT",
+    "_system_type": "Darwin",
+    "npm_package_dependencies_eslint_plugin_html": "^6.0.1",
+    "rvm_path": "/Users/wangyi/.rvm",
+    "npm_package_devDependencies__babel_core": "^7.9.0",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.MPH3sYEVOf/Listeners",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x19:0x34",
+    "npm_package_devDependencies_eslint": "^6.8.0",
+    "npm_execpath": "/Users/wangyi/.yarn/bin/yarn.js",
+    "PAGER": "less",
+    "WORKON_HOME": "/Users/wangyi/.virtualenvs",
+    "npm_package_author_name": "yi-ge",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "PROJECT_HOME": "/Users/wangyi/Workspace",
+    "rvm_prefix": "/Users/wangyi",
+    "PATH": "/var/folders/h2/tj0yfnjn5dzgj80wt06zl0c40000gn/T/yarn--1586266206710-0.1276336287006219:/Users/wangyi/Project/js-practice/node_modules/.bin:/Users/wangyi/.config/yarn/link/node_modules/.bin:/Users/wangyi/.nvm/versions/node/v13.7.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/wangyi/.nvm/versions/node/v13.7.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/opt/curl/bin:/usr/local/opt/gettext/bin:/usr/local/opt/openssl@1.1/bin:/Users/wangyi/.cargo/bin:/usr/local/opt/openssl@1.1/bin:/Users/wangyi/.yarn/bin:/Users/wangyi/.config/yarn/global/node_modules/.bin:/usr/local/opt/gnu-tar/libexec/gnubin:/Users/wangyi/go/bin:/usr/local/opt/php@7.1/sbin:/usr/local/opt/php@7.1/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/qt/bin:/usr/local/opt/sqlite/bin:/Users/wangyi/.nvm/versions/node/v13.7.0/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/opt/openssl/bin:/usr/local/opt/sqlite/bin:/user/sbin:/usr/local/bin:/Users/wangyi/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/wangyi/.composer/vendor/bin:/usr/local/go/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/usr/local/opt/curl/bin:/usr/local/opt/gettext/bin:/usr/local/opt/openssl@1.1/bin:/Users/wangyi/.cargo/bin:/Users/wangyi/.yarn/bin:/Users/wangyi/.config/yarn/global/node_modules/.bin:/usr/local/opt/gnu-tar/libexec/gnubin:/Users/wangyi/go/bin:/usr/local/opt/php@7.1/sbin:/usr/local/opt/php@7.1/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/qt/bin:/usr/local/opt/sqlite/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/opt/openssl/bin:/user/sbin:/Users/wangyi/Library/Android/sdk/tools:/Users/wangyi/Library/Android/sdk/platform-tools:/usr/local/opt/go/libexec/bin:/Users/wangyi/apache-tomcat-8.5.6/bin:/Users/wangyi/.rvm/bin:/Users/wangyi/.fzf/bin:/Users/wangyi/Library/Android/sdk/tools:/Users/wangyi/Library/Android/sdk/platform-tools:/usr/local/opt/go/libexec/bin:/Users/wangyi/Library/Android/sdk/platform-tools:/Users/wangyi/Library/Android/sdk/tools:/Users/wangyi/apache-tomcat-8.5.6/bin",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"jest\"],\"original\":[\"run\",\"jest\",\"best-time-to-buy-and-sell-stock-ii\",\"--watch\"]}",
+    "_": "/Users/wangyi/Project/js-practice/node_modules/.bin/jest",
+    "VIRTUALENVWRAPPER_HOOK_DIR": "/Users/wangyi/.virtualenvs",
+    "rvm_loaded_flag": "1",
+    "PWD": "/Users/wangyi/Project/js-practice",
+    "npm_package_devDependencies_eslint_plugin_standard": "^4.0.1",
+    "npm_package_bugs_url": "https://github.com/yi-ge/js-practice/issues",
+    "npm_lifecycle_event": "jest",
+    "LANG": "zh_CN.UTF-8",
+    "npm_package_keywords_0": "practice",
+    "npm_package_repository_type": "git",
+    "npm_package_name": "js-practice",
+    "ITERM_PROFILE": "Default",
+    "npm_package_devDependencies_eslint_plugin_import": "^2.20.2",
+    "npm_package_devDependencies__babel_preset_env": "^7.9.0",
+    "npm_config_version_commit_hooks": "true",
+    "_system_arch": "x86_64",
+    "XPC_FLAGS": "0x0",
+    "npm_config_bin_links": "true",
+    "_system_version": "10.15",
+    "npm_config_electron_mirror": "https://mirrors.huaweicloud.com/electron/",
+    "npm_package_devDependencies_eslint_plugin_node": "^11.1.0",
+    "npm_package_main": "index.js",
+    "XPC_SERVICE_NAME": "0",
+    "npm_package_version": "0.0.1",
+    "rvm_version": "1.26.11 (latest)",
+    "COLORFGBG": "7;0",
+    "SHLVL": "2",
+    "HOME": "/Users/wangyi",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "GOROOT": "/usr/local/go",
+    "npm_package_scripts_test": "jest test",
+    "LC_TERMINAL_VERSION": "3.3.7beta4",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_package_devDependencies_eslint_plugin_promise": "^4.2.1",
+    "ITERM_SESSION_ID": "w0t0p0:68AE8EF8-EB35-4ACD-9251-3003873ACD90",
+    "npm_config_disturl": "https://mirrors.huaweicloud.com/nodejs/",
+    "LESS": "-R",
+    "LOGNAME": "wangyi",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_lifecycle_script": "jest",
+    "LC_CTYPE": "zh_CN.UTF-8",
+    "npm_package_author_email": "a@wyr.me",
+    "PKG_CONFIG_PATH": "/usr/local/opt/curl/lib/pkgconfig",
+    "NVM_BIN": "/Users/wangyi/.nvm/versions/node/v13.7.0/bin",
+    "GOPATH": "/Users/wangyi/go",
+    "VIRTUALENVWRAPPER_WORKON_CD": "1",
+    "npm_config_version_git_sign": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_user_agent": "yarn/1.22.0-20191211.0843 npm/? node/v13.7.0 darwin x64",
+    "LC_TERMINAL": "iTerm2",
+    "DISPLAY": "/private/tmp/com.apple.launchd.ZkVZCVtr1M/org.macosforge.xquartz:0",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_ignore_optional": "",
+    "rvm_user_install_flag": "1",
+    "_system_name": "OSX",
+    "COLORTERM": "truecolor",
+    "npm_node_execpath": "/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node",
+    "npm_config_version_tag_prefix": "v",
+    "NODE_ENV": "test",
+    "JEST_WORKER_ID": "1"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 24576,
+      "hard": "unlimited"
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 67104768
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 2784,
+      "hard": 4176
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/Users/wangyi/.nvm/versions/node/v13.7.0/bin/node",
+    "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libfakelink.dylib",
+    "/usr/lib/libDiagnosticMessagesClient.dylib",
+    "/usr/lib/libicucore.A.dylib",
+    "/usr/lib/libz.1.dylib",
+    "/usr/lib/libc++abi.dylib",
+    "/usr/lib/system/libcache.dylib",
+    "/usr/lib/system/libcommonCrypto.dylib",
+    "/usr/lib/system/libcompiler_rt.dylib",
+    "/usr/lib/system/libcopyfile.dylib",
+    "/usr/lib/system/libcorecrypto.dylib",
+    "/usr/lib/system/libdispatch.dylib",
+    "/usr/lib/system/libdyld.dylib",
+    "/usr/lib/system/libkeymgr.dylib",
+    "/usr/lib/system/liblaunch.dylib",
+    "/usr/lib/system/libmacho.dylib",
+    "/usr/lib/system/libquarantine.dylib",
+    "/usr/lib/system/libremovefile.dylib",
+    "/usr/lib/system/libsystem_asl.dylib",
+    "/usr/lib/system/libsystem_blocks.dylib",
+    "/usr/lib/system/libsystem_c.dylib",
+    "/usr/lib/system/libsystem_configuration.dylib",
+    "/usr/lib/system/libsystem_coreservices.dylib",
+    "/usr/lib/system/libsystem_darwin.dylib",
+    "/usr/lib/system/libsystem_dnssd.dylib",
+    "/usr/lib/system/libsystem_featureflags.dylib",
+    "/usr/lib/system/libsystem_info.dylib",
+    "/usr/lib/system/libsystem_m.dylib",
+    "/usr/lib/system/libsystem_malloc.dylib",
+    "/usr/lib/system/libsystem_networkextension.dylib",
+    "/usr/lib/system/libsystem_notify.dylib",
+    "/usr/lib/system/libsystem_sandbox.dylib",
+    "/usr/lib/system/libsystem_secinit.dylib",
+    "/usr/lib/system/libsystem_kernel.dylib",
+    "/usr/lib/system/libsystem_platform.dylib",
+    "/usr/lib/system/libsystem_pthread.dylib",
+    "/usr/lib/system/libsystem_symptoms.dylib",
+    "/usr/lib/system/libsystem_trace.dylib",
+    "/usr/lib/system/libunwind.dylib",
+    "/usr/lib/system/libxpc.dylib",
+    "/System/Library/CoreServices/Encodings/libSimplifiedChineseConverter.dylib",
+    "/Users/wangyi/Project/js-practice/node_modules/fsevents/fsevents.node",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+    "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/FSEvents",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SharedFileList.framework/Versions/A/SharedFileList",
+    "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+    "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+    "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+    "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+    "/usr/lib/libsqlite3.dylib",
+    "/usr/lib/libxml2.2.dylib",
+    "/usr/lib/libnetwork.dylib",
+    "/usr/lib/libapple_nghttp2.dylib",
+    "/usr/lib/libauto.dylib",
+    "/usr/lib/libcompression.dylib",
+    "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+    "/usr/lib/libarchive.2.dylib",
+    "/usr/lib/liblangid.dylib",
+    "/usr/lib/libCRFSuite.dylib",
+    "/usr/lib/liblzma.5.dylib",
+    "/usr/lib/libenergytrace.dylib",
+    "/usr/lib/libbsm.0.dylib",
+    "/usr/lib/system/libkxld.dylib",
+    "/System/Library/PrivateFrameworks/AppleFSCompression.framework/Versions/A/AppleFSCompression",
+    "/usr/lib/libcoretls.dylib",
+    "/usr/lib/libcoretls_cfhelpers.dylib",
+    "/usr/lib/libpam.2.dylib",
+    "/usr/lib/libxar.1.dylib",
+    "/usr/lib/libbz2.1.0.dylib",
+    "/usr/lib/libiconv.2.dylib",
+    "/usr/lib/libcharset.1.dylib",
+    "/usr/lib/libpcap.A.dylib",
+    "/System/Library/Frameworks/NetFS.framework/Versions/A/NetFS",
+    "/System/Library/PrivateFrameworks/NetAuth.framework/Versions/A/NetAuth",
+    "/System/Library/PrivateFrameworks/login.framework/Versions/A/Frameworks/loginsupport.framework/Versions/A/loginsupport",
+    "/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC",
+    "/System/Library/PrivateFrameworks/CoreNLP.framework/Versions/A/CoreNLP",
+    "/System/Library/PrivateFrameworks/MetadataUtilities.framework/Versions/A/MetadataUtilities",
+    "/usr/lib/libmecabra.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+    "/usr/lib/libmecab.dylib",
+    "/usr/lib/libgermantok.dylib",
+    "/usr/lib/libThaiTokenizer.dylib",
+    "/usr/lib/libChineseTokenizer.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLinearAlgebra.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparseBLAS.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libQuadrature.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBNNS.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparse.dylib",
+    "/System/Library/PrivateFrameworks/LanguageModeling.framework/Versions/A/LanguageModeling",
+    "/System/Library/PrivateFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji",
+    "/System/Library/PrivateFrameworks/LinguisticData.framework/Versions/A/LinguisticData",
+    "/System/Library/PrivateFrameworks/Lexicon.framework/Versions/A/Lexicon",
+    "/usr/lib/libcmph.dylib",
+    "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory",
+    "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory",
+    "/System/Library/PrivateFrameworks/APFS.framework/Versions/A/APFS",
+    "/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation",
+    "/usr/lib/libutil.dylib",
+    "/System/Library/PrivateFrameworks/CoreServicesStore.framework/Versions/A/CoreServicesStore",
+    "/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement",
+    "/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement",
+    "/usr/lib/libxslt.1.dylib"
+  ]
+}
