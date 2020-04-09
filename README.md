@@ -113,8 +113,13 @@
   - LintCode 1362. 包含所有单词连接的子串 https://www.lintcode.com/problem/substring-with-concatenation-of-all-words/description
 
 - [买卖股票的最佳时机 II](src/array/best-time-to-buy-and-sell-stock-ii.js)
+
   - LeetCode 122. 买卖股票的最佳时机 II https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
   - LintCode 150. 买卖股票的最佳时机 II https://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-ii/description
+
+- [搜索插入位置](src/array/search-insert-position.js)
+  - LeetCode 35. 搜索插入位置 https://leetcode-cn.com/problems/search-insert-position/
+  - LintCode 20. 搜索插入位置 https://www.lintcode.com/problem/search-insert-position/description
 
 ## 数学
 

@@ -9,6 +9,6 @@ var maxProfit = function (prices) {
   }
 
   return profit
-};
+}
 
-export default maxProfit;
+export default maxProfit
