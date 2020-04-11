@@ -118,8 +118,13 @@
   - LintCode 150. 买卖股票的最佳时机 II https://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-ii/description
 
 - [搜索插入位置](src/array/search-insert-position.js)
+
   - LeetCode 35. 搜索插入位置 https://leetcode-cn.com/problems/search-insert-position/
   - LintCode 20. 搜索插入位置 https://www.lintcode.com/problem/search-insert-position/description
+
+- [二分查找](src/array/binary-search.js)
+  - LeetCode 35. 二分查找 https://leetcode-cn.com/problems/binary-search/
+  - LintCode 20. 二分查找 https://www.lintcode.com/problem/first-position-of-target/description
 
 ## 数学
 
