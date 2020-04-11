@@ -126,6 +126,12 @@
   - LeetCode 35. 二分查找 https://leetcode-cn.com/problems/binary-search/
   - LintCode 20. 二分查找 https://www.lintcode.com/problem/first-position-of-target/description
 
+## 栈
+
+- [最大矩阵](src/stack/maximal-rectangle.js)
+  - LeetCode 85. 最大矩阵 https://leetcode-cn.com/problems/maximal-rectangle/
+  - LintCode 510. 最大矩阵 https://www.lintcode.com/problem/maximal-rectangle/description
+
 ## 数学
 
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
