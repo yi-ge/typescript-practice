@@ -137,3 +137,9 @@
 - [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
   - LeetCode 172. 阶乘后的零 https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/
   - LintCode 2. 尾部的零 https://www.lintcode.com/problem/trailing-zeros/description
+
+## 堆
+
+- [超级丑数](src/stack/super-ugly-number.js)
+  - LeetCode 313. 超级丑数 https://leetcode-cn.com/problems/super-ugly-number/
+  - LintCode 518. 超级丑数 https://www.lintcode.com/problem/super-ugly-number/description
