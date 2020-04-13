@@ -23,8 +23,17 @@
   - LintCode 154. 正则表达式匹配 https://www.lintcode.com/problem/regular-expression-matching/description
 
 - [恢复 IP 地址](src/string/restore-ip-addresses.js)
+
   - LeetCode 93. 复原 IP 地址 https://leetcode-cn.com/problems/restore-ip-addresses/
   - LintCode 426. 恢复 IP 地址 https://www.lintcode.com/problem/restore-ip-addresses/description
+
+- [存在重复元素](src/string/contains-duplicate.js)
+
+  - LeetCode 217. 存在重复元素 https://leetcode-cn.com/problems/contains-duplicate/
+
+- [判断字符串是否没有重复字符](src/string/unique-characters.js)
+
+  - LintCode 157. 判断字符串是否没有重复字符 https://www.lintcode.com/problem/unique-characters/description
 
 ## 数组
 
