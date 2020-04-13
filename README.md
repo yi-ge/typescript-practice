@@ -123,8 +123,13 @@
   - LintCode 20. 搜索插入位置 https://www.lintcode.com/problem/search-insert-position/description
 
 - [二分查找](src/array/binary-search.js)
+
   - LeetCode 35. 二分查找 https://leetcode-cn.com/problems/binary-search/
   - LintCode 20. 二分查找 https://www.lintcode.com/problem/first-position-of-target/description
+
+- [查找常用字符](src/array/find-common-characters.js)
+
+  - LeetCode 1002. 查找常用字符 https://leetcode-cn.com/problems/find-common-characters/
 
 ## 栈
 
