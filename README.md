@@ -148,9 +148,14 @@
 
 ## 数学
 
-- [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/)
+- [阶乘后的零](src/math/factorial-trailing-zeroes.js)
+
   - LeetCode 172. 阶乘后的零 https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/
   - LintCode 2. 尾部的零 https://www.lintcode.com/problem/trailing-zeros/description
+
+- [丑数 II](src/math/ugly-number-ii.js)
+  - LeetCode 264. 丑数 II https://leetcode-cn.com/problems/ugly-number-ii/
+  - LintCode 4. 丑数 II https://www.lintcode.com/problem/ugly-number-ii/description
 
 ## 堆
 
