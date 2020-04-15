@@ -140,6 +140,12 @@
 
   - LeetCode 1002. 查找常用字符 https://leetcode-cn.com/problems/find-common-characters/
 
+- [01 矩阵](src/array/01-matrix.js)
+ 
+  - LeetCode 542. 01 矩阵 https://leetcode-cn.com/problems/01-matrix/
+  - LintCode 974. 01 矩阵 https://www.lintcode.com/problem/01-matrix/description
+
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
