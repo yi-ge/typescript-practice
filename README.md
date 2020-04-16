@@ -141,10 +141,14 @@
   - LeetCode 1002. 查找常用字符 https://leetcode-cn.com/problems/find-common-characters/
 
 - [01 矩阵](src/array/01-matrix.js)
- 
+
   - LeetCode 542. 01 矩阵 https://leetcode-cn.com/problems/01-matrix/
   - LintCode 974. 01 矩阵 https://www.lintcode.com/problem/01-matrix/description
 
+- [合并区间](src/array/merge-intervals.js)
+
+  - LeetCode 56. 合并区间 https://leetcode-cn.com/problems/merge-intervals/
+  - LintCode 156. 合并区间 https://www.lintcode.com/problem/merge-intervals/description
 
 ## 栈
 
