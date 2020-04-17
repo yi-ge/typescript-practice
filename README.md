@@ -1,6 +1,12 @@
 # JavaScript 算法练习
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/yi-ge/js-practice) 
+[![license](https://img.shields.io/github/license/yi-ge/js-practice.svg?style=flat-square)](https://github.com/yi-ge/js-practice/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/yi-ge/js-practice.svg?style=flat-square)](https://github.com/yi-ge/js-practice)
+
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/yi-ge/js-practice)
+
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
 
 ## 字符串
 
@@ -176,6 +182,6 @@
 
 ## 堆
 
-- [超级丑数](src/stack/super-ugly-number.js)
+- [超级丑数](src/stack/super-ugly-number.js)【未完成】
   - LeetCode 313. 超级丑数 https://leetcode-cn.com/problems/super-ugly-number/
   - LintCode 518. 超级丑数 https://www.lintcode.com/problem/super-ugly-number/description
