@@ -150,6 +150,11 @@
   - LeetCode 56. 合并区间 https://leetcode-cn.com/problems/merge-intervals/
   - LintCode 156. 合并区间 https://www.lintcode.com/problem/merge-intervals/description
 
+- [跳跃游戏](src/array/jump-game.js)
+
+  - LeetCode 55. 跳跃游戏 https://leetcode-cn.com/problems/jump-game/
+  - LintCode 116. 跳跃游戏 https://www.lintcode.com/problem/jump-game/description
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
