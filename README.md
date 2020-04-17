@@ -1,5 +1,7 @@
 # JavaScript 算法练习
 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/yi-ge/js-practice) 
+
 ## 字符串
 
 - [反转字符串中的单词](src/string/reverse-words-in-a-string.js)
