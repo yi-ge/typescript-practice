@@ -1,9 +1,11 @@
 # JavaScript 算法练习
 
 [![license](https://img.shields.io/github/license/yi-ge/js-practice.svg?style=flat-square)](https://github.com/yi-ge/js-practice/blob/master/LICENSE)
+![Travis (.org)](https://img.shields.io/travis/yi-ge/js-practice?style=flat-square)
 [![GitHub last commit](https://img.shields.io/github/last-commit/yi-ge/js-practice.svg?style=flat-square)](https://github.com/yi-ge/js-practice)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square)](https://gitpod.io/#https://github.com/yi-ge/js-practice)
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/yi-ge/js-practice)
+![Node.js CI](https://github.com/yi-ge/js-practice/workflows/Node.js%20CI/badge.svg)
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
