@@ -166,6 +166,11 @@
   - LeetCode 55. 跳跃游戏 https://leetcode-cn.com/problems/jump-game/
   - LintCode 116. 跳跃游戏 https://www.lintcode.com/problem/jump-game/description
 
+- [盛最多水的容器](src/stack/container-with-most-water.js)
+
+  - LeetCode 11. 盛最多水的容器 https://leetcode-cn.com/problems/container-with-most-water/
+  - LintCode 383. 装最多水的容器 https://www.lintcode.com/problem/container-with-most-water/description
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
