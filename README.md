@@ -213,6 +213,12 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 136. 只出现一次的数字 https://leetcode-cn.com/problems/single-number/
 
+- [山脉数组中查找目标值](src/array/find-in-mountain-array.js)
+
+  - LeetCode 1095. 山脉数组中查找目标值 https://leetcode-cn.com/problems/find-in-mountain-array/
+  - LeetCode 852. 山脉数组的峰顶索引 https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/
+  - LintCode 585. 山脉序列中的最大值 https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/description
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
@@ -260,4 +266,3 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 23. 合并K个排序链表 https://leetcode-cn.com/problems/merge-k-sorted-lists/
   - LintCode 104. 合并k个排序链表 https://www.lintcode.com/problem/merge-k-sorted-lists/description
-
