@@ -10,6 +10,8 @@
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
+LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重要思想进行了注释，但是没有详细的解题思路。需解题思路请移步其它仓库，很抱歉。
+
 ## 字符串
 
 - [反转字符串中的单词](src/string/reverse-words-in-a-string.js)
@@ -258,3 +260,4 @@
 
   - LeetCode 23. 合并K个排序链表 https://leetcode-cn.com/problems/merge-k-sorted-lists/
   - LintCode 104. 合并k个排序链表 https://www.lintcode.com/problem/merge-k-sorted-lists/description
+
