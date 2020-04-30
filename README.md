@@ -219,6 +219,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 852. 山脉数组的峰顶索引 https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/
   - LintCode 585. 山脉序列中的最大值 https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/description
 
+- [快乐数](src/array/happy-number.js)
+
+  - LeetCode 202. 快乐数 https://leetcode-cn.com/problems/happy-number/
+  - LintCode 488. 快乐数 https://www.lintcode.com/problem/happy-number/description
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
