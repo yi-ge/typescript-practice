@@ -271,3 +271,8 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 23. 合并K个排序链表 https://leetcode-cn.com/problems/merge-k-sorted-lists/
   - LintCode 104. 合并k个排序链表 https://www.lintcode.com/problem/merge-k-sorted-lists/description
+
+- [合并两个有序链表](src/list/merge-two-sorted-lists.js)
+
+  - LeetCode 21. 合并两个有序链表 https://leetcode-cn.com/problems/merge-two-sorted-lists/
+  - LintCode 165. 合并两个排序链表 https://www.lintcode.com/problem/merge-two-sorted-lists/description

@@ -4,8 +4,8 @@
  * @param {ListNode[]} right
  */
 export const merge = (left, right) => {
-  const head = {}
-  let current = head
+  const dummyHead = {}
+  let current = dummyHead
   while (left !== null && right !== null) {
     if (left.val < right.val) {
       if (left.val !== null) {
@@ -28,7 +28,7 @@ export const merge = (left, right) => {
     current.next = left
   }
 
-  return head.next
+  return dummyHead.next
 }
 
 /**
