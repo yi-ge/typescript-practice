@@ -51,6 +51,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LintCode 55. 比较字符串 https://www.lintcode.com/problem/compare-strings/description
 
+- [最长无重复字符的子串](src/string/longest-substring-without-repeating-characters.js)
+
+  - LeetCode 3. 无重复字符的最长子串 https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
+  - LintCode 384. 最长无重复字符的子串 https://www.lintcode.com/problem/longest-substring-without-repeating-characters/description
+
 ## 数组
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
