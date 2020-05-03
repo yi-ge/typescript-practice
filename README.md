@@ -232,8 +232,8 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [最大子序和](src/array/maximum-subarray.js)
 
   - LeetCode 53. 最大子序和 https://leetcode-cn.com/problems/maximum-subarray/
+  - LeetCode 面试题42. 连续子数组的最大和 https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/
   - LintCode 41. 最大子数组 https://www.lintcode.com/problem/maximum-subarray/description
-  - LintCode 620. 最大子序列的和IV https://www.lintcode.com/problem/maximum-subarray-iv/description
 
 ## 栈
 
