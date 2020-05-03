@@ -229,6 +229,12 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 202. 快乐数 https://leetcode-cn.com/problems/happy-number/
   - LintCode 488. 快乐数 https://www.lintcode.com/problem/happy-number/description
 
+- [最大子序和](src/array/maximum-subarray.js)
+
+  - LeetCode 53. 最大子序和 https://leetcode-cn.com/problems/maximum-subarray/
+  - LintCode 41. 最大子数组 https://www.lintcode.com/problem/maximum-subarray/description
+  - LintCode 620. 最大子序列的和IV https://www.lintcode.com/problem/maximum-subarray-iv/description
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
