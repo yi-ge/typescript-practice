@@ -235,6 +235,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 面试题42. 连续子数组的最大和 https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/
   - LintCode 41. 最大子数组 https://www.lintcode.com/problem/maximum-subarray/description
 
+- [跳跃游戏II](src/array/jump-game-ii.js)
+
+  - LeetCode 45. 跳跃游戏 II https://leetcode-cn.com/problems/jump-game-ii/
+  - LintCode 117. 跳跃游戏 II https://www.lintcode.com/problem/jump-game-ii/description
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
