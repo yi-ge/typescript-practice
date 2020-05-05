@@ -281,6 +281,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 199. 二叉树的右视图 https://leetcode-cn.com/problems/binary-tree-right-side-view/
   - LintCode 760. 二叉树的右视图 https://www.lintcode.com/problem/binary-tree-right-side-view/description
 
+- [验证二叉搜索树](src/tree/validate-binary-search-tree.js)
+
+  - LeetCode 98. 验证二叉搜索树 https://leetcode-cn.com/problems/validate-binary-search-tree/
+  - LintCode 95. 验证二叉查找树 https://www.lintcode.com/problem/validate-binary-search-tree/
+
 ## 链表
 
 - [合并K个排序链表](src/list/merge-k-sorted-lists.js)
