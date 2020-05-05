@@ -242,6 +242,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 45. 跳跃游戏 II https://leetcode-cn.com/problems/jump-game-ii/
   - LintCode 117. 跳跃游戏 II https://www.lintcode.com/problem/jump-game-ii/description
 
+- [最大数和最小数](src/array/maximum-and-minimum.js)
+
+  LintCode 770. 最大数和最小数 https://www.lintcode.com/problem/maximum-and-minimum/description
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
