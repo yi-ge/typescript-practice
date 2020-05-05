@@ -63,6 +63,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 179. 最大数 https://leetcode-cn.com/problems/largest-number/
   - LintCode 184. 最大数 https://www.lintcode.com/problem/largest-number/description
 
+- [实现string2int()函数](src/string/string2int.js)
+
+  - 面试题参考思路，不严谨实现 廖雪峰 不要使用JavaScript内置的parseInt()函数，利用map和reduce操作实现一个string2int()函数。 https://www.liaoxuefeng.com/wiki/1022910821149312/1024322552460832
+
 ## 数组
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
