@@ -269,6 +269,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 46. 全排列 https://leetcode-cn.com/problems/permutations/
   - LintCode 15. 全排列 https://www.lintcode.com/problem/permutations/description
 
+- [最大数值](src/math/maximum-lcci.js)
+
+  - LeetCode 面试题 16.07. 最大数值 https://leetcode-cn.com/problems/maximum-lcci/
+
 ## 堆
 
 - [超级丑数](src/stack/super-ugly-number.js)【未完成】
