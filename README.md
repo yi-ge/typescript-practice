@@ -253,7 +253,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
 - [最大数和最小数](src/array/maximum-and-minimum.js)
 
-  LintCode 770. 最大数和最小数 https://www.lintcode.com/problem/maximum-and-minimum/description
+  - LintCode 770. 最大数和最小数 https://www.lintcode.com/problem/maximum-and-minimum/description
+
+- [最低票价](src/array/minimum-cost-for-tickets.js)
+
+  - LeetCode 983. 最低票价 https://leetcode-cn.com/problems/minimum-cost-for-tickets/
 
 ## 栈
 
