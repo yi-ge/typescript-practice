@@ -309,6 +309,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 98. 验证二叉搜索树 https://leetcode-cn.com/problems/validate-binary-search-tree/
   - LintCode 95. 验证二叉查找树 https://www.lintcode.com/problem/validate-binary-search-tree/
 
+- [另一个树的子树](src/tree/subtree-of-another-tree.js)
+
+  - LeetCode 572. 另一个树的子树 https://leetcode-cn.com/problems/subtree-of-another-tree/
+  - LintCode 1165. 另一个树的子树 https://www.lintcode.com/problem/subtree-of-another-tree/description
+
 ## 链表
 
 - [合并K个排序链表](src/list/merge-k-sorted-lists.js)
