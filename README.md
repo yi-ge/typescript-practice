@@ -67,6 +67,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - 面试题参考思路，不严谨实现 廖雪峰 不要使用JavaScript内置的parseInt()函数，利用map和reduce操作实现一个string2int()函数。 https://www.liaoxuefeng.com/wiki/1022910821149312/1024322552460832
 
+- [左旋转字符串](src/string/zuo-xuan-zhuan-zi-fu-chuan-lcof.js)
+
+  - LeetCode 面试题58 - II. 左旋转字符串 https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/
+
 ## 数组
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
