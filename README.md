@@ -259,6 +259,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 983. 最低票价 https://leetcode-cn.com/problems/minimum-cost-for-tickets/
 
+- [最大正方形](src/array/maximal-square.js)
+
+  - LeetCode 221. 最大正方形 https://leetcode-cn.com/problems/maximal-square/
+  - LintCode 436. 最大正方形 https://www.lintcode.com/problem/maximal-square/description
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
