@@ -333,9 +333,15 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [合并两个有序链表](src/list/merge-two-sorted-lists.js)
 
   - LeetCode 21. 合并两个有序链表 https://leetcode-cn.com/problems/merge-two-sorted-lists/
+  - LeetCode 面试题25. 合并两个排序的链表 https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof
   - LintCode 165. 合并两个排序链表 https://www.lintcode.com/problem/merge-two-sorted-lists/description
 
 - [链表排序](src/list/sort-list.js)
 
   - LeetCode 148. 排序链表 https://leetcode-cn.com/problems/sort-list/
   - LintCode 98. 链表排序 https://www.lintcode.com/problem/sort-list/description
+
+- [环形链表](src/list/linked-list-cycle.js)
+
+  - LeetCode 141. 环形链表 https://leetcode-cn.com/problems/linked-list-cycle/
+  - LintCode 102. 带环链表 https://www.lintcode.com/problem/linked-list-cycle/description
