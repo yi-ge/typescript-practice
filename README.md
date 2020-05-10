@@ -71,6 +71,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 面试题58 - II. 左旋转字符串 <https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/>
 
+- [最后一个单词的长度](src/string/length-of-last-word.js)
+
+  - LeetCode 58. 最后一个单词的长度 https://leetcode-cn.com/problems/length-of-last-word/
+  - LintCode 422. 最后一个单词的长度 https://www.lintcode.com/problem/length-of-last-word/description
+
 ## 数组
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
