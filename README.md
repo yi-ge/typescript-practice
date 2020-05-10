@@ -76,6 +76,16 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 58. 最后一个单词的长度 https://leetcode-cn.com/problems/length-of-last-word/
   - LintCode 422. 最后一个单词的长度 https://www.lintcode.com/problem/length-of-last-word/description
 
+- [整数转罗马数字](src/string/integer-to-roman.js)
+
+  - LeetCode 12. 整数转罗马数字 https://leetcode-cn.com/problems/integer-to-roman/
+  - LintCode 418. 整数转罗马数字 https://www.lintcode.com/problem/integer-to-roman/description
+
+- [罗马数字转整数](src/string/roman-to-integer.js)
+
+  - LeetCode 13. 罗马数字转整数 https://leetcode-cn.com/problems/roman-to-integer/
+  - LintCode 419. 罗马数字转整数 https://www.lintcode.com/problem/roman-to-integer/description
+
 ## 数组
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
