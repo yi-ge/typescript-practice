@@ -305,6 +305,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 98. 验证二叉搜索树 https://leetcode-cn.com/problems/validate-binary-search-tree/
   - LintCode 95. 验证二叉查找树 https://www.lintcode.com/problem/validate-binary-search-tree/
 
+- [二叉树的最近公共祖先](src/tree/lowest-common-ancestor-of-a-binary-tree.js)
+
+  - LeetCode 236. 二叉树的最近公共祖先 https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
+  - LintCode 88. 最近公共祖先 https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-tree/description
+
 ## 链表
 
 - [合并K个排序链表](src/list/merge-k-sorted-lists.js)
