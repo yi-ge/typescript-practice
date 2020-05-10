@@ -299,6 +299,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 面试题 16.07. 最大数值 https://leetcode-cn.com/problems/maximum-lcci/
 
+- [回文数](src/math/palindrome-number.js)
+
+  - LeetCode 9. 回文数 https://leetcode-cn.com/problems/palindrome-number/
+  - LintCode 491. 回文数 https://www.lintcode.com/problem/palindrome-number/
+
 ## 堆
 
 - [超级丑数](src/stack/super-ugly-number.js)【未完成】
