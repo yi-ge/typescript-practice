@@ -67,6 +67,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - 面试题参考思路，不严谨实现 廖雪峰 不要使用JavaScript内置的parseInt()函数，利用map和reduce操作实现一个string2int()函数。 https://www.liaoxuefeng.com/wiki/1022910821149312/1024322552460832
 
+- [左旋转字符串](src/string/zuo-xuan-zhuan-zi-fu-chuan-lcof.js)
+
+  - LeetCode 面试题58 - II. 左旋转字符串 https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/
+
 ## 数组
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
@@ -253,7 +257,16 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
 - [最大数和最小数](src/array/maximum-and-minimum.js)
 
-  LintCode 770. 最大数和最小数 https://www.lintcode.com/problem/maximum-and-minimum/description
+  - LintCode 770. 最大数和最小数 https://www.lintcode.com/problem/maximum-and-minimum/description
+
+- [最低票价](src/array/minimum-cost-for-tickets.js)
+
+  - LeetCode 983. 最低票价 https://leetcode-cn.com/problems/minimum-cost-for-tickets/
+
+- [最大正方形](src/array/maximal-square.js)
+
+  - LeetCode 221. 最大正方形 https://leetcode-cn.com/problems/maximal-square/
+  - LintCode 436. 最大正方形 https://www.lintcode.com/problem/maximal-square/description
 
 ## 栈
 
@@ -310,6 +323,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 236. 二叉树的最近公共祖先 https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
   - LintCode 88. 最近公共祖先 https://www.lintcode.com/problem/lowest-common-ancestor-of-a-binary-tree/description
 
+- [另一个树的子树](src/tree/subtree-of-another-tree.js)
+
+  - LeetCode 572. 另一个树的子树 https://leetcode-cn.com/problems/subtree-of-another-tree/
+  - LintCode 1165. 另一个树的子树 https://www.lintcode.com/problem/subtree-of-another-tree/description
+
 ## 链表
 
 - [合并K个排序链表](src/list/merge-k-sorted-lists.js)
@@ -320,9 +338,15 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [合并两个有序链表](src/list/merge-two-sorted-lists.js)
 
   - LeetCode 21. 合并两个有序链表 https://leetcode-cn.com/problems/merge-two-sorted-lists/
+  - LeetCode 面试题25. 合并两个排序的链表 https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof
   - LintCode 165. 合并两个排序链表 https://www.lintcode.com/problem/merge-two-sorted-lists/description
 
 - [链表排序](src/list/sort-list.js)
 
   - LeetCode 148. 排序链表 https://leetcode-cn.com/problems/sort-list/
   - LintCode 98. 链表排序 https://www.lintcode.com/problem/sort-list/description
+
+- [环形链表](src/list/linked-list-cycle.js)
+
+  - LeetCode 141. 环形链表 https://leetcode-cn.com/problems/linked-list-cycle/
+  - LintCode 102. 带环链表 https://www.lintcode.com/problem/linked-list-cycle/description
