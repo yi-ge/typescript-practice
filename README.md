@@ -286,8 +286,14 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
+
   - LeetCode 85. 最大矩阵 <https://leetcode-cn.com/problems/maximal-rectangle/>
   - LintCode 510. 最大矩阵 <https://www.lintcode.com/problem/maximal-rectangle/description>
+
+- [最小栈](src/stack/min-stack.js)
+
+  - LeetCode 155. 最小栈 <https://leetcode-cn.com/problems/min-stack/>
+  - LintCode 12. 带最小值操作的栈 <https://www.lintcode.com/problem/min-stack/description>
 
 ## 数学
 
