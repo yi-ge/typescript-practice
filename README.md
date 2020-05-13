@@ -359,10 +359,15 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 572. 另一个树的子树 <https://leetcode-cn.com/problems/subtree-of-another-tree/>
   - LintCode 1165. 另一个树的子树 <https://www.lintcode.com/problem/subtree-of-another-tree/description>
 
-- [二叉树的层序遍历](src/tree/binary-tree-right-side-view.js)
+- [二叉树的层序遍历](src/tree/binary-tree-level-order-traversal.js)
 
   - LeetCode 102. 二叉树的层序遍历 <https://leetcode-cn.com/problems/binary-tree-level-order-traversal/>
   - LintCode 69. 二叉树的层次遍历 <https://www.lintcode.com/problem/binary-tree-level-order-traversal/description>
+
+- [二叉树的层次遍历 II](src/tree/binary-tree-level-order-traversal-ii.js)
+
+  - LeetCode 107. 二叉树的层次遍历 II <https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/>
+  - LintCode 70. 二叉树的层次遍历 II <https://www.lintcode.com/problem/binary-tree-level-order-traversal-ii/description>
 
 ## 链表
 
