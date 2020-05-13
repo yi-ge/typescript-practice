@@ -8,4 +8,7 @@ test('二叉树的层序遍历', () => {
     [9, 20],
     [15, 7]
   ])
+
+  const source1 = []
+  expect(levelOrder(Tree.arrToTree(source1))).toEqual([])
 })
