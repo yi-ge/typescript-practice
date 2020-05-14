@@ -86,7 +86,7 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 13. 罗马数字转整数 <https://leetcode-cn.com/problems/roman-to-integer/>
   - LintCode 419. 罗马数字转整数 <https://www.lintcode.com/problem/roman-to-integer/description>
 
-## 数组
+## 数组/队列/集合/映射
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
 
@@ -282,6 +282,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 221. 最大正方形 <https://leetcode-cn.com/problems/maximal-square/>
   - LintCode 436. 最大正方形 <https://www.lintcode.com/problem/maximal-square/description>
+
+- [数据流中第一个唯一的数字](src/array/first-unique-number-in-data-stream.js)
+
+  - LintCode 685. 数据流中第一个唯一的数字 <https://www.lintcode.com/problem/first-unique-number-in-data-stream/description>
 
 ## 栈
 
