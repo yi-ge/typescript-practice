@@ -287,6 +287,12 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LintCode 685. 数据流中第一个唯一的数字 <https://www.lintcode.com/problem/first-unique-number-in-data-stream/description>
 
+- [第一个只出现一次的字符](src/array/first-unique-character-in-a-string.js)
+
+  - LeetCode 面试题50. 第一个只出现一次的字符 <https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/>
+  - LeetCode 387. 字符串中的第一个唯一字符 <https://leetcode-cn.com/problems/first-unique-character-in-a-string/>
+  - LintCode 209. 第一个只出现一次的字符 <https://www.lintcode.com/problem/first-unique-character-in-a-string/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
