@@ -340,6 +340,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 50. Pow(x, n) <https://leetcode-cn.com/problems/powx-n/>
   - LintCode 428. x的n次幂 <https://www.lintcode.com/problem/powx-n/>
 
+- [和为K的子数组](src/math/subarray-sum-equals-k.js)
+
+  - LeetCode 560. 和为K的子数组 <https://leetcode-cn.com/problems/subarray-sum-equals-k/>
+  - LintCode 838. 子数组和为K <https://www.lintcode.com/problem/subarray-sum-equals-k/>
+
 ## 堆
 
 - [超级丑数](src/stack/super-ugly-number.js)【未完成】
