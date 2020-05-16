@@ -11,6 +11,7 @@
  * @return {ListNode}
  */
 export const reverseKGroup = function (head, k) {
+  // 《K个一组翻转链表》 https://www.wyr.me/post/622
   let sum = 0 // 记录进行的结点个数
   let start = head // 记录每次翻转的第一个元素
   let res = head // 返回值：如果进行过翻转，则为第一次翻转的最后一个结点
