@@ -15,3 +15,13 @@ export const arrToList = (arr) => {
 
   return head
 }
+
+export const listToArr = (list) => {
+  const arr = []
+  while (list) {
+    arr.push(list.val)
+    list = list.next
+  }
+
+  return arr
+}

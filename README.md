@@ -411,3 +411,8 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 876. 链表的中间结点 <https://leetcode-cn.com/problems/middle-of-the-linked-list/>
   - LintCode 1609. 链表的中间结点 <https://www.lintcode.com/problem/middle-of-the-linked-list/description>
+
+- [K个一组翻转链表](src/list/reverse-nodes-in-k-group.js)
+
+  - LeetCode 25. K 个一组翻转链表 <https://leetcode-cn.com/problems/reverse-nodes-in-k-group/>
+  - LintCode 450. K组翻转链表 <https://www.lintcode.com/problem/reverse-nodes-in-k-group/>
