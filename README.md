@@ -86,6 +86,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 13. 罗马数字转整数 <https://leetcode-cn.com/problems/roman-to-integer/>
   - LintCode 419. 罗马数字转整数 <https://www.lintcode.com/problem/roman-to-integer/description>
 
+- [验证回文字符串 Ⅱ](src/string/valid-palindrome-ii.js)
+
+  - LeetCode 680. 验证回文字符串 Ⅱ <https://leetcode-cn.com/problems/valid-palindrome-ii/>
+  - LintCode 891. 有效回文 II <https://www.lintcode.com/problem/valid-palindrome-ii/description>
+
 ## 数组/队列/集合/映射
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
@@ -293,6 +298,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 387. 字符串中的第一个唯一字符 <https://leetcode-cn.com/problems/first-unique-character-in-a-string/>
   - LintCode 209. 第一个只出现一次的字符 <https://www.lintcode.com/problem/first-unique-character-in-a-string/description>
 
+- [乘积最大子数组](src/array/maximum-product-subarray.js)
+
+  - LeetCode 152. 乘积最大子数组 <https://leetcode-cn.com/problems/maximum-product-subarray/>
+  - LintCode 191. 乘积最大子序列 <https://www.lintcode.com/problem/maximum-product-subarray/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
@@ -333,17 +343,17 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [回文数](src/math/palindrome-number.js)
 
   - LeetCode 9. 回文数 <https://leetcode-cn.com/problems/palindrome-number/>
-  - LintCode 491. 回文数 <https://www.lintcode.com/problem/palindrome-number/>
+  - LintCode 491. 回文数 <https://www.lintcode.com/problem/palindrome-number/description>
 
 - [Pow(x, n)](src/math/powx-n.js)
 
   - LeetCode 50. Pow(x, n) <https://leetcode-cn.com/problems/powx-n/>
-  - LintCode 428. x的n次幂 <https://www.lintcode.com/problem/powx-n/>
+  - LintCode 428. x的n次幂 <https://www.lintcode.com/problem/powx-n/description>
 
 - [和为K的子数组](src/math/subarray-sum-equals-k.js)
 
   - LeetCode 560. 和为K的子数组 <https://leetcode-cn.com/problems/subarray-sum-equals-k/>
-  - LintCode 838. 子数组和为K <https://www.lintcode.com/problem/subarray-sum-equals-k/>
+  - LintCode 838. 子数组和为K <https://www.lintcode.com/problem/subarray-sum-equals-k/description>
 
 ## 堆
 
@@ -362,7 +372,7 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [验证二叉搜索树](src/tree/validate-binary-search-tree.js)
 
   - LeetCode 98. 验证二叉搜索树 <https://leetcode-cn.com/problems/validate-binary-search-tree/>
-  - LintCode 95. 验证二叉查找树 <https://www.lintcode.com/problem/validate-binary-search-tree/>
+  - LintCode 95. 验证二叉查找树 <https://www.lintcode.com/problem/validate-binary-search-tree/description>
 
 - [二叉树的最近公共祖先](src/tree/lowest-common-ancestor-of-a-binary-tree.js)
 
@@ -415,4 +425,12 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [K个一组翻转链表](src/list/reverse-nodes-in-k-group.js)
 
   - LeetCode 25. K 个一组翻转链表 <https://leetcode-cn.com/problems/reverse-nodes-in-k-group/>
-  - LintCode 450. K组翻转链表 <https://www.lintcode.com/problem/reverse-nodes-in-k-group/>
+  - LintCode 450. K组翻转链表 <https://www.lintcode.com/problem/reverse-nodes-in-k-group/description>
+
+## 图
+
+- [课程表](src/graphs/course-schedule-ii.js)
+
+  - LeetCode 210. 课程表 II <https://leetcode-cn.com/problems/course-schedule-ii/>
+  - LeetCode 207. 课程表 <https://leetcode-cn.com/problems/course-schedule/>
+  - LintCode 615. 课程表 <https://www.lintcode.com/problem/course-schedule/description>
