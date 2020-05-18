@@ -91,6 +91,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 680. 验证回文字符串 Ⅱ <https://leetcode-cn.com/problems/valid-palindrome-ii/>
   - LintCode 891. 有效回文 II <https://www.lintcode.com/problem/valid-palindrome-ii/description>
 
+- [IP地址无效化](src/string/defanging-an-ip-address.js)
+
+  - LeetCode 1108. IP 地址无效化 <https://leetcode-cn.com/problems/defanging-an-ip-address/>
+
 ## 数组/队列/集合/映射
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
