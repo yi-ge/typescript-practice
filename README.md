@@ -303,6 +303,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 152. 乘积最大子数组 <https://leetcode-cn.com/problems/maximum-product-subarray/>
   - LintCode 191. 乘积最大子序列 <https://www.lintcode.com/problem/maximum-product-subarray/description>
 
+- [最高频率的IP](src/array/highest-frequency-ip.js)
+
+  - LintCode 1613. 最高频率的IP <https://www.lintcode.com/problem/highest-frequency-ip/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
