@@ -95,6 +95,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 1108. IP 地址无效化 <https://leetcode-cn.com/problems/defanging-an-ip-address/>
 
+- [每个元音包含偶数次的最长子字符串](src/string/find-the-longest-substring-containing-vowels-in-even-counts.js)
+
+  - LeetCode 1371. 每个元音包含偶数次的最长子字符串 <https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/>
+
 ## 数组/队列/集合/映射
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
