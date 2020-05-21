@@ -406,6 +406,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 107. 二叉树的层次遍历 II <https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/>
   - LintCode 70. 二叉树的层次遍历 II <https://www.lintcode.com/problem/binary-tree-level-order-traversal-ii/description>
 
+- [从前序与中序遍历序列构造二叉树](src/tree/construct-binary-tree-from-preorder-and-inorder-traversal.js)
+
+  - LeetCode 105. 从前序与中序遍历序列构造二叉树 <https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/>
+  - LintCode 73. 前序遍历和中序遍历树构造二叉树 <https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal/description>
+
 ## 链表
 
 - [合并K个排序链表](src/list/merge-k-sorted-lists.js)
