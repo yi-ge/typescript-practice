@@ -372,6 +372,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 560. 和为K的子数组 <https://leetcode-cn.com/problems/subarray-sum-equals-k/>
   - LintCode 838. 子数组和为K <https://www.lintcode.com/problem/subarray-sum-equals-k/description>
 
+- [完美数](src/math/perfect-number.js)
+
+  - LeetCode 507. 完美数 <https://leetcode-cn.com/problems/perfect-number/>
+  - LintCode 1199. 完美的数 <https://www.lintcode.com/problem/perfect-number/description>
+
 ## 堆
 
 - [超级丑数](src/stack/super-ugly-number.js)【未完成】
@@ -410,6 +415,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 107. 二叉树的层次遍历 II <https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/>
   - LintCode 70. 二叉树的层次遍历 II <https://www.lintcode.com/problem/binary-tree-level-order-traversal-ii/description>
+
+- [从前序与中序遍历序列构造二叉树](src/tree/construct-binary-tree-from-preorder-and-inorder-traversal.js)
+
+  - LeetCode 105. 从前序与中序遍历序列构造二叉树 <https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/>
+  - LintCode 73. 前序遍历和中序遍历树构造二叉树 <https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal/description>
 
 ## 链表
 
