@@ -95,6 +95,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 1108. IP 地址无效化 <https://leetcode-cn.com/problems/defanging-an-ip-address/>
 
+- [最长回文子串](src/string/longest-palindromic-substring.js)
+
+  - LeetCode 5. 最长回文子串 <https://leetcode-cn.com/problems/longest-palindromic-substring/>
+  - LintCode 200. 最长回文子串 <https://www.lintcode.com/problem/longest-palindromic-substring/>
+
 - [每个元音包含偶数次的最长子字符串](src/string/find-the-longest-substring-containing-vowels-in-even-counts.js)
 
   - LeetCode 1371. 每个元音包含偶数次的最长子字符串 <https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/>
