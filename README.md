@@ -107,7 +107,7 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [最小覆盖子串](src/string/minimum-window-substring.js)
 
   - LeetCode 76. 最小覆盖子串 <https://leetcode-cn.com/problems/minimum-window-substring/>
-  -LintCode 1420. 最小覆盖子串II <https://www.lintcode.com/problem/minimum-window-substring-ii/description>
+  -LintCode 32. 最小子串覆盖 <https://www.lintcode.com/problem/minimum-window-substring/description>
 
 ## 数组/队列/集合/映射
 
