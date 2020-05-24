@@ -117,6 +117,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 5417. 定长子串中元音的最大数目 <https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/>
 
+- [最长公共前缀](src/string/longest-common-prefix.js)
+
+  - LeetCode 14. 最长公共前缀 <https://leetcode-cn.com/problems/longest-common-prefix/>
+  - LintCode 78. 最长公共前缀 <https://www.lintcode.com/problem/longest-common-prefix/description>
+
 ## 数组/队列/集合/映射
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
