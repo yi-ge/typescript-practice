@@ -338,6 +338,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LintCode 1613. 最高频率的IP <https://www.lintcode.com/problem/highest-frequency-ip/description>
 
+- [柠檬水找零](src/array/lemonade-change.js)
+
+  - LeetCode 860. 柠檬水找零 <https://leetcode-cn.com/problems/lemonade-change/>
+  - LintCode 1509. 柠檬水找零 <https://www.lintcode.com/problem/lemonade-change/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
