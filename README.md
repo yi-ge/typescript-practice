@@ -390,6 +390,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 507. 完美数 <https://leetcode-cn.com/problems/perfect-number/>
   - LintCode 1199. 完美的数 <https://www.lintcode.com/problem/perfect-number/description>
 
+- [寻找两个正序数组的中位数](src/math/median-of-two-sorted-arrays.js)
+
+  - LeetCode 4. 寻找两个正序数组的中位数 <https://leetcode-cn.com/problems/median-of-two-sorted-arrays/>
+  - LintCode 65. 两个排序数组的中位数 <https://www.lintcode.com/problem/median-of-two-sorted-arrays/description>
+
 ## 堆
 
 - [超级丑数](src/stack/super-ugly-number.js)【未完成】
