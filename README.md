@@ -107,7 +107,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [最小覆盖子串](src/string/minimum-window-substring.js)
 
   - LeetCode 76. 最小覆盖子串 <https://leetcode-cn.com/problems/minimum-window-substring/>
-  -LintCode 32. 最小子串覆盖 <https://www.lintcode.com/problem/minimum-window-substring/description>
+  - LintCode 32. 最小子串覆盖 <https://www.lintcode.com/problem/minimum-window-substring/description>
+
+- [检查单词是否为句中其他单词的前缀](src/string/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.js)
+
+  - LeetCode 5416. 检查单词是否为句中其他单词的前缀 <https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/>
 
 ## 数组/队列/集合/映射
 
