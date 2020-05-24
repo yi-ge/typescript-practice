@@ -113,6 +113,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 5416. 检查单词是否为句中其他单词的前缀 <https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/>
 
+- [定长子串中元音的最大数目](src/string/maximum-number-of-vowels-in-a-substring-of-given-length.js)
+
+  - LeetCode 5417. 定长子串中元音的最大数目 <https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/>
+
 ## 数组/队列/集合/映射
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
