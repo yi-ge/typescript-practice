@@ -343,6 +343,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 860. 柠檬水找零 <https://leetcode-cn.com/problems/lemonade-change/>
   - LintCode 1509. 柠檬水找零 <https://www.lintcode.com/problem/lemonade-change/description>
 
+- [LRU缓存机制](src/array/lru-cache.js)
+
+  - LeetCode 146. LRU缓存机制 <https://leetcode-cn.com/problems/lru-cache/>
+  - LintCode 134. LRU缓存策略 <https://www.lintcode.com/problem/lru-cache/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
