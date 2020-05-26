@@ -353,6 +353,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 287. 寻找重复数 <https://leetcode-cn.com/problems/find-the-duplicate-number/>
   - LintCode 633. 寻找重复的数 <https://www.lintcode.com/problem/find-the-duplicate-number/description>
 
+- [和可被K整除的子数组](src/array/subarray-sums-divisible-by-k.js)
+
+  - LeetCode 974. 和可被 K 整除的子数组 <https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
