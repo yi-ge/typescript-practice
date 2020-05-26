@@ -348,6 +348,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 146. LRU缓存机制 <https://leetcode-cn.com/problems/lru-cache/>
   - LintCode 134. LRU缓存策略 <https://www.lintcode.com/problem/lru-cache/description>
 
+- [寻找重复数](src/array/find-the-duplicate-number.js)
+
+  - LeetCode 287. 寻找重复数 <https://leetcode-cn.com/problems/find-the-duplicate-number/>
+  - LintCode 633. 寻找重复的数 <https://www.lintcode.com/problem/find-the-duplicate-number/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
