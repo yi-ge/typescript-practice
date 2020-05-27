@@ -369,6 +369,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 155. 最小栈 <https://leetcode-cn.com/problems/min-stack/>
   - LintCode 12. 带最小值操作的栈 <https://www.lintcode.com/problem/min-stack/description>
 
+- [字符串解码](src/stack/decode-string.js)
+
+  - LeetCode 394. 字符串解码 <https://leetcode-cn.com/problems/decode-string/>
+  - LintCode 575. 字符串解码 <https://www.lintcode.com/problem/decode-string/description>
+
 ## 数学
 
 - [阶乘后的零](src/math/factorial-trailing-zeroes.js)
