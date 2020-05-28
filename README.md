@@ -357,6 +357,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 974. 和可被 K 整除的子数组 <https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/>
 
+- [打家劫舍](src/array/house-robber.js)
+
+  - LeetCode 198. 打家劫舍 <https://leetcode-cn.com/problems/house-robber/>
+  - LintCode 392. 打劫房屋 <https://www.lintcode.com/problem/house-robber/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
