@@ -362,6 +362,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 198. 打家劫舍 <https://leetcode-cn.com/problems/house-robber/>
   - LintCode 392. 打劫房屋 <https://www.lintcode.com/problem/house-robber/description>
 
+- [拥有最多糖果的孩子](src/array/kids-with-the-greatest-number-of-candies.js)
+
+  - LeetCode 1431. 拥有最多糖果的孩子 <https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
