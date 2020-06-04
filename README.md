@@ -369,6 +369,7 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [除自身以外数组的乘积](src/array/product-of-array-except-self.js)
 
   - LeetCode 238. 除自身以外数组的乘积 <https://leetcode-cn.com/problems/product-of-array-except-self/>
+  - LintCode 1310. 数组除了自身的乘积 <https://www.lintcode.com/problem/product-of-array-except-self/description>
 
 ## 栈
 
