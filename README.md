@@ -366,6 +366,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 1431. 拥有最多糖果的孩子 <https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/>
 
+- [除自身以外数组的乘积](src/array/product-of-array-except-self.js)
+
+  - LeetCode 238. 除自身以外数组的乘积 <https://leetcode-cn.com/problems/product-of-array-except-self/>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
