@@ -19,3 +19,5 @@ export const productExceptSelf = function (nums) {
 
   return ans
 }
+
+// 此算法效率不高，请勿仿照作者偷懒
