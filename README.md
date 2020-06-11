@@ -371,6 +371,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 238. 除自身以外数组的乘积 <https://leetcode-cn.com/problems/product-of-array-except-self/>
   - LintCode 1310. 数组除了自身的乘积 <https://www.lintcode.com/problem/product-of-array-except-self/description>
 
+- [每日温度](src/array/daily-temperatures.js)
+
+  - LeetCode 739. 每日温度 <https://leetcode-cn.com/problems/daily-temperatures/>
+  - LintCode 1060. 每日温度 <https://www.lintcode.com/problem/daily-temperatures/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
