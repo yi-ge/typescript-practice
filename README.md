@@ -443,6 +443,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 4. 寻找两个正序数组的中位数 <https://leetcode-cn.com/problems/median-of-two-sorted-arrays/>
   - LintCode 65. 两个排序数组的中位数 <https://www.lintcode.com/problem/median-of-two-sorted-arrays/description>
 
+- [三数之和](src/math/3sum.js)
+
+  - LeetCode 15. 三数之和 <https://leetcode-cn.com/problems/3sum/>
+  - LintCode 57. 三数之和 <https://www.lintcode.com/problem/3sum/description>
+
 ## 堆
 
 - [超级丑数](src/stack/super-ugly-number.js)【未完成】
