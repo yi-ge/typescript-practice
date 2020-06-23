@@ -448,6 +448,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 15. 三数之和 <https://leetcode-cn.com/problems/3sum/>
   - LintCode 57. 三数之和 <https://www.lintcode.com/problem/3sum/description>
 
+- [二进制求和](src/math/add-binary.js)
+
+  - LeetCode 67. 二进制求和 <https://leetcode-cn.com/problems/add-binary/>
+  - LeetCode 408. 二进制求和 <https://www.lintcode.com/problem/add-binary/description>
+
 ## 堆
 
 - [超级丑数](src/stack/super-ugly-number.js)【未完成】
