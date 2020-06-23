@@ -451,7 +451,7 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [二进制求和](src/math/add-binary.js)
 
   - LeetCode 67. 二进制求和 <https://leetcode-cn.com/problems/add-binary/>
-  - LeetCode 408. 二进制求和 <https://www.lintcode.com/problem/add-binary/description>
+  - LintCode 408. 二进制求和 <https://www.lintcode.com/problem/add-binary/description>
 
 ## 堆
 
