@@ -365,6 +365,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 155. 最小栈 <https://leetcode-cn.com/problems/min-stack/>
   - LintCode 12. 带最小值操作的栈 <https://www.lintcode.com/problem/min-stack/description>
 
+- [用两个栈实现队列](src/stack/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.js)
+
+  - LeetCode 剑指 Offer 09. 用两个栈实现队列 <https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/>
+
 ## 数学
 
 - [阶乘后的零](src/math/factorial-trailing-zeroes.js)
