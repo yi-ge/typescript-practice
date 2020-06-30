@@ -353,6 +353,29 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 287. 寻找重复数 <https://leetcode-cn.com/problems/find-the-duplicate-number/>
   - LintCode 633. 寻找重复的数 <https://www.lintcode.com/problem/find-the-duplicate-number/description>
 
+- [和可被K整除的子数组](src/array/subarray-sums-divisible-by-k.js)
+
+  - LeetCode 974. 和可被 K 整除的子数组 <https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/>
+
+- [打家劫舍](src/array/house-robber.js)
+
+  - LeetCode 198. 打家劫舍 <https://leetcode-cn.com/problems/house-robber/>
+  - LintCode 392. 打劫房屋 <https://www.lintcode.com/problem/house-robber/description>
+
+- [拥有最多糖果的孩子](src/array/kids-with-the-greatest-number-of-candies.js)
+
+  - LeetCode 1431. 拥有最多糖果的孩子 <https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/>
+
+- [除自身以外数组的乘积](src/array/product-of-array-except-self.js)
+
+  - LeetCode 238. 除自身以外数组的乘积 <https://leetcode-cn.com/problems/product-of-array-except-self/>
+  - LintCode 1310. 数组除了自身的乘积 <https://www.lintcode.com/problem/product-of-array-except-self/description>
+
+- [每日温度](src/array/daily-temperatures.js)
+
+  - LeetCode 739. 每日温度 <https://leetcode-cn.com/problems/daily-temperatures/>
+  - LintCode 1060. 每日温度 <https://www.lintcode.com/problem/daily-temperatures/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
@@ -368,6 +391,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [用两个栈实现队列](src/stack/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.js)
 
   - LeetCode 剑指 Offer 09. 用两个栈实现队列 <https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/>
+
+- [字符串解码](src/stack/decode-string.js)
+
+  - LeetCode 394. 字符串解码 <https://leetcode-cn.com/problems/decode-string/>
+  - LintCode 575. 字符串解码 <https://www.lintcode.com/problem/decode-string/description>
 
 ## 数学
 
@@ -418,6 +446,16 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
   - LeetCode 4. 寻找两个正序数组的中位数 <https://leetcode-cn.com/problems/median-of-two-sorted-arrays/>
   - LintCode 65. 两个排序数组的中位数 <https://www.lintcode.com/problem/median-of-two-sorted-arrays/description>
+
+- [三数之和](src/math/3sum.js)
+
+  - LeetCode 15. 三数之和 <https://leetcode-cn.com/problems/3sum/>
+  - LintCode 57. 三数之和 <https://www.lintcode.com/problem/3sum/description>
+
+- [二进制求和](src/math/add-binary.js)
+
+  - LeetCode 67. 二进制求和 <https://leetcode-cn.com/problems/add-binary/>
+  - LintCode 408. 二进制求和 <https://www.lintcode.com/problem/add-binary/description>
 
 ## 堆
 
