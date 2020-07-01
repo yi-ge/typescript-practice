@@ -376,6 +376,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 739. 每日温度 <https://leetcode-cn.com/problems/daily-temperatures/>
   - LintCode 1060. 每日温度 <https://www.lintcode.com/problem/daily-temperatures/description>
 
+- [最长重复子数组](src/array/maximum-length-of-repeated-subarray.js)
+
+  - LeetCode 718. 最长重复子数组 <https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/>
+  - LintCode 79. 最长公共子串 <https://www.lintcode.com/problem/longest-common-substring/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
