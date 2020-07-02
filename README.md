@@ -381,6 +381,11 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 718. 最长重复子数组 <https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/>
   - LintCode 79. 最长公共子串 <https://www.lintcode.com/problem/longest-common-substring/description>
 
+- [有序矩阵中第K小的元素](src/array/kth-smallest-element-in-a-sorted-matrix.js)
+
+  - LeetCode 378. 有序矩阵中第K小的元素 <https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/>
+  - LintCode 401. 排序矩阵中的从小到大第k个数 <https://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix/description>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
