@@ -63,13 +63,13 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 179. 最大数 <https://leetcode-cn.com/problems/largest-number/>
   - LintCode 184. 最大数 <https://www.lintcode.com/problem/largest-number/description>
 
-- [实现string2int()函数](src/string/string2int.js)
+- [实现 string2int()函数](src/string/string2int.js)
 
-  - 面试题参考思路，不严谨实现 廖雪峰 不要使用JavaScript内置的parseInt()函数，利用map和reduce操作实现一个string2int()函数。 <https://www.liaoxuefeng.com/wiki/1022910821149312/1024322552460832>
+  - 面试题参考思路，不严谨实现 廖雪峰 不要使用 JavaScript 内置的 parseInt()函数，利用 map 和 reduce 操作实现一个 string2int()函数。 <https://www.liaoxuefeng.com/wiki/1022910821149312/1024322552460832>
 
 - [左旋转字符串](src/string/zuo-xuan-zhuan-zi-fu-chuan-lcof.js)
 
-  - LeetCode 面试题58 - II. 左旋转字符串 <https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/>
+  - LeetCode 面试题 58 - II. 左旋转字符串 <https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/>
 
 - [最后一个单词的长度](src/string/length-of-last-word.js)
 
@@ -91,7 +91,7 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 680. 验证回文字符串 Ⅱ <https://leetcode-cn.com/problems/valid-palindrome-ii/>
   - LintCode 891. 有效回文 II <https://www.lintcode.com/problem/valid-palindrome-ii/description>
 
-- [IP地址无效化](src/string/defanging-an-ip-address.js)
+- [IP 地址无效化](src/string/defanging-an-ip-address.js)
 
   - LeetCode 1108. IP 地址无效化 <https://leetcode-cn.com/problems/defanging-an-ip-address/>
 
@@ -268,7 +268,7 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
 - [逆序对](src/array/reverse-pairs.js)
 
-  - LeetCode 面试题51. 数组中的逆序对 <https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/>
+  - LeetCode 面试题 51. 数组中的逆序对 <https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/>
   - LintCode 532. 逆序对 <https://www.lintcode.com/problem/reverse-pairs/description>
 
 - [搜索旋转排序数组](src/array/search-in-rotated-sorted-array.js)
@@ -278,7 +278,7 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
 - [数组中数字出现的次数](src/array/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.js)
 
-  - LeetCode 面试题56 - I. 数组中数字出现的次数 <https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/>
+  - LeetCode 面试题 56 - I. 数组中数字出现的次数 <https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/>
 
 - [只出现一次的数字](src/array/single-number.js)
 
@@ -298,10 +298,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [最大子序和](src/array/maximum-subarray.js)
 
   - LeetCode 53. 最大子序和 <https://leetcode-cn.com/problems/maximum-subarray/>
-  - LeetCode 面试题42. 连续子数组的最大和 <https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/>
+  - LeetCode 面试题 42. 连续子数组的最大和 <https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/>
   - LintCode 41. 最大子数组 <https://www.lintcode.com/problem/maximum-subarray/description>
 
-- [跳跃游戏II](src/array/jump-game-ii.js)
+- [跳跃游戏 II](src/array/jump-game-ii.js)
 
   - LeetCode 45. 跳跃游戏 II <https://leetcode-cn.com/problems/jump-game-ii/>
   - LintCode 117. 跳跃游戏 II <https://www.lintcode.com/problem/jump-game-ii/description>
@@ -325,7 +325,7 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 
 - [第一个只出现一次的字符](src/array/first-unique-character-in-a-string.js)
 
-  - LeetCode 面试题50. 第一个只出现一次的字符 <https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/>
+  - LeetCode 面试题 50. 第一个只出现一次的字符 <https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/>
   - LeetCode 387. 字符串中的第一个唯一字符 <https://leetcode-cn.com/problems/first-unique-character-in-a-string/>
   - LintCode 209. 第一个只出现一次的字符 <https://www.lintcode.com/problem/first-unique-character-in-a-string/description>
 
@@ -334,26 +334,26 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 152. 乘积最大子数组 <https://leetcode-cn.com/problems/maximum-product-subarray/>
   - LintCode 191. 乘积最大子序列 <https://www.lintcode.com/problem/maximum-product-subarray/description>
 
-- [最高频率的IP](src/array/highest-frequency-ip.js)
+- [最高频率的 IP](src/array/highest-frequency-ip.js)
 
-  - LintCode 1613. 最高频率的IP <https://www.lintcode.com/problem/highest-frequency-ip/description>
+  - LintCode 1613. 最高频率的 IP <https://www.lintcode.com/problem/highest-frequency-ip/description>
 
 - [柠檬水找零](src/array/lemonade-change.js)
 
   - LeetCode 860. 柠檬水找零 <https://leetcode-cn.com/problems/lemonade-change/>
   - LintCode 1509. 柠檬水找零 <https://www.lintcode.com/problem/lemonade-change/description>
 
-- [LRU缓存机制](src/array/lru-cache.js)
+- [LRU 缓存机制](src/array/lru-cache.js)
 
-  - LeetCode 146. LRU缓存机制 <https://leetcode-cn.com/problems/lru-cache/>
-  - LintCode 134. LRU缓存策略 <https://www.lintcode.com/problem/lru-cache/description>
+  - LeetCode 146. LRU 缓存机制 <https://leetcode-cn.com/problems/lru-cache/>
+  - LintCode 134. LRU 缓存策略 <https://www.lintcode.com/problem/lru-cache/description>
 
 - [寻找重复数](src/array/find-the-duplicate-number.js)
 
   - LeetCode 287. 寻找重复数 <https://leetcode-cn.com/problems/find-the-duplicate-number/>
   - LintCode 633. 寻找重复的数 <https://www.lintcode.com/problem/find-the-duplicate-number/description>
 
-- [和可被K整除的子数组](src/array/subarray-sums-divisible-by-k.js)
+- [和可被 K 整除的子数组](src/array/subarray-sums-divisible-by-k.js)
 
   - LeetCode 974. 和可被 K 整除的子数组 <https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/>
 
@@ -381,10 +381,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 718. 最长重复子数组 <https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/>
   - LintCode 79. 最长公共子串 <https://www.lintcode.com/problem/longest-common-substring/description>
 
-- [有序矩阵中第K小的元素](src/array/kth-smallest-element-in-a-sorted-matrix.js)
+- [有序矩阵中第 K 小的元素](src/array/kth-smallest-element-in-a-sorted-matrix.js)
 
-  - LeetCode 378. 有序矩阵中第K小的元素 <https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/>
-  - LintCode 401. 排序矩阵中的从小到大第k个数 <https://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix/description>
+  - LeetCode 378. 有序矩阵中第 K 小的元素 <https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/>
+  - LintCode 401. 排序矩阵中的从小到大第 k 个数 <https://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix/description>
 
 ## 栈
 
@@ -440,12 +440,12 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
 - [Pow(x, n)](src/math/powx-n.js)
 
   - LeetCode 50. Pow(x, n) <https://leetcode-cn.com/problems/powx-n/>
-  - LintCode 428. x的n次幂 <https://www.lintcode.com/problem/powx-n/description>
+  - LintCode 428. x 的 n 次幂 <https://www.lintcode.com/problem/powx-n/description>
 
-- [和为K的子数组](src/math/subarray-sum-equals-k.js)
+- [和为 K 的子数组](src/math/subarray-sum-equals-k.js)
 
-  - LeetCode 560. 和为K的子数组 <https://leetcode-cn.com/problems/subarray-sum-equals-k/>
-  - LintCode 838. 子数组和为K <https://www.lintcode.com/problem/subarray-sum-equals-k/description>
+  - LeetCode 560. 和为 K 的子数组 <https://leetcode-cn.com/problems/subarray-sum-equals-k/>
+  - LintCode 838. 子数组和为 K <https://www.lintcode.com/problem/subarray-sum-equals-k/description>
 
 - [完美数](src/math/perfect-number.js)
 
@@ -511,17 +511,22 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 105. 从前序与中序遍历序列构造二叉树 <https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/>
   - LintCode 73. 前序遍历和中序遍历树构造二叉树 <https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal/description>
 
+- [将有序数组转换为二叉搜索树](src/tree/convert-sorted-array-to-binary-search-tree.js)
+
+  - LeetCode 108. 将有序数组转换为二叉搜索树 <https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/>
+  - LintCode 106. 有序链表转换为二叉搜索树 <https://www.lintcode.com/problem/convert-sorted-list-to-binary-search-tree/description>
+
 ## 链表
 
-- [合并K个排序链表](src/list/merge-k-sorted-lists.js)
+- [合并 K 个排序链表](src/list/merge-k-sorted-lists.js)
 
-  - LeetCode 23. 合并K个排序链表 <https://leetcode-cn.com/problems/merge-k-sorted-lists/>
-  - LintCode 104. 合并k个排序链表 <https://www.lintcode.com/problem/merge-k-sorted-lists/description>
+  - LeetCode 23. 合并 K 个排序链表 <https://leetcode-cn.com/problems/merge-k-sorted-lists/>
+  - LintCode 104. 合并 k 个排序链表 <https://www.lintcode.com/problem/merge-k-sorted-lists/description>
 
 - [合并两个有序链表](src/list/merge-two-sorted-lists.js)
 
   - LeetCode 21. 合并两个有序链表 <https://leetcode-cn.com/problems/merge-two-sorted-lists/>
-  - LeetCode 面试题25. 合并两个排序的链表 <https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof>
+  - LeetCode 面试题 25. 合并两个排序的链表 <https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof>
   - LintCode 165. 合并两个排序链表 <https://www.lintcode.com/problem/merge-two-sorted-lists/description>
 
 - [链表排序](src/list/sort-list.js)
@@ -539,10 +544,10 @@ LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重�
   - LeetCode 876. 链表的中间结点 <https://leetcode-cn.com/problems/middle-of-the-linked-list/>
   - LintCode 1609. 链表的中间结点 <https://www.lintcode.com/problem/middle-of-the-linked-list/description>
 
-- [K个一组翻转链表](src/list/reverse-nodes-in-k-group.js)
+- [K 个一组翻转链表](src/list/reverse-nodes-in-k-group.js)
 
   - LeetCode 25. K 个一组翻转链表 <https://leetcode-cn.com/problems/reverse-nodes-in-k-group/>
-  - LintCode 450. K组翻转链表 <https://www.lintcode.com/problem/reverse-nodes-in-k-group/description>
+  - LintCode 450. K 组翻转链表 <https://www.lintcode.com/problem/reverse-nodes-in-k-group/description>
 
 ## 图
 
