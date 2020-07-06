@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 import TreeNode from '../../test/tree/TreeNode'
+=======
+/**
+ * Definition for a binary tree node.
+ */
+function TreeNode(val) {
+  this.val = val
+  this.left = this.right = null
+}
+
+>>>>>>> 450f1f6b5d96df43627b7b8c07518b2ec772a2da
 /**
  * @param {number[]} nums
  * @return {TreeNode}
