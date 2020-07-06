@@ -1,11 +1,4 @@
-/**
- * Definition for a binary tree node.
- */
-function TreeNode(val) {
-  this.val = val
-  this.left = this.right = null
-}
-
+import TreeNode from '../../test/tree/TreeNode'
 /**
  * @param {number[]} nums
  * @return {TreeNode}
