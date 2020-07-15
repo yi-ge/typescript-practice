@@ -36,5 +36,16 @@
     "zhan",
     "zhong",
     "zhuan"
-  ]
+  ],
+  "standard.options": {
+    "globals": [
+      "$",
+      "jQuery",
+      "fetch"
+    ],
+    "usePackageJson": true,
+    "env": {
+      "jest": true
+    }
+  }
 }
