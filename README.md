@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/github/license/yi-ge/arithmetic-practice.svg?style=flat-square)](https://github.com/yi-ge/arithmetic-practice/blob/master/LICENSE)
 [![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fyi-ge%2Farithmetic-practice%2Fbadge%3Fref%3Dmain&style=flat-square)](https://actions-badge.atrox.dev/yi-ge/arithmetic-practice/goto?ref=main)
-![Coveralls github](https://img.shields.io/coveralls/github/yi-ge/arithmetic-practice?style=flat-square)
+[![Coveralls github](https://img.shields.io/coveralls/github/yi-ge/arithmetic-practice?style=flat-square)](https://github.com/yi-ge/arithmetic-practice)
 [![GitHub last commit](https://img.shields.io/github/last-commit/yi-ge/arithmetic-practice.svg?style=flat-square)](https://github.com/yi-ge/arithmetic-practice)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square)](https://gitpod.io/#https://github.com/yi-ge/arithmetic-practice)
 
