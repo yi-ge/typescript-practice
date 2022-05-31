@@ -41,7 +41,7 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action@v1
         if: always()
         with:
-          files: 'coverage/clover.xml'
+          files: 'junit.xml'
 
       - name: Set badge color
         shell: bash
