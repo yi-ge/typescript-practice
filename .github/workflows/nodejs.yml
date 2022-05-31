@@ -65,7 +65,7 @@ jobs:
           label: Tests
           status: '${{ fromJSON( steps.test-results.outputs.json ).stats.tests }} tests, ${{ fromJSON( steps.test-results.outputs.json ).stats.runs }} runs: ${{ fromJSON( steps.test-results.outputs.json ).conclusion }}'
           color: ${{ env.BADGE_COLOR }}
-          style: flat-square
+          style: flat
           path: badge.svg
 
       - name: Upload badge to Gist
