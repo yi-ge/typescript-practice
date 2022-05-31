@@ -1,18 +1,16 @@
 {
   "cSpell.words": [
-    "ADOBECODEBANC",
-    "Gitpod",
-    "LVIII",
-    "Paddr",
-    "Prinme",
     "abcdefg",
     "abciiidef",
+    "ADOBECODEBANC",
     "cdefgab",
     "chuan",
+    "coverallsapp",
     "defang",
     "defanging",
     "dvdf",
     "eleetminicoworoep",
+    "Gitpod",
     "inorder",
     "lcci",
     "lcof",
@@ -21,10 +19,13 @@
     "leetcodeisgreat",
     "liang",
     "lrloseumgh",
+    "LVIII",
     "mincost",
     "nums",
+    "Paddr",
     "powx",
     "preorder",
+    "Prinme",
     "pwwkew",
     "qian",
     "racecar",
@@ -38,11 +39,7 @@
     "zhuan"
   ],
   "standard.options": {
-    "globals": [
-      "$",
-      "jQuery",
-      "fetch"
-    ],
+    "globals": ["$", "jQuery", "fetch"],
     "usePackageJson": true,
     "env": {
       "jest": true

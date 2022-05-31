@@ -10,7 +10,7 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     strategy:
@@ -30,12 +30,8 @@ jobs:
         run: yarn test
         env:
           CI: true
-
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - run: yarn run coverage:ci
+      - name: Generate coverage
+        run: yarn run coverage:ci
       - name: Coveralls
         uses: coverallsapp/github-action@v1.1.0
         env:
