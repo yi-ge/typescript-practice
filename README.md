@@ -1,16 +1,16 @@
-# JavaScript 算法练习
+# TypeScript 算法练习
 
-[![license](https://img.shields.io/github/license/yi-ge/js-practice.svg?style=flat-square)](https://github.com/yi-ge/js-practice/blob/master/LICENSE)
-![Travis (.org)](https://img.shields.io/travis/yi-ge/js-practice?style=flat-square)
-![Coveralls github](https://img.shields.io/coveralls/github/yi-ge/js-practice?style=flat-square)
-[![GitHub last commit](https://img.shields.io/github/last-commit/yi-ge/js-practice.svg?style=flat-square)](https://github.com/yi-ge/js-practice)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square)](https://gitpod.io/#https://github.com/yi-ge/js-practice)
-
-![Node.js CI](https://github.com/yi-ge/js-practice/workflows/Node.js%20CI/badge.svg)
+[![license](https://img.shields.io/github/license/yi-ge/arithmetic-practice.svg?style=flat-square)](https://github.com/yi-ge/arithmetic-practice/blob/master/LICENSE)
+[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fyi-ge%2Farithmetic-practice%2Fbadge%3Fref%3Dmain&style=flat-square)](https://actions-badge.atrox.dev/yi-ge/arithmetic-practice/goto?ref=main)
+![Coveralls github](https://img.shields.io/coveralls/github/yi-ge/arithmetic-practice?style=flat-square)
+[![GitHub last commit](https://img.shields.io/github/last-commit/yi-ge/arithmetic-practice.svg?style=flat-square)](https://github.com/yi-ge/arithmetic-practice)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square)](https://gitpod.io/#https://github.com/yi-ge/arithmetic-practice)
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-LeetCode 与 LintCode 解题记录。此为个人练习仓库，代码中对重要思想进行了注释，但是没有详细的解题思路。需解题思路请移步其它仓库，很抱歉。
+TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 LintCode 解题记录。
+
+此为个人练习仓库，代码中对重要思想进行了注释，但是没有详细的解题思路。需解题思路请移步其它仓库，很抱歉。
 
 每一道题都对应写有测试用例，但可能不够完整。如果您发现错误，欢迎给我留言，谢谢！
 

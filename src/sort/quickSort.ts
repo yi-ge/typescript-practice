@@ -1,4 +1,4 @@
-const partition = (arr, l, r) => {
+const partition = (arr: number[], l: number, r: number) => {
   const v = arr[l]
 
   let j = l

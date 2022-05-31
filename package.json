@@ -2,26 +2,25 @@
   "name": "arithmetic-practice",
   "version": "0.0.1",
   "description": "JavaScript Practice.",
-  "exports": "./dist/main.js",
-  "types": "src/main.ts",
   "type": "module",
   "scripts": {
-    "test": "jest",
+    "test": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js --verbose --setTimeout=10000",
     "coverage:ci": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yi-ge/js-practice.git"
+    "url": "git+https://github.com/yi-ge/arithmetic-practice.git"
   },
   "keywords": [
-    "practice"
+    "practice",
+    "arithmetic"
   ],
   "author": "yi-ge <a@wyr.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yi-ge/js-practice/issues"
+    "url": "https://github.com/yi-ge/arithmetic-practice/issues"
   },
-  "homepage": "https://github.com/yi-ge/js-practice#readme",
+  "homepage": "https://github.com/yi-ge/arithmetic-practice#readme",
   "devDependencies": {
     "@types/jest": "^27.5.1",
     "coveralls": "^3.1.1",
@@ -29,8 +28,19 @@
     "ts-jest": "^28.0.3",
     "typescript": "^4.7.2"
   },
+  "engines": {
+    "node": ">=18.2.0"
+  },
+  "wallaby": {
+    "autoDetect": true,
+    "env": {
+      "params": {
+        "runner": "--experimental-vm-modules --experimental-specifier-resolution=node"
+      }
+    }
+  },
   "jest": {
-    "preset": "ts-jest/presets/default-esm",
+    "preset": "ts-jest/presets/js-with-ts-esm",
     "testEnvironment": "node",
     "extensionsToTreatAsEsm": [
       ".ts"
