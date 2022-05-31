@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js --verbose --setTimeout=10000",
-    "coverage:ci": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js --coverage --coverageReporters=text-lcov | coveralls"
+    "coverage:ci": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js --coverage && coveralls < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
