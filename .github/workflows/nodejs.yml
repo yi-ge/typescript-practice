@@ -26,13 +26,11 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn --frozen-lockfile
-      - name: Test
-        run: yarn test
+      - name: Test and generate coverage
+        run: yarn coverage:ci
         env:
           CI: true
           NODE_ENV: test
-      - name: Generate coverage
-        run: yarn run coverage:ci
       - name: Coveralls
         uses: coverallsapp/github-action@v1.1.2
         env:
