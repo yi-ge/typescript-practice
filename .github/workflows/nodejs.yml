@@ -26,6 +26,7 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn --frozen-lockfile
+      - name: Test
         run: yarn test
         env:
           CI: true
