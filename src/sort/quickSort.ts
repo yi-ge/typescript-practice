@@ -19,15 +19,9 @@ const partition = (arr: number[], l: number, r: number) => {
  * @param l 左下标
  * @param r 右下标
  */
-const quickSort = (arr: number[], l = 0, r = arr.length - 1) => {
+export const quickSort = (arr: number[], l = 0, r = arr.length - 1) => {
   if (l >= r) return
   const p = partition(arr, l, r)
   quickSort(arr, l, p - 1)
   quickSort(arr, p + 1, r)
 }
-
-const arr = [4, 2, 3, 1]
-
-quickSort(arr) /*?.*/
-
-arr
