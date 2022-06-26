@@ -476,6 +476,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
   - LeetCode 67. 二进制求和 <https://leetcode-cn.com/problems/add-binary/>
   - LintCode 408. 二进制求和 <https://www.lintcode.com/problem/add-binary/description>
 
+- [16. 最接近的三数之和](src/math/3sum-closest.ts)
+
+  - LeetCode 16. 最接近的三数之和 <https://leetcode.cn/problems/3sum-closest/>
+
 ## 堆
 
 - [超级丑数](src/stack/super-ugly-number.js)【未完成】
