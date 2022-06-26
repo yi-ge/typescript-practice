@@ -391,6 +391,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 710. 黑名单中的随机数 <https://leetcode.cn/problems/random-pick-with-blacklist/>
 
+- [Z 字形变换](src/array/zigzag-conversion.ts)
+
+  - LeetCode 6. Z 字形变换 <https://leetcode.cn/problems/zigzag-conversion/>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
