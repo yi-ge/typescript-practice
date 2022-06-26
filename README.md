@@ -387,6 +387,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
   - LeetCode 378. 有序矩阵中第 K 小的元素 <https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/>
   - LintCode 401. 排序矩阵中的从小到大第 k 个数 <https://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix/description>
 
+- [黑名单中的随机数](src/array/random-pick-with-blacklist.ts)
+
+  - LeetCode 710. 黑名单中的随机数 <https://leetcode.cn/problems/random-pick-with-blacklist/>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
