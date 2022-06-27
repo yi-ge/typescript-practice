@@ -2,8 +2,8 @@ import { quickSort } from '../../src/sort/quickSort'
 import { mergeSort } from '../../src/sort/mergeSort'
 
 test('快排', () => {
-    let arr = [2, 6, 1, 4, 8, 4, 7, 8, 97, 3, 2];
-    quickSort(arr);
+    let arr = [2, 6, 1, 4, 8, 4, 7, 8, 97, 3, 2]
+    quickSort(arr)
     expect(arr).toEqual(mergeSort([2, 6, 1, 4, 8, 4, 7, 8, 97, 3, 2]))
     
     const data = [
