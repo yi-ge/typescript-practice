@@ -131,6 +131,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
   - LeetCode 14. 最长公共前缀 <https://leetcode-cn.com/problems/longest-common-prefix/>
   - LintCode 78. 最长公共前缀 <https://www.lintcode.com/problem/longest-common-prefix/description>
 
+- [括号生成](src/string/generate-parentheses.ts)
+
+  - LeetCode 22. 括号生成 <https://leetcode.cn/problems/generate-parentheses/>
+
 ## 数组/队列/集合/映射
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
