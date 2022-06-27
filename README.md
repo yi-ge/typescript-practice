@@ -15,6 +15,14 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 每一道题都对应写有测试用例，但可能不够完整。如果您发现错误，欢迎给我留言，谢谢！
 
+## 基础排序算法
+
+- [插入排序](src/sort/insertSort.ts)
+- [冒泡排序](src/sort/bubbleSort.ts)
+- [选择排序](src/sort/selectSort.ts)
+- [快速排序](src/sort/quickSort.ts)
+- [归并排序](src/sort/mergeSort.ts)
+
 ## 字符串
 
 - [反转字符串中的单词](src/string/reverse-words-in-a-string.js)
