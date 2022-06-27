@@ -1,4 +1,4 @@
-const partition = (arr: number[], l: number, r: number) => {
+export const partition = (arr: number[], l: number, r: number) => {
   const v = arr[l]
 
   let j = l
@@ -26,8 +26,5 @@ export const quickSort = (arr: number[], l = 0, r = arr.length - 1) => {
   quickSort(arr, p + 1, r)
 }
 
-const arr = [4, 2, 3, 1]
 
-quickSort(arr) /*?.*/
 
-arr

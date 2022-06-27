@@ -2,8 +2,10 @@ import { quickSort } from '../../src/sort/quickSort'
 import { mergeSort } from '../../src/sort/mergeSort'
 
 test('快排', () => {
-    expect(quickSort([2, 6, 1, 4, 8, 4, 7, 8, 97, 3, 2])).toEqual(mergeSort([2, 6, 1, 4, 8, 4, 7, 8, 97, 3, 2]))
-
+    let arr = [2, 6, 1, 4, 8, 4, 7, 8, 97, 3, 2]
+    quickSort(arr)
+    expect(arr).toEqual(mergeSort([2, 6, 1, 4, 8, 4, 7, 8, 97, 3, 2]))
+    
     const data = [
       [],
       [3],
@@ -12,6 +14,9 @@ test('快排', () => {
     ]
 
     for (let i = 0; i < data.length; i++) {
-        expect(quickSort(JSON.parse(JSON.stringify(data[i])))).toEqual(mergeSort(JSON.parse(JSON.stringify(data[i]))))
+      let arr = data[i];
+      quickSort(arr)
+        expect(arr).toEqual(mergeSort(JSON.parse(JSON.stringify(data[i]))))
     }
 })
+
