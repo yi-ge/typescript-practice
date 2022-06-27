@@ -586,6 +586,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
   - LeetCode 25. K 个一组翻转链表 <https://leetcode-cn.com/problems/reverse-nodes-in-k-group/>
   - LintCode 450. K 组翻转链表 <https://www.lintcode.com/problem/reverse-nodes-in-k-group/description>
 
+- [两两交换链表中的节点](src/list/swap-nodes-in-pairs.ts)
+
+  - LeetCode 24. 两两交换链表中的节点 <https://leetcode.cn/problems/swap-nodes-in-pairs/>
+
 ## 图
 
 - [课程表](src/graphs/course-schedule-ii.js)
