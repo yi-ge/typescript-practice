@@ -395,6 +395,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 6. Z 字形变换 <https://leetcode.cn/problems/zigzag-conversion/>
 
+- [最长特殊序列 II](src/array/longest-uncommon-subsequence-ii.ts)
+
+  - LeetCode 522. 最长特殊序列 II <https://leetcode.cn/problems/longest-uncommon-subsequence-ii/>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
