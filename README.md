@@ -15,6 +15,14 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 每一道题都对应写有测试用例，但可能不够完整。如果您发现错误，欢迎给我留言，谢谢！
 
+## 基础排序算法
+
+- [插入排序](src/sort/insertSort.ts)
+- [冒泡排序](src/sort/bubbleSort.ts)
+- [选择排序](src/sort/selectSort.ts)
+- [快速排序](src/sort/quickSort.ts)
+- [归并排序](src/sort/mergeSort.ts)
+
 ## 字符串
 
 - [反转字符串中的单词](src/string/reverse-words-in-a-string.js)
@@ -387,6 +395,18 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
   - LeetCode 378. 有序矩阵中第 K 小的元素 <https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/>
   - LintCode 401. 排序矩阵中的从小到大第 k 个数 <https://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix/description>
 
+- [黑名单中的随机数](src/array/random-pick-with-blacklist.ts)
+
+  - LeetCode 710. 黑名单中的随机数 <https://leetcode.cn/problems/random-pick-with-blacklist/>
+
+- [Z 字形变换](src/array/zigzag-conversion.ts)
+
+  - LeetCode 6. Z 字形变换 <https://leetcode.cn/problems/zigzag-conversion/>
+
+- [最长特殊序列 II](src/array/longest-uncommon-subsequence-ii.ts)
+
+  - LeetCode 522. 最长特殊序列 II <https://leetcode.cn/problems/longest-uncommon-subsequence-ii/>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
@@ -467,6 +487,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 67. 二进制求和 <https://leetcode-cn.com/problems/add-binary/>
   - LintCode 408. 二进制求和 <https://www.lintcode.com/problem/add-binary/description>
+
+- [16. 最接近的三数之和](src/math/3sum-closest.ts)
+
+  - LeetCode 16. 最接近的三数之和 <https://leetcode.cn/problems/3sum-closest/>
 
 ## 堆
 
