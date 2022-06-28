@@ -24,6 +24,7 @@
   "homepage": "https://github.com/yi-ge/arithmetic-practice#readme",
   "devDependencies": {
     "@types/jest": "^27.5.1",
+    "@types/node": "^18.0.0",
     "jest": "^28.1.0",
     "jest-junit": "^13.2.0",
     "ts-jest": "^28.0.3",
