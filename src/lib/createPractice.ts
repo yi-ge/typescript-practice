@@ -8,10 +8,6 @@ if (!argv[2]) {
 
 const url = argv[2]
 
-// fetch(url)
-//   .then(res => res.text())
-//   .then(text => console.log(text))
-
 const browser = await puppeteer.launch({
   headless: false
 })
