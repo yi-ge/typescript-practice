@@ -12,8 +12,10 @@ const browser = await puppeteer.launch({
   headless: false
 })
 const page = await browser.newPage()
-await page.goto(url)
-await page.waitForTimeout(5000)
+await page.goto(url, {
+  waitUntil: 'networkidle2',
+})
+await page.waitForTimeout(1000)
 await page.screenshot({ path: 'example.png' })
 await browser.close()
 

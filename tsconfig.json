@@ -29,10 +29,6 @@
     "noImplicitAny": true,
     "allowJs": true
   },
-  "include": [
-    "./src/**/*.ts",
-    "./src/**/*.json",
-    "test/createPractice.test.ts"
-  ],
+  "include": ["./src/**/*.ts", "./src/**/*.json"],
   "exclude": ["dist", "node_modules"]
 }
