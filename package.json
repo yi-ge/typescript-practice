@@ -6,8 +6,7 @@
   "scripts": {
     "test": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js --verbose --setTimeout=10000",
     "coverage:ci": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js --coverage --ci --reporters=default --reporters=jest-junit",
-    "start": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node --loader ts-node/esm ./test/createPractice.test.ts",
-    "test:playwright": "npx playwright test test/createPractice.test.ts"
+    "start": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node --loader ts-node/esm ./src/lib/createPractice.ts"
   },
   "repository": {
     "type": "git",
@@ -61,6 +60,7 @@
     ]
   },
   "dependencies": {
+    "puppeteer": "^15.1.1",
     "ts-node": "^10.8.1"
   }
 }
