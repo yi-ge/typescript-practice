@@ -411,6 +411,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 522. 最长特殊序列 II <https://leetcode.cn/problems/longest-uncommon-subsequence-ii/>
 
+- [摆动排序 II](src/array/wiggle-sort-ii.ts)
+
+  - LeetCode 324. 摆动排序 II <https://leetcode.cn/problems/wiggle-sort-ii/>
+
 ## 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)

@@ -3,7 +3,7 @@
   "compilerOptions": {
     "importHelpers": true,
     "module": "esnext",
-    "rootDir": "src",
+    "rootDir": "./",
     "target": "esnext",
     "sourceMap": true,
     "composite": true,
@@ -29,6 +29,10 @@
     "noImplicitAny": true,
     "allowJs": true
   },
-  "include": ["./src/**/*.ts", "./src/**/*.json"],
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.json",
+    "test/createPractice.test.ts"
+  ],
   "exclude": ["dist", "node_modules"]
 }
