@@ -3,7 +3,7 @@
   "compilerOptions": {
     "importHelpers": true,
     "module": "esnext",
-    "rootDir": "src",
+    "rootDir": "./",
     "target": "esnext",
     "sourceMap": true,
     "composite": true,
@@ -27,7 +27,9 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "noImplicitAny": true,
-    "allowJs": true
+    "allowJs": true,
+    "typeRoots": ["./node_modules/@types", "@types"],
+    "types": ["node"]
   },
   "include": ["./src/**/*.ts", "./src/**/*.json"],
   "exclude": ["dist", "node_modules"]

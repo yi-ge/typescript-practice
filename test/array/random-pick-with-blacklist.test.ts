@@ -1,0 +1,55 @@
+import { Solution } from '../../src/array/random-pick-with-blacklist'
+
+describe('黑名单中的随机数', () => {
+  test('默认示例', () => {
+    const n = 7
+    const blacklist = [2, 3, 5]
+    const obj = new Solution(n, blacklist)
+    const param_1 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_1)
+    const param_2 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_2)
+    const param_3 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_3)
+    const param_4 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_4)
+    const param_5 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_5)
+    const param_6 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_6)
+    const param_7 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_7)
+    const param_8 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_8)
+    const param_9 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_9)
+    const param_10 = obj.pick()
+    expect([0, 1, 4, 6]).toContain(param_10)
+  })
+
+  test('易错示例', () => {
+    const n = 4
+    const blacklist = [0, 2]
+    const obj = new Solution(n, blacklist)
+    const param_1 = obj.pick()
+    expect([1, 3]).toContain(param_1)
+    const param_2 = obj.pick()
+    expect([1, 3]).toContain(param_2)
+    const param_3 = obj.pick()
+    expect([1, 3]).toContain(param_3)
+    const param_4 = obj.pick()
+    expect([1, 3]).toContain(param_4)
+    const param_5 = obj.pick()
+    expect([1, 3]).toContain(param_5)
+    const param_6 = obj.pick()
+    expect([1, 3]).toContain(param_6)
+    const param_7 = obj.pick()
+    expect([1, 3]).toContain(param_7)
+    const param_8 = obj.pick()
+    expect([1, 3]).toContain(param_8)
+    const param_9 = obj.pick()
+    expect([1, 3]).toContain(param_9)
+    const param_10 = obj.pick()
+    expect([1, 3]).toContain(param_10)
+  })
+})
