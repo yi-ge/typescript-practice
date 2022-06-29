@@ -61,7 +61,7 @@
     ]
   },
   "dependencies": {
-    "puppeteer": "^15.1.1",
+    "puppeteer-core": "^15.1.1",
     "ts-node": "^10.8.1"
   }
 }
