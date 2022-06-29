@@ -64,4 +64,4 @@ typings/
 junit.xml
 
 # 不希望暴露的文件
-./src/lib/createPractice.ts
+/src/lib/createPractice.ts
