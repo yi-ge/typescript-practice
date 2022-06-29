@@ -1,8 +1,16 @@
 // @ts-ignore
 import * as readline from 'node:readline/promises'
 import { argv, exit, stdin as input, stdout as output } from 'node:process'
-import puppeteer from 'puppeteer-core'
+import puppeteer from 'puppeteer-extra'
 import { execSync } from 'node:child_process'
+import StealthPlugin from 'puppeteer-extra-plugin-stealth'
+import os from 'node:os'
+import path from 'node:path'
+
+if (os.type() !== 'Darwin') {
+  console.log('暂不支持非MacOS使用此脚本')
+  exit(0)
+}
 
 if (argv.length > 3) {
   console.log('参数过多。')
@@ -39,6 +47,10 @@ const checkAndQuitChrome = async (kill = false) => {
 
 await checkAndQuitChrome()
 
+puppeteer.use(StealthPlugin())
+
+const homedir = os.homedir()
+
 const browser = await puppeteer.launch({
   headless: false,
   ignoreDefaultArgs: [
@@ -61,11 +73,12 @@ const browser = await puppeteer.launch({
     '--disable-sync',
     '--force-color-profile=srgb',
     '--metrics-recording-only',
-    '--password-store=basic'
+    '--password-store=basic',
+    '--enable-blink-features=IdleDetection'
   ],
   defaultViewport: null,
   executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-  userDataDir: '/Users/yige/Library/Application Support/Google/Chrome',
+  userDataDir: path.join(homedir, '/Library/Application Support/Google/Chrome'),
   args: ['--restore-last-session', '--start-maximized']
 })
 
@@ -82,14 +95,14 @@ await page.evaluate(() => {
 // 关闭 about:blank 页面
 const pages = await browser.pages()
 for (const page of pages) {
-  const checkURL = await page.url()
+  const checkURL = page.url()
   if (checkURL === 'about:blank') {
     page.close()
   }
 }
 
 await page.waitForTimeout(1000)
-let title = (await page.title())?.split('-')[0]?.trim()
+const title = (await page.title())?.split('-')[0]?.trim()
 console.log(`名称：${title}`)
 
 const tags = await page.$$eval(`a[class^='topic-tag']`, tags => {
@@ -100,11 +113,16 @@ console.log(`分类：`, tags)
 
 const code = await page.evaluate('monaco.editor.getModels()[0].getValue()')
 
-console.log(code)
+let reg = /[^/\\]+[/\\]*$/
+let fileName = reg.exec(url)?.shift()?.replace(/[\/$]+/g, '')
 
-// await page.evaluate(() => {
-//   localStorage.setItem('token', 'example-token')
-// })
+if (!fileName) {
+  console.log('未检测到文件名')
+  exit(1)
+} else {
+
+}
+// console.log(code)
 
 // await browser.close()
 
