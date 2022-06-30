@@ -3,7 +3,7 @@
   "compilerOptions": {
     "importHelpers": true,
     "module": "esnext",
-    "rootDir": "src",
+    "rootDir": "./",
     "target": "esnext",
     "sourceMap": true,
     "composite": true,
@@ -27,8 +27,10 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "noImplicitAny": true,
-    "allowJs": true
+    "allowJs": true,
+    "typeRoots": ["./node_modules/@types", "@types"],
+    "types": ["node"]
   },
-  "include": ["./src/**/*.ts", "./src/**/*.json", "src/stack/maximal-rectangle.js", "src/string/valid-palindrome-ii.js", "src/string/string2int.js", "src/string/roman-to-integer.js", "src/string/restore-ip-addresses.js", "src/string/reverse-words-in-a-string.js", "src/string/restore-ip-addresses.js", "src/string/regular-expression-matching.js", "src/string/maximum-number-of-vowels-in-a-substring-of-given-length.js", "src/string/maximum-number-of-vowels-in-a-substring-of-given-length.js", "src/string/longest-common-prefix.js", "src/string/largest-number.js", "src/stack/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.js", "src/stack/min-stack.js"],
+  "include": ["./src/**/*.ts", "./src/**/*.json"],
   "exclude": ["dist", "node_modules"]
 }
