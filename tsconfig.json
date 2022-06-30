@@ -31,6 +31,6 @@
     "typeRoots": ["./node_modules/@types", "@types"],
     "types": ["node"]
   },
-  "include": ["./src/**/*.ts", "./src/**/*.json"],
+  "include": ["./src/**/*.ts", "./src/**/*.json", "src/math/permutations.js"],
   "exclude": ["dist", "node_modules"]
 }

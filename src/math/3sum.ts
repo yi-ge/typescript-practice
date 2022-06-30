@@ -3,7 +3,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-export const threeSum = function (nums: number[]) {
+export const threeSum = function (nums: number[]): number[][] {
   const res = []
   const length = nums.length
   nums.sort((a, b) => a - b) // 先排个队，最左边是最弱（小）的，最右边是最强(大)的
