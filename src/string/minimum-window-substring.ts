@@ -3,7 +3,7 @@
  * @param {string} t
  * @return {string}
  */
-export const minWindow = function (s, t) {
+export const minWindow = function (s: string, t: string) {
   const sLen = s.length; const tLen = t.length
   const tMap = new Map(); const map = new Map()
   let l = 0; let r = 0; let res = ''
@@ -12,7 +12,7 @@ export const minWindow = function (s, t) {
     tMap.set(t[i], (tMap.get(t[i]) || 0) + 1)
   }
 
-  const check = (cMap) => {
+  const check = (cMap: any) => {
     const check = new Map(
       [...cMap].filter(([k, v]) => tMap.has(k) && v >= tMap.get(k))
     )

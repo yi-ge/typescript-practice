@@ -1,3 +1,3 @@
-export const isUnique = (str) => {
+export const isUnique = (str: any) => {
   return new Set(str.split('')).size === str.length
 }

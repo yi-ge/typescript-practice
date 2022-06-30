@@ -47,7 +47,7 @@
 //   return r.length
 // }
 
-export default (s) => {
+export default (s: any) => {
   // 来自 Somnus
   // pre 前一个数字连续出现的次数，cur 当前数字连续出现的次数，result 结果子串个数
   let pre = 0; let cur = 1; let result = 0

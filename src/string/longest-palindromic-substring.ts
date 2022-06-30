@@ -1,4 +1,4 @@
-export const longestPalindrome = function (s) {
+export const longestPalindrome = function (s: any) {
   if (!s || !s.trim()) return ''
   if (s.length === 1) return s
   if (s.length === 2) return s[0] === s[1] ? s[0] + s[1] : s[1]
@@ -6,7 +6,7 @@ export const longestPalindrome = function (s) {
   /**
   *扩散坐标
   */
-  const calPalindromeIndex = function (left, right, s) {
+  const calPalindromeIndex = function (left: any, right: any, s: any) {
     const len = s.length
     while (left >= 0 && right < len && s[left] === s[right]) {
       left--

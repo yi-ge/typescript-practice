@@ -5,7 +5,7 @@
  * @param {string} s
  * @return {string}
  */
-export const decodeString = function (s) {
+export const decodeString = function (s: string) {
   const stack = []
   let multiple = ''
   for (let i = 0, len = s.length; i < len; i++) {
