@@ -506,7 +506,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 ## 堆
 
-- [超级丑数](src/stack/super-ugly-number.js)【未完成】
+- [超级丑数](src/heap/super-ugly-number.js)【未完成】
 
   - LeetCode 313. 超级丑数 <https://leetcode-cn.com/problems/super-ugly-number/>
   - LintCode 518. 超级丑数 <https://www.lintcode.com/problem/super-ugly-number/description>
