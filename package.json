@@ -1,7 +1,7 @@
 {
   "name": "arithmetic-practice",
-  "version": "0.0.1",
-  "description": "JavaScript Practice.",
+  "version": "0.1.0",
+  "description": "Typescript Practice.",
   "type": "module",
   "scripts": {
     "test": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js --verbose --setTimeout=10000",

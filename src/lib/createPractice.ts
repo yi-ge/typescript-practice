@@ -12,8 +12,8 @@ import { fileURLToPath } from 'node:url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-if (os.type() !== 'Darwin') {
-  console.log('暂不支持非MacOS使用此脚本')
+if (os.type() !== 'Darwin' && os.type() !== 'Linux') {
+  console.log('暂仅支持MacOS和Linux使用此脚本')
   exit(0)
 }
 
@@ -34,7 +34,7 @@ if (!argv[2]) {
   url = argv[2]
 }
 
-// const sleep = (n: number) => new Promise(r => { setTimeout(r, n) })
+const sleep = (n: number) => new Promise(r => { setTimeout(r, n) })
 
 // const checkAndQuitChrome = async (kill = false) => {
 //   const check = execSync(`ps aux|grep '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'`)
@@ -54,8 +54,12 @@ if (!argv[2]) {
 
 puppeteer.use(StealthPlugin())
 
-const homedir = os.homedir()
-const userDataDir = join(homedir, '/Library/Application Support/Google/Chromium')
+const homeDir = os.homedir()
+
+const userDataDir =
+  os.type() === 'Linux' ?
+    join(homeDir, '/.config/google-chromium') :
+    join(homeDir, '/Library/Application Support/Google/Chromium')
 
 if (!fs.existsSync(userDataDir)) fs.mkdirSync(userDataDir)
 
@@ -94,12 +98,17 @@ const browser = await puppeteer.launch({
 const pages = await browser.pages()
 const page = pages[0]// await browser.newPage()
 await page.setViewport({ width: 0, height: 0 })
-await page.goto(url, {
-  waitUntil: 'networkidle2'
-})
+
+await page.goto(url)
 await page.evaluate(() => {
   // @ts-ignore
   localStorage.setItem('global_lang_key', '"typescript"')
+  // @ts-ignore
+  localStorage.setItem('daily-question:guide-modal-shown', '"true"')
+})
+
+await page.goto(url, {
+  waitUntil: 'networkidle2'
 })
 
 // // 关闭 about:blank 页面
@@ -203,11 +212,8 @@ const obj = {
 
 const map = new Map(Object.entries(obj))
 
-let code: string = (await page.evaluate('monaco.editor.getModels()[0].getValue()')) as string
-
 // 代码处理
-
-
+let code: string = (await page.evaluate('monaco.editor.getModels()[0].getValue()')) as string
 const reg = /[^/\\]+[/\\]*$/
 const fileName = reg.exec(url)?.shift()?.replace(/[\/$]+/g, '')
 const filePath = join(__dirname, '../', map.get(classification) as string, fileName + '.ts')
@@ -219,22 +225,24 @@ if (!fileName) {
 
 const keyStr = code.match(/function\s.*?\(([^)]*)\)/ig)?.shift()
 const functionName = keyStr?.match(/(function)([ \t])([^\(]+)/i)?.[3]
-code = keyStr ? code.replace(keyStr, `export ${keyStr}`) : keyStr || ''
+code = keyStr && !code.includes('export ') ? code.replace(keyStr, `export ${keyStr}`) : code
 
-code = `// ${title}
+if (!code.includes(`// ${url}`)) {
+  code = `// ${title}
 // ${url}
 
 ` + code
+}
 
 let examples = await page.evaluate(() => {
   let examples = ``
   // @ts-ignore
   const headings = document.evaluate("//strong[contains(., '示例')]", document, null, XPathResult.ANY_TYPE, null)
   let iterateNext = headings.iterateNext()
-  let isFrist = true
+  let isFirst = true
   while (iterateNext) {
-    if (isFrist) {
-      isFrist = false
+    if (isFirst) {
+      isFirst = false
     } else {
       examples += '\n'
     }
@@ -261,6 +269,8 @@ if (!fs.existsSync(dirname(filePath))) fs.mkdirSync(dirname(filePath))
 if (!fs.existsSync(dirname(testFilePath))) fs.mkdirSync(dirname(testFilePath))
 fs.writeFileSync(filePath, code, 'utf-8')
 fs.writeFileSync(testFilePath, testCode, 'utf-8')
+execSync('code ' + testFilePath)
+sleep(100)
 execSync('code ' + filePath)
 
 try {
@@ -273,8 +283,27 @@ try {
 
 console.log('可以开始写代码了。')
 
+const updateCode = async (filePath: string, title: string) => {
+  let fileContent = fs.readFileSync(filePath, 'utf-8')
+  if (fileContent.includes('export ')) fileContent.replace('export ', '')
+  await page.evaluate(`monaco.editor.getModels()[0].setValue(\`${fileContent}\`)`)
+  console.log(`${title} 代码已同步。`)
+}
 
-// console.log(code)
+let timer: NodeJS.Timeout | null = null
+const debounce = (func: Function, time: number) => {
+  if (timer) return
+  timer = setTimeout(() => {
+    timer = null
+    func.call(this)
+  }, time)
+}
+
+fs.watchFile(filePath, async (curr, prev) => {
+  debounce(() => {
+    updateCode(filePath, title || fileName)
+  }, 500)
+})
 
 // await browser.close()
 
