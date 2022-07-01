@@ -2,5 +2,5 @@
 // https://leetcode.cn/problems/different-ways-to-add-parentheses/
 
 export function diffWaysToCompute (expression: string): number[] {
-  return []
+  return [0]
 }

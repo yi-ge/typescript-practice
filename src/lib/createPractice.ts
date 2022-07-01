@@ -285,7 +285,7 @@ console.log('可以开始写代码了。')
 
 const updateCode = async (filePath: string, title: string) => {
   let fileContent = fs.readFileSync(filePath, 'utf-8')
-  if (fileContent.includes('export ')) fileContent.replace('export ', '')
+  if (fileContent.includes('export ')) fileContent = fileContent.replace(/export\s/ig, '')
   await page.evaluate(`monaco.editor.getModels()[0].setValue(\`${fileContent}\`)`)
   console.log(`${title} 代码已同步。`)
 }
