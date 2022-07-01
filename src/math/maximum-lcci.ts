@@ -3,7 +3,7 @@
  * @param {number} b
  * @return {number}
  */
-export const maximum = function (a, b) {
+export const maximum = function (a: number, b: number) {
   // return Math.max(a, b)
   // 不得使用if-else或其他比较运算符，那么我们也尽可能回避abs、max这些函数
   // return (a + b) / 2 + Math.abs(a - b) / 2

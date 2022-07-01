@@ -3,7 +3,7 @@
  * @param {string} searchWord
  * @return {number}
  */
-export const isPrefixOfWord = function (sentence, searchWord) {
+export const isPrefixOfWord = function (sentence: string, searchWord: string) {
   const items = sentence.split(' ')
 
   for (const n in items) {
