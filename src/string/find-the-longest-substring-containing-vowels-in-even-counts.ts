@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-export const findTheLongestSubstring = function (s) {
+export const findTheLongestSubstring = function (s: string) {
   const n = s.length
   const pos = new Array(1 << 5).fill(-1)
   let ans = 0; let status = 0

@@ -3,7 +3,7 @@
  * @param {number} n
  * @return {number}
  */
-export const waysToChange = function (n) {
+export const waysToChange = function (n: number) {
   const mod = 1e9 + 7
   let res = 0
   for (let i = 0; i <= ~~(n / 25); i++) {

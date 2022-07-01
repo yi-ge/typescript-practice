@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {number}
  */
-export const subarraySum = function (nums, k) {
+export const subarraySum = function (nums: number[], k: number) {
   const map = new Map()
   let sum = 0
   let res = 0
