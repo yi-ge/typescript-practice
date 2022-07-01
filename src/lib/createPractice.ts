@@ -27,7 +27,7 @@ let url = ''
 if (!argv[2]) {
   const rl = readline.createInterface({ input, output })
 
-  url = await rl.question('请输入LeetCode URL：')
+  url = await rl.question('请输入LeetCode URL（回车/1：每日一题，2：随机一题）：')
 
   rl.close()
 } else {
@@ -99,17 +99,57 @@ const pages = await browser.pages()
 const page = pages[0]// await browser.newPage()
 await page.setViewport({ width: 0, height: 0 })
 
-await page.goto(url)
-await page.evaluate(() => {
-  // @ts-ignore
-  localStorage.setItem('global_lang_key', '"typescript"')
-  // @ts-ignore
-  localStorage.setItem('daily-question:guide-modal-shown', '"true"')
-})
-
-await page.goto(url, {
-  waitUntil: 'networkidle2'
-})
+if (url === '' || url === '1') {
+  console.log('每日一题')
+  await page.goto('https://leetcode.cn/problemset/all/', {
+    waitUntil: 'networkidle2'
+  })
+  await page.evaluate(() => {
+    // @ts-ignore
+    localStorage.setItem('global_lang_key', '"typescript"')
+    // @ts-ignore
+    localStorage.setItem('daily-question:guide-modal-shown', '"true"')
+  })
+  url = await page.$eval(`[role=row] a`, el => el.href)
+  await page.goto(url, {
+    waitUntil: 'networkidle2'
+  })
+} else if (url === '2') {
+  console.log('随机一题')
+  await page.goto('https://leetcode.cn/problemset/all/', {
+    waitUntil: 'networkidle2'
+  })
+  await page.evaluate(() => {
+    // @ts-ignore
+    localStorage.setItem('global_lang_key', '"typescript"')
+    // @ts-ignore
+    localStorage.setItem('daily-question:guide-modal-shown', '"true"')
+  })
+  await page.evaluate(() => {
+    // @ts-ignore
+    const headings = document.evaluate("//span[contains(., '随机一题')]", document, null, XPathResult.ANY_TYPE, null)
+    let iterateNext = headings.iterateNext()
+    iterateNext.parentNode?.click()
+    return ''
+  })
+  await page.waitForTimeout(2000)
+  url = page.url()
+  console.log(url)
+  await page.goto(url, {
+    waitUntil: 'networkidle2'
+  })
+} else {
+  await page.goto(url)
+  await page.evaluate(() => {
+    // @ts-ignore
+    localStorage.setItem('global_lang_key', '"typescript"')
+    // @ts-ignore
+    localStorage.setItem('daily-question:guide-modal-shown', '"true"')
+  })
+  await page.goto(url, {
+    waitUntil: 'networkidle2'
+  })
+}
 
 // // 关闭 about:blank 页面
 // for (const page of pages) {
