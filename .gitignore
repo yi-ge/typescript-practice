@@ -63,3 +63,5 @@ typings/
 # Junit file
 junit.xml
 
+# MacOS
+.DS_Store
