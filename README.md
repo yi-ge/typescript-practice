@@ -137,6 +137,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 22. 括号生成 <https://leetcode.cn/problems/generate-parentheses/>
 
+- [为运算表达式设计优先级](src/string/different-ways-to-add-parentheses.ts)
+
+  - LeetCode 241. 为运算表达式设计优先级 <https://leetcode.cn/problems/different-ways-to-add-parentheses/>
+
 ## 数组/队列/集合/映射
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
@@ -416,6 +420,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 - [摆动排序 II](src/array/wiggle-sort-ii.ts)
 
   - LeetCode 324. 摆动排序 II <https://leetcode.cn/problems/wiggle-sort-ii/>
+
+- [轮转数组](src/array/rotate-array.ts)
+
+  - LeetCode 189. 轮转数组 <https://leetcode.cn/problems/rotate-array/>
 
 ## 栈
 

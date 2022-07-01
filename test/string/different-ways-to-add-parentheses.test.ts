@@ -1,4 +1,4 @@
-import { diffWaysToCompute } from '../../src/sort/different-ways-to-add-parentheses'
+import { diffWaysToCompute } from '../../src/string/different-ways-to-add-parentheses'
 
 test('为运算表达式设计优先级', () => {
   // 示例 1：
@@ -17,8 +17,6 @@ test('为运算表达式设计优先级', () => {
   // ((2*(3-4))*5) = -10
   // (2*((3-4)*5)) = -10
   // (((2*3)-4)*5) = 10
-
-  console.log(diffWaysToCompute('2-1-1'))
 
   expect(diffWaysToCompute('2-1-1')).toEqual([2, 0])
   expect(diffWaysToCompute('2*3-4*5')).toEqual([-34, -10, -14, -10, 10])
