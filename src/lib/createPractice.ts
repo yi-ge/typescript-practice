@@ -9,9 +9,12 @@ import fs from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
+// 基础函数
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
+const sleep = (n: number) => new Promise(r => { setTimeout(r, n) })
 
+// 环境检测
 if (os.type() !== 'Darwin' && os.type() !== 'Linux') {
   console.log('暂仅支持MacOS和Linux使用此脚本')
   exit(0)
@@ -22,6 +25,7 @@ if (argv.length > 3) {
   exit(0)
 }
 
+// 交互
 let url = ''
 
 if (!argv[2]) {
@@ -33,8 +37,6 @@ if (!argv[2]) {
 } else {
   url = argv[2]
 }
-
-const sleep = (n: number) => new Promise(r => { setTimeout(r, n) })
 
 // const checkAndQuitChrome = async (kill = false) => {
 //   const check = execSync(`ps aux|grep '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'`)
@@ -52,6 +54,7 @@ const sleep = (n: number) => new Promise(r => { setTimeout(r, n) })
 
 // await checkAndQuitChrome()
 
+// 启动浏览器
 puppeteer.use(StealthPlugin())
 
 const homeDir = os.homedir()
@@ -134,7 +137,6 @@ if (url === '' || url === '1') {
   })
   await page.waitForTimeout(2000)
   url = page.url()
-  console.log(url)
   await page.goto(url, {
     waitUntil: 'networkidle2'
   })
@@ -159,11 +161,13 @@ if (url === '' || url === '1') {
 //   }
 // }
 
+// 标题/名称处理
 await page.waitForTimeout(1000)
+const LeetCodeTitle = (await page.title())?.split('-')?.shift()?.trim()
 const title = (await page.title())?.split('-')?.shift()?.trim().split('.')?.pop()?.trim()
 console.log(`名称：${title}`)
 
-
+// 标签/分类处理
 const tags = await page.$$eval(`a[class^='topic-tag']`, (items) => {
   return items.map((item) => {
     return item.textContent
@@ -175,7 +179,7 @@ let classification = tags.length > 0 ? tags[0] : '未知'
 console.log('标签：', tags)
 console.log('分类：', classification)
 
-const obj = {
+const tagToClassification = {
   '数组': 'array',
   '字符串': 'string',
   '排序': 'sort',
@@ -250,16 +254,46 @@ const obj = {
   '未知': 'other'
 }
 
-const map = new Map(Object.entries(obj))
+const classificationToReadmeTitle = {
+  'string': '字符串',
+  'array': '数组/队列/集合/映射',
+  'stack': '栈',
+  'math': '数学',
+  'heap': '堆',
+  'tree': '树',
+  'list': '链表',
+  'graphs': '图',
+  'sort': '排序',
+  'other': '其它'
+}
 
-// 代码处理
-let code: string = (await page.evaluate('monaco.editor.getModels()[0].getValue()')) as string
+const tagToClassificationMap = new Map(Object.entries(tagToClassification))
+const classificationToReadmeTitleMap = new Map(Object.entries(classificationToReadmeTitle))
+const classificationStr = tagToClassificationMap.get(classification) || 'other'
+const readmeTitle = classificationToReadmeTitleMap.get(classificationStr) || '其它'
 const reg = /[^/\\]+[/\\]*$/
 const fileName = reg.exec(url)?.shift()?.replace(/[\/$]+/g, '')
-const filePath = join(__dirname, '../', map.get(classification) as string, fileName + '.ts')
+
+// 添加README.md说明
+let readmeFileContent = fs.readFileSync(join(__dirname, '../../README.md'), 'utf-8')
+if (readmeFileContent.includes(url)) {
+  console.log('已在README.md中添加过此题目。')
+} else {
+  const index = readmeFileContent.indexOf('### ' + readmeTitle)
+  // * 不要删除下面存在的空行
+  const instructions = `
+- [${title}](src/${classificationStr}/${fileName + '.ts'})  [${tags.join(', ')}]
+
+  - LeetCode ${LeetCodeTitle} <${url}>`
+  readmeFileContent = readmeFileContent.slice(index).replace(/a/i, instructions)
+}
+
+// 代码/测试代码处理
+let code: string = (await page.evaluate('monaco.editor.getModels()[0].getValue()')) as string
+const filePath = join(__dirname, '../', classificationStr, fileName + '.ts')
 
 if (!fileName) {
-  console.log('未检测到文件名')
+  console.log('未检测到文件名。')
   exit(1)
 }
 
@@ -267,11 +301,14 @@ const keyStr = code.match(/function\s.*?\(([^)]*)\)/ig)?.shift()
 const functionName = keyStr?.match(/(function)([ \t])([^\(]+)/i)?.[3]
 code = keyStr && !code.includes('export ') ? code.replace(keyStr, `export ${keyStr}`) : code
 
+// * 不要删除下面存在的空行
 if (!code.includes(`// ${url}`)) {
   code = `// ${title}
 // ${url}
 
 ` + code
+} else {
+  console.log('检测到已经同步过该题目，将再次打开此题。')
 }
 
 let examples = await page.evaluate(() => {
@@ -297,18 +334,24 @@ examples = examples.split('\n').map(item => {
   return item ? '  // ' + item : ''
 }).join('\n')
 
-const testCode = `import { ${functionName} } from '../../src/${map.get(classification) as string}/${fileName}'
+// * 不要删除下面存在的空行
+const testCode = `import { ${functionName} } from '../../src/${classificationStr}/${fileName}'
 
 test('${title}', () => {
 ${examples}
   expect(${functionName}()).toBeFalsy()
 })`
-const testFilePath = join(__dirname, '../../test/', map.get(classification) as string, fileName + '.test.ts')
+const testFilePath = join(__dirname, '../../test/', classificationStr, fileName + '.test.ts')
 
 if (!fs.existsSync(dirname(filePath))) fs.mkdirSync(dirname(filePath))
 if (!fs.existsSync(dirname(testFilePath))) fs.mkdirSync(dirname(testFilePath))
 fs.writeFileSync(filePath, code, 'utf-8')
-fs.writeFileSync(testFilePath, testCode, 'utf-8')
+
+if (fs.existsSync(dirname(testFilePath))) {
+  console.log('已存在测试代码，将不会再生成测试用例。')
+} else {
+  fs.writeFileSync(testFilePath, testCode, 'utf-8')
+}
 execSync('code ' + testFilePath)
 sleep(100)
 execSync('code ' + filePath)
@@ -323,6 +366,7 @@ try {
 
 console.log('可以开始写代码了。')
 
+// 代码更新（回写到LeetCode编辑框）
 const updateCode = async (filePath: string, title: string) => {
   let fileContent = fs.readFileSync(filePath, 'utf-8')
   if (fileContent.includes('export ')) fileContent = fileContent.replace(/export\s/ig, '')
