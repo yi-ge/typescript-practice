@@ -174,11 +174,6 @@ const tags = await page.$$eval(`a[class^='topic-tag']`, (items) => {
   })
 })
 
-let classification = tags.length > 0 ? tags[0] : '未知'
-
-console.log('标签：', tags)
-console.log('分类：', classification)
-
 const tagToClassification = {
   '数组': 'array',
   '字符串': 'string',
@@ -266,13 +261,24 @@ const classificationToReadmeTitle = {
   'sort': '排序',
   'other': '其它'
 }
+let tagIndex = 0
+let classification = tags.length > 0 ? tags[tagIndex] : '未知'
 
 const tagToClassificationMap = new Map(Object.entries(tagToClassification))
+let classificationStr = tagToClassificationMap.get(classification) || 'other'
+
+while (tagIndex < tags.length && classificationStr === 'other') {
+  classification = tags[++tagIndex]
+  classificationStr = tagToClassificationMap.get(classification) || 'other'
+}
+
 const classificationToReadmeTitleMap = new Map(Object.entries(classificationToReadmeTitle))
-const classificationStr = tagToClassificationMap.get(classification) || 'other'
 const readmeTitle = classificationToReadmeTitleMap.get(classificationStr) || '其它'
 const reg = /[^/\\]+[/\\]*$/
 const fileName = reg.exec(url)?.shift()?.replace(/[\/$]+/g, '')
+
+console.log('标签：', tags)
+console.log('分类：', classification)
 
 // 添加README.md说明
 let readmeFileContent = fs.readFileSync(join(__dirname, '../../README.md'), 'utf-8')
@@ -285,7 +291,8 @@ if (readmeFileContent.includes(url)) {
 - [${title}](src/${classificationStr}/${fileName + '.ts'})  [${tags.join(', ')}]
 
   - LeetCode ${LeetCodeTitle} <${url}>`
-  readmeFileContent = readmeFileContent.slice(index).replace(/a/i, instructions)
+  readmeFileContent = readmeFileContent.slice(0, index) + readmeFileContent.slice(index).replace(/\n/i, '\n' + instructions + '\n')
+  fs.writeFileSync(join(__dirname, '../../README.md'), readmeFileContent, 'utf-8')
 }
 
 // 代码/测试代码处理
@@ -347,7 +354,7 @@ if (!fs.existsSync(dirname(filePath))) fs.mkdirSync(dirname(filePath))
 if (!fs.existsSync(dirname(testFilePath))) fs.mkdirSync(dirname(testFilePath))
 fs.writeFileSync(filePath, code, 'utf-8')
 
-if (fs.existsSync(dirname(testFilePath))) {
+if (fs.existsSync(testFilePath)) {
   console.log('已存在测试代码，将不会再生成测试用例。')
 } else {
   fs.writeFileSync(testFilePath, testCode, 'utf-8')
