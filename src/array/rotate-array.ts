@@ -1,5 +1,5 @@
 // 轮转数组
-// https://leetcode.cn/problems/rotate-array/solution/
+// https://leetcode.cn/problems/rotate-array/
 
 /**
  Do not return anything, modify nums in-place instead.
