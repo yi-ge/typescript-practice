@@ -25,7 +25,11 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 - [快速排序](src/sort/quickSort.ts)
 - [归并排序](src/sort/mergeSort.ts)
 
-## 字符串
+## 基础数据结构
+
+## 算法题
+
+### 字符串
 
 - [反转字符串中的单词](src/string/reverse-words-in-a-string.js)
 
@@ -141,7 +145,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 241. 为运算表达式设计优先级 <https://leetcode.cn/problems/different-ways-to-add-parentheses/>
 
-## 数组/队列/集合/映射
+### 数组/队列/集合/映射
 
 - [电话号码的字母组合](src/array/letter-combinations-of-a-phone-number.js)
 
@@ -425,7 +429,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 189. 轮转数组 <https://leetcode.cn/problems/rotate-array/>
 
-## 栈
+### 栈
 
 - [最大矩阵](src/stack/maximal-rectangle.js)
 
@@ -446,7 +450,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
   - LeetCode 394. 字符串解码 <https://leetcode-cn.com/problems/decode-string/>
   - LintCode 575. 字符串解码 <https://www.lintcode.com/problem/decode-string/description>
 
-## 数学
+### 数学
 
 - [阶乘后的零](src/math/factorial-trailing-zeroes.js)
 
@@ -514,14 +518,14 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 18. 四数之和 <https://leetcode.cn/problems/4sum/>
 
-## 堆
+### 堆
 
 - [超级丑数](src/heap/super-ugly-number.js)【未完成】
 
   - LeetCode 313. 超级丑数 <https://leetcode-cn.com/problems/super-ugly-number/>
   - LintCode 518. 超级丑数 <https://www.lintcode.com/problem/super-ugly-number/description>
 
-## 树
+### 树
 
 - [二叉树的右视图](src/tree/binary-tree-right-side-view.js)
 
@@ -567,7 +571,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 96. 不同的二叉搜索树 <https://leetcode-cn.com/problems/unique-binary-search-trees/>
 
-## 链表
+### 链表
 
 - [合并 K 个排序链表](src/list/merge-k-sorted-lists.js)
 
@@ -604,7 +608,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
   - LeetCode 24. 两两交换链表中的节点 <https://leetcode.cn/problems/swap-nodes-in-pairs/>
 
-## 图
+### 图
 
 - [课程表](src/graphs/course-schedule-ii.js)
 
