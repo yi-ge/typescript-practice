@@ -456,6 +456,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 ### 数学
 
+- [下一个更大元素 III](src/math/next-greater-element-iii.ts)  [数学, 双指针, 字符串]
+
+  - LeetCode 556. 下一个更大元素 III <https://leetcode.cn/problems/next-greater-element-iii>
+
 - [阶乘后的零](src/math/factorial-trailing-zeroes.js)
 
   - LeetCode 172. 阶乘后的零 <https://leetcode-cn.com/problems/factorial-trailing-zeroes/submissions/>
