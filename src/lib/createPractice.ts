@@ -277,13 +277,12 @@ const readmeTitle = classificationToReadmeTitleMap.get(classificationStr) || '�
 const reg = /[^/\\]+[/\\]*$/
 const fileName = reg.exec(url)?.shift()?.replace(/[\/$]+/g, '')
 const filePath = join(__dirname, '../', classificationStr, fileName + '.ts')
-const imageFileDir = join(__dirname, '../../images', classificationStr)
-const imageFilePath = join(imageFileDir, fileName + '.jpeg')
+const imageFilePath = join(__dirname, `../../images/${classificationStr}`, fileName + '.jpeg')
 const testFilePath = join(__dirname, '../../test/', classificationStr, fileName + '.test.ts')
 
 if (!fs.existsSync(dirname(filePath))) fs.mkdirSync(dirname(filePath))
 if (!fs.existsSync(dirname(testFilePath))) fs.mkdirSync(dirname(testFilePath))
-if (!fs.existsSync(imageFileDir)) fs.mkdirSync(imageFileDir)
+if (!fs.existsSync(dirname(imageFilePath))) fs.mkdirSync(dirname(imageFilePath))
 
 console.log('标签：', tags)
 console.log('分类：', classification)
@@ -310,7 +309,7 @@ const screenshot = async () => {
     waitUntil: 'networkidle2'
   })
   await screenshotPage.waitForTimeout(1000)
-  await screenshotPage.setViewport({ width: 1920, height: 1080, deviceScaleFactor: 2 })
+  await screenshotPage.setViewport({ width: 1920, height: 1080, deviceScaleFactor: 2.5 })
   const desContent = await screenshotPage.$('[class^="content_"')
   await desContent?.screenshot({
     path: imageFilePath,
@@ -339,7 +338,7 @@ code = keyStr && !code.includes('export ') ? code.replace(keyStr, `export ${keyS
 if (!code.includes(`// ${url}`)) {
   code = `// ${title}
 // ${url}
-// INLINE ${imageFilePath}
+// INLINE  ../../images/${classificationStr}/${fileName}.jpeg
 
 ` + code
 } else {
