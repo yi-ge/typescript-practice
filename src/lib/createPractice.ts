@@ -8,6 +8,7 @@ import os from 'node:os'
 import fs from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { Page } from 'puppeteer'
 
 // 基础函数
 const __filename = fileURLToPath(import.meta.url)
@@ -102,17 +103,23 @@ const pages = await browser.pages()
 const page = pages[0]// await browser.newPage()
 await page.setViewport({ width: 0, height: 0 })
 
-if (url === '' || url === '1') {
-  console.log('每日一题')
-  await page.goto('https://leetcode.cn/problemset/all/', {
-    waitUntil: 'networkidle2'
-  })
+const setDefaultLocalStorage = async (page: Page) => {
   await page.evaluate(() => {
     // @ts-ignore
     localStorage.setItem('global_lang_key', '"typescript"')
     // @ts-ignore
     localStorage.setItem('daily-question:guide-modal-shown', '"true"')
+    // @ts-ignore
+    localStorage.setItem('SOLUTION_TAB_TITLE:is-hide-new-feature-popover', 'true')
   })
+}
+
+if (url === '' || url === '1') {
+  console.log('每日一题')
+  await page.goto('https://leetcode.cn/problemset/all/', {
+    waitUntil: 'networkidle2'
+  })
+  await setDefaultLocalStorage(page)
   url = await page.$eval(`[role=row] a`, el => el.href)
   await page.goto(url, {
     waitUntil: 'networkidle2'
@@ -122,12 +129,7 @@ if (url === '' || url === '1') {
   await page.goto('https://leetcode.cn/problemset/all/', {
     waitUntil: 'networkidle2'
   })
-  await page.evaluate(() => {
-    // @ts-ignore
-    localStorage.setItem('global_lang_key', '"typescript"')
-    // @ts-ignore
-    localStorage.setItem('daily-question:guide-modal-shown', '"true"')
-  })
+  await setDefaultLocalStorage(page)
   await page.evaluate(() => {
     // @ts-ignore
     const headings = document.evaluate("//span[contains(., '随机一题')]", document, null, XPathResult.ANY_TYPE, null)
@@ -142,12 +144,7 @@ if (url === '' || url === '1') {
   })
 } else {
   await page.goto(url)
-  await page.evaluate(() => {
-    // @ts-ignore
-    localStorage.setItem('global_lang_key', '"typescript"')
-    // @ts-ignore
-    localStorage.setItem('daily-question:guide-modal-shown', '"true"')
-  })
+  await setDefaultLocalStorage(page)
   await page.goto(url, {
     waitUntil: 'networkidle2'
   })
