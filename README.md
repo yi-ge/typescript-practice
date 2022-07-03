@@ -147,6 +147,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 ### 数组/队列/集合/映射
 
+- [回旋镖的数量](src/array/number-of-boomerangs.ts)  [数组, 哈希表, 数学]
+
+  - LeetCode 447. 回旋镖的数量 <https://leetcode.cn/problems/number-of-boomerangs/>
+
 - [四数相加 II](src/array/4sum-ii.ts)  [数组, 哈希表]
 
   - LeetCode 454. 四数相加 II <https://leetcode.cn/problems/4sum-ii/>
