@@ -276,6 +276,14 @@ const classificationToReadmeTitleMap = new Map(Object.entries(classificationToRe
 const readmeTitle = classificationToReadmeTitleMap.get(classificationStr) || '其它'
 const reg = /[^/\\]+[/\\]*$/
 const fileName = reg.exec(url)?.shift()?.replace(/[\/$]+/g, '')
+const filePath = join(__dirname, '../', classificationStr, fileName + '.ts')
+const imageFileDir = join(__dirname, '../../images', classificationStr)
+const imageFilePath = join(imageFileDir, fileName + '.jpeg')
+const testFilePath = join(__dirname, '../../test/', classificationStr, fileName + '.test.ts')
+
+if (!fs.existsSync(dirname(filePath))) fs.mkdirSync(dirname(filePath))
+if (!fs.existsSync(dirname(testFilePath))) fs.mkdirSync(dirname(testFilePath))
+if (!fs.existsSync(imageFileDir)) fs.mkdirSync(imageFileDir)
 
 console.log('标签：', tags)
 console.log('分类：', classification)
@@ -295,9 +303,28 @@ if (readmeFileContent.includes(url)) {
   fs.writeFileSync(join(__dirname, '../../README.md'), readmeFileContent, 'utf-8')
 }
 
+// 保存说明截图, 方便快速查阅
+const screenshot = async () => {
+  const screenshotPage = await browser.newPage()
+  await screenshotPage.goto(url, {
+    waitUntil: 'networkidle2'
+  })
+  await screenshotPage.waitForTimeout(1000)
+  await screenshotPage.setViewport({ width: 1920, height: 1080, deviceScaleFactor: 2 })
+  const desContent = await screenshotPage.$('[class^="content_"')
+  await desContent?.screenshot({
+    path: imageFilePath,
+    type: 'jpeg',
+    omitBackground: true,
+    encoding: 'binary',
+    quality: 100
+  })
+  await screenshotPage.close()
+}
+screenshot() // async
+
 // 代码/测试代码处理
 let code: string = (await page.evaluate('monaco.editor.getModels()[0].getValue()')) as string
-const filePath = join(__dirname, '../', classificationStr, fileName + '.ts')
 
 if (!fileName) {
   console.log('未检测到文件名。')
@@ -312,6 +339,7 @@ code = keyStr && !code.includes('export ') ? code.replace(keyStr, `export ${keyS
 if (!code.includes(`// ${url}`)) {
   code = `// ${title}
 // ${url}
+// INLINE ${imageFilePath}
 
 ` + code
 } else {
@@ -348,10 +376,7 @@ test('${title}', () => {
 ${examples}
   expect(${functionName}()).toBeFalsy()
 })`
-const testFilePath = join(__dirname, '../../test/', classificationStr, fileName + '.test.ts')
 
-if (!fs.existsSync(dirname(filePath))) fs.mkdirSync(dirname(filePath))
-if (!fs.existsSync(dirname(testFilePath))) fs.mkdirSync(dirname(testFilePath))
 fs.writeFileSync(filePath, code, 'utf-8')
 
 if (fs.existsSync(testFilePath)) {
