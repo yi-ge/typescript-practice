@@ -147,6 +147,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 ### 数组/队列/集合/映射
 
+- [四数相加 II](src/array/4sum-ii.ts)  [数组, 哈希表]
+
+  - LeetCode 454. 四数相加 II <https://leetcode.cn/problems/4sum-ii/>
+
 - [有序转化数组](src/array/sort-transformed-array.ts)  [数组, 数学, 双指针, 排序]
 
   - LeetCode 360. 有序转化数组 <https://leetcode.cn/problems/sort-transformed-array/>
