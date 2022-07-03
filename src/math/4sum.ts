@@ -1,5 +1,5 @@
+// 方法一：
 // 关键在于如何去重
-
 export function fourSum (nums: number[], target: number): number[][] {
   nums.sort((a, b) => a - b)
 
@@ -37,5 +37,32 @@ export function fourSum (nums: number[], target: number): number[][] {
     }
   }
 
+  return result
+}
+
+// 方法二：
+// 回溯法
+// 记录重复元素，不成参与判断
+export function fourSum2 (nums: number[], target: number): number[][] {
+  const result: number[][] = []
+  const path: number[] = []
+  nums.sort((a, b) => a - b)
+  const backtracking = (start: number) => {
+    if (path.length === 4) {
+      if (path[0] + path[1] + path[2] + path[3] === target) {
+        result.push([...path])
+      }
+      return
+    }
+    let j = null // 去除当前层级重复元素
+    for (let i = start; i < nums.length; i++) {
+      if (j === nums[i]) continue
+      j = nums[i]
+      path.push(nums[i])
+      backtracking(i + 1)
+      path.pop()
+    }
+  }
+  backtracking(0)
   return result
 }
