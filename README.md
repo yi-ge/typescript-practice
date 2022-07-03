@@ -464,6 +464,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 ### 数学
 
+- [直线上最多的点数](src/math/max-points-on-a-line.ts)  [几何, 数组, 哈希表, 数学]
+
+  - LeetCode 149. 直线上最多的点数 <https://leetcode.cn/problems/max-points-on-a-line/>
+
 - [丑数](src/math/ugly-number.ts)  [数学]
 
   - LeetCode 263. 丑数 <https://leetcode.cn/problems/ugly-number/>
