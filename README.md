@@ -147,6 +147,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 ### 数组/队列/集合/映射
 
+- [最小绝对差](src/array/minimum-absolute-difference.ts)  [数组, 排序]
+
+  - LeetCode 1200. 最小绝对差 <https://leetcode.cn/problems/minimum-absolute-difference>
+
 - [回旋镖的数量](src/array/number-of-boomerangs.ts)  [数组, 哈希表, 数学]
 
   - LeetCode 447. 回旋镖的数量 <https://leetcode.cn/problems/number-of-boomerangs/>
