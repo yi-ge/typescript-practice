@@ -605,6 +605,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 ### 链表
 
+- [反转链表](src/sort/reverse-linked-list.ts)  [递归, 链表]
+
+  - LeetCode 206. 反转链表 <https://leetcode.cn/problems/reverse-linked-list/>
+
 - [合并 K 个排序链表](src/list/merge-k-sorted-lists.js)
 
   - LeetCode 23. 合并 K 个排序链表 <https://leetcode-cn.com/problems/merge-k-sorted-lists/>
