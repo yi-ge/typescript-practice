@@ -39,7 +39,8 @@
       "params": {
         "runner": "--experimental-vm-modules --experimental-specifier-resolution=node"
       }
-    }
+    },
+    "trace": true
   },
   "jest": {
     "preset": "ts-jest/presets/js-with-ts-esm",
