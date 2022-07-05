@@ -559,6 +559,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 ### 树
 
+- [我的日程安排表 I](src/tree/my-calendar-i.ts)  [设计, 线段树, 二分查找, 有序集合]
+
+  - LeetCode 729. 我的日程安排表 I <https://leetcode.cn/problems/my-calendar-i>
+
 - [二叉树的右视图](src/tree/binary-tree-right-side-view.js)
 
   - LeetCode 199. 二叉树的右视图 <https://leetcode-cn.com/problems/binary-tree-right-side-view/>

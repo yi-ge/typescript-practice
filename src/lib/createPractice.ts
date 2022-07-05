@@ -327,8 +327,8 @@ if (!fileName) {
   exit(1)
 }
 
-const keyStr = code.match(/function\s.*?\(([^)]*)\)/ig)?.shift()
-const functionName = keyStr?.match(/(function)([ \t])([^\(]+)/i)?.[3]?.trim()
+const keyStr = code.match(/(function|class)((\s.*?\(([^)]*)\))|(\s.*?\{))/ig)?.shift()
+const functionName = keyStr?.match(/(function|class)([ \t])([^(\(|\{)]+)/i)?.[3]?.trim()
 code = keyStr && !code.includes('export ') ? code.replace(keyStr, `export ${keyStr}`) : code
 
 // * 不要删除下面存在的空行
