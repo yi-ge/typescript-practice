@@ -9,7 +9,7 @@
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 LintCode 解题记录。
+TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或其它算法练习记录。
 
 此为个人练习仓库，代码中对重要思想进行了注释，~~但是没有详细的解题思路~~后续会尽量补充解题思路。
 
@@ -609,7 +609,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或 
 
 ### 链表
 
-- [反转链表](src/sort/reverse-linked-list.ts)  [递归, 链表]
+- [反转链表](src/list/reverse-linked-list.ts)  [递归, 链表]
 
   - LeetCode 206. 反转链表 <https://leetcode.cn/problems/reverse-linked-list/>
 
