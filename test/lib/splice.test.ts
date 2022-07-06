@@ -1,4 +1,4 @@
-import { removeItem, putItem } from './../../src/function/splice'
+import { removeItem, putItem } from './../../src/lib/splice'
 
 test('移除指定位置的元素', () => {
   const arr = [1, 2, 3, 4]

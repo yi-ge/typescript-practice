@@ -1,4 +1,4 @@
-import { putItem, removeItem } from "../function/splice"
+import { putItem, removeItem } from "../lib/splice"
 
 export const insertSort = (arr: number[]) => {
   for (let i = 1; i < arr.length; i++) {
