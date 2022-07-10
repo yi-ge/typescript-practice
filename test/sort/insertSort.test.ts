@@ -1,4 +1,4 @@
-import { insertSort } from '../../src/sort/insertSort'
+import { insertSort, insertSort2 } from '../../src/sort/insertSort'
 import { mergeSort } from '../../src/sort/mergeSort'
 
 test('插入排序', () => {
@@ -13,5 +13,9 @@ test('插入排序', () => {
 
   for (let i = 0; i < data.length; i++) {
     expect(insertSort(JSON.parse(JSON.stringify(data[i])))).toEqual(mergeSort(JSON.parse(JSON.stringify(data[i]))))
+  }
+
+  for (let i = 0; i < data.length; i++) {
+    expect(insertSort2(JSON.parse(JSON.stringify(data[i])))).toEqual(mergeSort(JSON.parse(JSON.stringify(data[i]))))
   }
 })
