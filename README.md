@@ -609,6 +609,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 链表
 
+- [删除链表中的节点](src/list/delete-node-in-a-linked-list.ts)  [链表]
+
+  - LeetCode 237. 删除链表中的节点 <https://leetcode.cn/problems/delete-node-in-a-linked-list/>
+
 - [反转链表](src/list/reverse-linked-list.ts)  [递归, 链表]
 
   - LeetCode 206. 反转链表 <https://leetcode.cn/problems/reverse-linked-list/>
