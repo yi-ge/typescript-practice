@@ -1,5 +1,5 @@
 import { reverseList } from '../../src/list/reverse-linked-list'
-import { arrToList } from './ListNode'
+import { arrToList } from '../../src/lib/ListNode'
 
 test('反转链表', () => {
   const source1 = arrToList([1, 4, 5])

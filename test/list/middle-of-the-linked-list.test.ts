@@ -1,5 +1,5 @@
 import { middleNode } from '../../src/list/middle-of-the-linked-list'
-import { arrToList } from './ListNode'
+import { arrToList } from '../../src/lib/ListNode'
 
 test('链表的中间节点', () => {
   expect(middleNode(arrToList([1]))).toEqual(arrToList([1]))

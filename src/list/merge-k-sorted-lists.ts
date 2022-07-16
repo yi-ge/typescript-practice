@@ -1,10 +1,8 @@
-/**
- * 合并俩链表
- * @param {ListNode[]} left
- * @param {ListNode[]} right
- */
-export const merge = (left, right) => {
-  const dummyHead = {}
+import ListNode from "../lib/ListNode"
+
+// 合并俩链表
+export const merge = (left: ListNode | null, right: ListNode | null): ListNode | null => {
+  const dummyHead = new ListNode()
   let current = dummyHead
   while (left !== null && right !== null) {
     if (left.val < right.val) {
@@ -31,18 +29,7 @@ export const merge = (left, right) => {
   return dummyHead.next
 }
 
-/**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
-/**
- * @param {ListNode[]} lists
- * @return {ListNode}
- */
-export const mergeKLists = function (lists) {
+export const mergeKLists = function (lists: (ListNode | null)[]): ListNode | null {
   if (lists.length === 0) return null
   if (lists.length === 1) return lists[0]
   if (lists.length === 2) return merge(lists[0], lists[1])

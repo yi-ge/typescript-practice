@@ -1,5 +1,5 @@
 import { reverseKGroup } from '../../src/list/reverse-nodes-in-k-group'
-import { arrToList, listToArr } from './ListNode'
+import { arrToList, listToArr } from '../../src/lib/ListNode'
 
 test('K个一组翻转链表', () => {
   const res = reverseKGroup(arrToList([1, 2, 3, 4, 5]), 3)
