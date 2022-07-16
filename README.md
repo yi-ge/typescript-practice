@@ -559,6 +559,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 树
 
+- [相同的树](src/tree/same-tree.ts)  [树, 深度优先搜索, 广度优先搜索, 二叉树]
+
+  - LeetCode 100. 相同的树 <https://leetcode.cn/problems/same-tree/>
+
 - [我的日程安排表 I](src/tree/my-calendar-i.ts)  [设计, 线段树, 二分查找, 有序集合]
 
   - LeetCode 729. 我的日程安排表 I <https://leetcode.cn/problems/my-calendar-i>
