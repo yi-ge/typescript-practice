@@ -1,4 +1,4 @@
-import circularArrayLoop from '../../src/array/circular-array-loop'
+import { circularArrayLoop } from '../../src/array/circular-array-loop'
 
 test('circularArrayLoop', () => {
   expect(circularArrayLoop([2, -1, 1, 2, 2])).toEqual(true)

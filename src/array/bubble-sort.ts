@@ -3,7 +3,7 @@
 // 空间复杂度 O(1)
 // 稳定
 
-export default (arr) => {
+export default (arr: number[]): number[] => {
   for (let n = 0, len = arr.length - 1, down = true; n < len; n++) {
     for (let i = 0, iLen = len - n; i < iLen; i++) {
       if (arr[i + 1] < arr[i]) {

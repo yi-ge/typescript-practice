@@ -1,4 +1,4 @@
-export default (flowerbed, n) => {
+export default (flowerbed: number[], n: number): boolean => {
   let max = 0
 
   // 前后各加一个0，避免判断边界情况。

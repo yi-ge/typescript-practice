@@ -1,9 +1,4 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number}
- */
-export const search = function (nums, target) {
+export const search = function (nums: number[], target: number): number {
   if (!nums || nums.length === 0) return -1
 
   let start = 0

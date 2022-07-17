@@ -1,8 +1,4 @@
-/**
- * @param {number[][]} matrix
- * @return {number[][]}
- */
-export const updateMatrix = function (matrix) {
+export const updateMatrix = function (matrix: number[][]): number[][] {
   if (matrix.length === 0) return []
 
   const m = matrix.length
