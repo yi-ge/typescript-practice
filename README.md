@@ -667,3 +667,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 ### 排序
 
 ### 其它
+
+- [数组嵌套](src/search/array-nesting.ts)  [深度优先搜索, 数组]
+
+  - LeetCode 565. 数组嵌套 <https://leetcode.cn/problems/array-nesting>
