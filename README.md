@@ -27,6 +27,9 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ## 基础数据结构
 
+- [二叉树深度优先遍历|前序遍历|中序遍历|后序遍历](src/tree/dfs.ts)
+- [二叉树广度优先遍历|层序遍历](src/tree/bfs.ts)
+
 ## 算法题
 
 ### 字符串
