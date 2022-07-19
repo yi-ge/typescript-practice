@@ -1,21 +1,27 @@
 import ListNode from '../lib/ListNode'
 
-/**
- * @param {ListNode} head
- * @return {boolean}
- */
+// export const hasCycle = function (head: ListNode | null): boolean {
+//   const set = new Set()
+//   let current = head
+//   while (current && current.next !== null) {
+//     if (set.has(current)) {
+//       return true
+//     }
+//     set.add(current)
+//     current = current.next
+//   }
+//   return false
+// }
+
 export const hasCycle = function (head: ListNode | null): boolean {
-  if (!head || !head.next) return false
-
-  // 双指针解法
-  let slow: ListNode = head
-  let fast: ListNode = head.next
-
-  while (fast && fast.next && fast.next.next && slow!.next) {
-    if (fast.next === slow || fast === slow) return true
-    fast = fast!.next!.next
-    slow = slow!.next
+  let slow = head
+  let fast = head?.next
+  while (slow?.next && fast?.next?.next) {
+    if (fast.next === slow || slow === fast) return true
+    slow = slow.next
+    fast = fast.next.next
   }
-
   return false
 }
+
+

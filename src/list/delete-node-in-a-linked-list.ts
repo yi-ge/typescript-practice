@@ -7,14 +7,14 @@ import ListNode from "../lib/ListNode"
 /**
  Do not return anything, modify it in-place instead.
  */
-export function deleteNode (root: ListNode | null): void {
-  if (root === null) {
+export function deleteNode (node: ListNode | null): void {
+  if (node === null) {
     return
   }
-  if (root.next === null) {
-    root = null
+  if (node.next === null) {
+    node = null
     return
   }
-  root.val = root.next.val
-  root.next = root.next.next
+  node.val = node.next.val
+  node.next = node.next.next
 }

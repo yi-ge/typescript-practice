@@ -203,7 +203,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
     输入：nums = [6, 7, 0, 3, 4]， target = 5
     输出：false
 
-- [循环数组中的环-暂无解](src/array/circular-array-loop.ts)
+- [循环数组中的环](src/array/circular-array-loop.ts)
 
   - LeetCode 457. 环形数组循环 <https://leetcode-cn.com/problems/circular-array-loop/>
   - LintCode 1229. 循环数组中的环 <https://www.lintcode.com/problem/circular-array-loop/description>
