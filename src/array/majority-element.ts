@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-export const majorityElement = function (nums) {
+export const majorityElement = function (nums:number[]):number {
   if (nums.length === 1) return nums[0]
   const tmp = nums.sort((a, b) => a - b)
   const res = tmp[~~(nums.length / 2)]

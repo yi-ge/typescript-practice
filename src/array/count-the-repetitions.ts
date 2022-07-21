@@ -4,7 +4,7 @@
  * @param {string} s2
  * @return {number} 返回可以变为s1的次数
  */
-export const includesInStr = (s1, s2) => {
+export const includesInStr = (s1:string, s2:string):number => {
   let i = 0
   while (s1.length >= s2.length) {
     for (let n = 0, len = s2.length; n < len; n++) {
@@ -26,7 +26,7 @@ export const includesInStr = (s1, s2) => {
  * @param {string} str
  * @param {number} time
  */
-export const getStrCopyByNum = (str, time) => {
+export const getStrCopyByNum = (str:string, time:number) => {
   return str.repeat(time)
 }
 
@@ -68,7 +68,7 @@ export const getStrCopyByNum = (str, time) => {
  * @param {number} n2
  * @return {number}
  */
-export const getMaxRepetitions = function (s1, n1, s2, n2) {
+export const getMaxRepetitions = function (s1:string, n1:number, s2:string, n2:number):number {
   // 保存s2p的记录和对应的countS1,countS2
   const indexMap = new Map()
   let countS1 = 0

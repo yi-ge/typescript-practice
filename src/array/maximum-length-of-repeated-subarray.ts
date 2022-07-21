@@ -2,7 +2,7 @@
 // A: [1, 2, 3, 2, 1]
 // B: [3, 2, 1, 4, 7]
 
-const maxLength = function (A, B, addA, addB, len) {
+const maxLength = function (A:number[], B:number[], addA:number, addB:number, len:number) {
   addA = (addA > 0) ? addA : 0
   addB = (addB > 0) ? addB : 0
   let result = 0
@@ -23,7 +23,7 @@ const maxLength = function (A, B, addA, addB, len) {
  * @param {number[]} B
  * @return {number}
  */
-export const findLength = function (A, B) {
+export const findLength = function (A:number[], B:number[]):number {
   const ALen = A.length
   const BLen = B.length
   let result = 0

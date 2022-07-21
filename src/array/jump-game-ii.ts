@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-export const jump = function (nums) {
+export const jump = function (nums:number[]):number {
   let step = 0 // 跳跃步数
   let maxPosition = 0 // 最大位置
   let lastJumpStepMax = 0 // 最后一次跳跃最大能跳的步数

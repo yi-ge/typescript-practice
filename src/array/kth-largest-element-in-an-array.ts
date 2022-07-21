@@ -1,5 +1,5 @@
 
-export default (arr, k) => {
+export default (arr:number[], k:number) => {
   // 这个方法未必是效率最差的
   return arr.sort((a, b) => b - a)[k - 1]
 

@@ -3,7 +3,7 @@
  * @param {number} K
  * @return {number}
  */
-export const subarraysDivByK = function (A, K) {
+export const subarraysDivByK = function (A:number[], K:number):number {
   const map = new Map([[0, 1]]); let sum = 0; let count = 0
 
   A.forEach(n => {

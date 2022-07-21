@@ -2,7 +2,7 @@
  * @param matrix: an input matrix
  * @return: nums[0]: the maximum,nums[1]: the minimum
  */
-export const maxAndMin = function (matrix) {
+export const maxAndMin = function (matrix:number[][]) {
   if (matrix[0] === undefined || matrix[0][0] === undefined) return []
   let max = matrix[0][0]
   let min = matrix[0][0]

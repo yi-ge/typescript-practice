@@ -4,7 +4,7 @@
  * @param {number} k
  * @return {number}
  */
-export const numberOfSubarrays = function (nums, k) {
+export const numberOfSubarrays = function (nums:number[], k:number):number {
   const odd = []
   odd.push(-1)
 

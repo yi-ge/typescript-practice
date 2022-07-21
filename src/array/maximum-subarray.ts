@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-export const maxSubArray = function (nums) {
+export const maxSubArray = function (nums:number[]):number {
   let max = nums[0]
   let tmp = 0
   nums.forEach(n => { max = Math.max(tmp > 0 ? tmp += n : tmp = n, max) })

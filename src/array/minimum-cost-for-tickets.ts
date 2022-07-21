@@ -3,7 +3,7 @@
  * @param {number[]} costs
  * @return {number}
  */
-export const mincostTickets = function (days, costs) {
+export const mincostTickets = function (days:number[], costs:number[]) {
   //   动态规划:
   //   dp[i]: 从第i天开始，到最后一天所用的票价总和
 
