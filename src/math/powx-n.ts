@@ -3,7 +3,7 @@
  * @param {number} n
  * @return {number}
  */
-export const myPow = function (x, n) { // 参考：快速幂 + 迭代 https://leetcode-cn.com/problems/powx-n/solution/powx-n-by-leetcode-solution/
+export const myPow = function (x:number, n:number) { // 参考：快速幂 + 迭代 https://leetcode-cn.com/problems/powx-n/solution/powx-n-by-leetcode-solution/
   let ans = 1.0 // 答案
 
   if (n < 0) { // 如果 n 为负

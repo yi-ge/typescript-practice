@@ -3,7 +3,7 @@
  * @param {number[]} heights
  * @return {number}
  */
-export const maxArea = function (heights) {
+export const maxArea = function (heights:number[]):number {
   let max = 0
 
   let l = 0

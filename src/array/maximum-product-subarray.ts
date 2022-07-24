@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-export const maxProduct = function (nums) {
+export const maxProduct = function (nums:number[]):number {
   let res = nums[0]
   let prevMin = nums[0]
   let prevMax = nums[0]

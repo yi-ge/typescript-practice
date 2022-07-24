@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-export const rob = function (nums) {
+export const rob = function (nums:number[]):number {
   if (!nums) return 0
   const len = nums.length
   if (len === 0) return 0

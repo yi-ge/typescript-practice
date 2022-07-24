@@ -3,7 +3,7 @@
 // 空间复杂度 O(1)
 // 稳定
 
-export default (arr) => {
+export default (arr:number[]) => {
   for (let n = 0, len = arr.length; n < len; n++) {
     let min = arr[n]
     for (let i = n + 1; i < len; i++) {

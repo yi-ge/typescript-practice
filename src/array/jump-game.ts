@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-export const canJump = function (nums) {
+export const canJump = function (nums:number[]):boolean {
   let maxLength = nums[0]
 
   for (let n = 1, len = nums.length; n < len; n++) {

@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {character}
  */
-export const firstUniqChar = function (s) {
+export const firstUniqChar = function (s:string) {
   const due = new Set()
   const queue = new Set()
   for (const n of s) {

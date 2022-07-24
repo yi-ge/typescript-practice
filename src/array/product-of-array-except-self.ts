@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-export const productExceptSelf = function (nums) {
+export const productExceptSelf = function (nums:number[]):number[] {
   const ans = []
   for (let i = 0, len = nums.length; i < len; i++) {
     let tmpL = 1
