@@ -150,6 +150,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 数组/队列/集合/映射
 
+- [公交站间的距离](src/array/distance-between-bus-stops.ts)  [数组]
+
+  - LeetCode 1184. 公交站间的距离 <https://leetcode.cn/problems/distance-between-bus-stops>
+
 - [存在重复元素 III](src/array/contains-duplicate-iii.ts)  [数组, 桶排序, 有序集合, 排序, 滑动窗口]
 
   - LeetCode 220. 存在重复元素 III <https://leetcode.cn/problems/contains-duplicate-iii/>
