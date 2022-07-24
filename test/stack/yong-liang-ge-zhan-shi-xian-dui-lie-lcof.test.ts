@@ -1,10 +1,10 @@
-import { CQueue } from '../../src/stack/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.js'
+import { CQueue } from '../../src/stack/yong-liang-ge-zhan-shi-xian-dui-lie-lcof'
 
 test('用两个栈实现队列 - 1', () => {
-  let obj = null
+  let obj: any = null
   const action = ['CQueue', 'appendTail', 'deleteHead', 'deleteHead']
   const queue = [[], [3], [], []]
-  const res = []
+  const res: any[] = []
   while (queue.length) {
     const tmp = action.shift()
     const val = queue.shift()
@@ -12,7 +12,7 @@ test('用两个栈实现队列 - 1', () => {
       obj = new CQueue()
       res.push(null)
     } else if (tmp === 'appendTail') {
-      obj.appendTail(val[0])
+      obj.appendTail(val?.[0])
       res.push(null)
     } else if (tmp === 'deleteHead') {
       res.push(obj.deleteHead())
@@ -23,10 +23,10 @@ test('用两个栈实现队列 - 1', () => {
 })
 
 test('用两个栈实现队列 - 2', () => {
-  let obj = null
+  let obj: any = null
   const action = ['CQueue', 'deleteHead', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead']
   const queue = [[], [], [5], [2], [], []]
-  const res = []
+  const res: any[] = []
   while (queue.length) {
     const tmp = action.shift()
     const val = queue.shift()
@@ -34,7 +34,7 @@ test('用两个栈实现队列 - 2', () => {
       obj = new CQueue()
       res.push(null)
     } else if (tmp === 'appendTail') {
-      obj.appendTail(val[0])
+      obj.appendTail(val?.[0])
       res.push(null)
     } else if (tmp === 'deleteHead') {
       res.push(obj.deleteHead())
@@ -45,10 +45,10 @@ test('用两个栈实现队列 - 2', () => {
 })
 
 test('用两个栈实现队列 - 3', () => {
-  let obj = null
+  let obj: any = null
   const action = ['CQueue', 'deleteHead', 'appendTail', 'deleteHead', 'deleteHead', 'deleteHead', 'deleteHead', 'appendTail', 'deleteHead', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'deleteHead', 'appendTail', 'deleteHead', 'deleteHead', 'deleteHead', 'deleteHead', 'appendTail', 'appendTail', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'deleteHead', 'appendTail', 'appendTail', 'deleteHead', 'appendTail', 'deleteHead', 'appendTail', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'deleteHead', 'deleteHead', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'appendTail', 'deleteHead', 'appendTail', 'appendTail', 'appendTail', 'appendTail', 'deleteHead', 'appendTail', 'deleteHead', 'deleteHead', 'appendTail', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'appendTail', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'deleteHead', 'deleteHead', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'appendTail', 'deleteHead', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'appendTail', 'deleteHead', 'appendTail', 'appendTail', 'appendTail', 'deleteHead', 'appendTail', 'appendTail', 'appendTail', 'appendTail', 'deleteHead', 'deleteHead', 'deleteHead', 'appendTail', 'deleteHead', 'appendTail', 'deleteHead', 'appendTail', 'appendTail']
   const queue = [[], [], [97], [], [], [], [], [15], [], [1], [43], [], [], [], [18], [], [], [], [], [36], [69], [21], [91], [], [], [22], [40], [], [], [], [81], [65], [], [77], [], [63], [96], [5], [], [], [35], [90], [], [], [], [], [77], [83], [], [], [52], [], [2], [66], [87], [90], [], [2], [], [], [33], [16], [72], [], [], [14], [78], [8], [], [], [], [], [3], [83], [], [], [13], [], [79], [44], [], [], [33], [], [55], [76], [12], [], [91], [24], [49], [47], [], [], [], [85], [], [69], [], [94], [52]]
-  const res = []
+  const res: any[] = []
   while (queue.length) {
     const tmp = action.shift()
     const val = queue.shift()
@@ -56,7 +56,7 @@ test('用两个栈实现队列 - 3', () => {
       obj = new CQueue()
       res.push(null)
     } else if (tmp === 'appendTail') {
-      obj.appendTail(val[0])
+      obj.appendTail(val?.[0])
       res.push(null)
     } else if (tmp === 'deleteHead') {
       res.push(obj.deleteHead())

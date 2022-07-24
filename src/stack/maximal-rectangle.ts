@@ -125,7 +125,7 @@
 //   return max
 // }
 
-export var maximalRectangle = function (matrix) {
+export var maximalRectangle = function (matrix: any[][]) {
   let max = 0
   for (let i = 0; i < matrix.length; i++) {
     for (let j = 0; j < matrix[i].length; j++) {
@@ -136,7 +136,7 @@ export var maximalRectangle = function (matrix) {
   return max
 }
 
-function getMax (i, j, matrix) {
+function getMax (i: number, j: number, matrix: any[][]) {
   let max = 0; let maxW
   for (let h = 0; h < matrix.length - i; h++) {
     !maxW && (maxW = matrix[i + h].length - j)
