@@ -34,6 +34,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 字符串
 
+- [生成每种字符都是奇数个的字符串](src/string/generate-a-string-with-characters-that-have-odd-counts.ts)  [字符串]
+
+  - LeetCode 1374. 生成每种字符都是奇数个的字符串 <https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts>
+
 - [反转字符串中的单词](src/string/reverse-words-in-a-string.ts)
 
   - LeetCode 557. 反转字符串中的单词 III <https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/>
