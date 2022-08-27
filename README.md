@@ -15,7 +15,7 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 每一道题都对应写有测试用例，但可能不够完整。如果您发现错误，欢迎给我留言，谢谢！
 
-运行`yarn start`可以自动从LeetCode获取代码函数和用例说明。保存文件后将自动同步到浏览器（比起VScode的LeetCode插件，此方法可以借助Wallaby获得更快和更友好的调试结果）。
+运行`yarn start`可以自动从LeetCode获取代码函数和用例说明。保存文件后将自动同步到浏览器（比起VScode的LeetCode插件，此方法可以借助Wallaby获得更快和更友好的调试结果，支持Linux、MacOS、Windows）。
 
 特别说明：题目截图仅为了方便在代码编辑器中直接预览从而优化编码体验，题目以LeetCode官方页面为准，题目著作权及其他权利以LeetCode官方说明为准或属于LeetCode。请大家尊重版权，共同维护良好网络环境。
 
@@ -35,6 +35,14 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 ## 算法题
 
 ### 字符串
+
+- [数组中的字符串匹配](src/string/string-matching-in-an-array.ts)  [字符串, 字符串匹配]
+
+  - LeetCode 1408. 数组中的字符串匹配 <https://leetcode.cn/problems/string-matching-in-an-array>
+
+- [生成每种字符都是奇数个的字符串](src/string/generate-a-string-with-characters-that-have-odd-counts.ts)  [字符串]
+
+  - LeetCode 1374. 生成每种字符都是奇数个的字符串 <https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts>
 
 - [反转字符串中的单词](src/string/reverse-words-in-a-string.ts)
 
