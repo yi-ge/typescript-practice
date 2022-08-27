@@ -17,6 +17,8 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 运行`yarn start`可以自动从LeetCode获取代码函数和用例说明。保存文件后将自动同步到浏览器（比起VScode的LeetCode插件，此方法可以借助Wallaby获得更快和更友好的调试结果）。
 
+特别说明：题目截图仅为了方便在代码编辑器中直接预览从而优化编码体验，题目以LeetCode官方页面为准，题目著作权及其他权利以LeetCode官方说明为准或属于LeetCode。请大家尊重版权，共同维护良好网络环境。
+
 ## 基础排序算法
 
 - [插入排序](src/sort/insertSort.ts)
