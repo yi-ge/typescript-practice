@@ -675,6 +675,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 图
 
+- [找到小镇的法官](src/graphs/find-the-town-judge.ts)  [图, 数组, 哈希表]
+
+  - LeetCode 997. 找到小镇的法官 <https://leetcode.cn/problems/find-the-town-judge>
+
 - [课程表](src/graphs/course-schedule-ii.ts)
 
   - LeetCode 210. 课程表 II <https://leetcode-cn.com/problems/course-schedule-ii/>
