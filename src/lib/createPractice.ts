@@ -341,7 +341,10 @@ if (!fileName) {
   exit(1)
 }
 
-const keyStr = code.match(/(function|class)((\s.*?\(([^)]*)\))|(\s.*?\{))/ig)?.shift()
+const noCommentCode = code.replace(reg, function (word) { // 去除注释后的代码
+  return /^\/{2,}/.test(word) || /^\/\*/.test(word) ? "" : word
+})
+const keyStr = noCommentCode.match(/(function|class)((\s.*?\(([^)]*)\))|(\s.*?\{))/ig)?.shift()
 const functionName = keyStr?.match(/(function|class)([ \t])([^(\(|\{)]+)/i)?.[3]?.trim()
 code = keyStr && !code.includes('export ') ? code.replace(keyStr, `export ${keyStr}`) : code
 
