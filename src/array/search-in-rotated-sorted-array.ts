@@ -1,8 +1,3 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number}
- */
 export const search = function (nums: number[], target: number): number {
   // 参考 src/array/binary-search.ts
   let l = 0

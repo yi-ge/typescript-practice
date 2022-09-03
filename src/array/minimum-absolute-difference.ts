@@ -11,9 +11,10 @@ export function minimumAbsDifference (arr: number[]): number[][] {
     const tmp = Math.abs(arr[i]/*?*/ - arr[j]/*?*/)
     if (tmp < minAbsDifference) {
       minAbsDifference = tmp // ?
-      minAbsDifferenceArr = arr[i] > arr[j] ? [[arr[j], arr[i]]] : [[arr[i], arr[j]]] // ?
+      // minAbsDifferenceArr = arr[i] > arr[j] ? [[arr[j], arr[i]]] : [[arr[i], arr[j]]] // ?
+      minAbsDifferenceArr = [[arr[i], arr[j]]] // ?
     } else if (tmp === minAbsDifference) {
-      minAbsDifferenceArr.push(arr[i] > arr[j] ? [arr[j], arr[i]] : [arr[i], arr[j]])
+      minAbsDifferenceArr.push([arr[i], arr[j]])
     }
   }
   return minAbsDifferenceArr // ?

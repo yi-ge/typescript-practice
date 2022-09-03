@@ -3,6 +3,7 @@ import firstMissingPrime, { isPrinme } from '../../src/array/first-missing-prime
 test('是否是素数', () => {
   expect(isPrinme(0)).toBe(false)
   expect(isPrinme(1)).toBe(false)
+  expect(isPrinme(2)).toBe(true)
   expect(isPrinme(3)).toBe(true)
   expect(isPrinme(5)).toBe(true)
   expect(isPrinme(7)).toBe(true)
@@ -10,6 +11,10 @@ test('是否是素数', () => {
 })
 
 test('缺失的第一个素数', () => {
+  expect(firstMissingPrime([])).toBe(2)
+  expect(firstMissingPrime([1])).toBe(2)
+  expect(firstMissingPrime([2])).toBe(3)
   expect(firstMissingPrime([3, 5, 7])).toBe(2)
+  expect(firstMissingPrime([3, 8, 7, 2, 0])).toBe(5)
   expect(firstMissingPrime([2, 3, 5, 7, 11, 13, 17, 23, 29])).toBe(19)
 })

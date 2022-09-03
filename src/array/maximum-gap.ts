@@ -64,9 +64,9 @@ export default function maximumGap (nums: number[]) {
   }
 
   let average = (maxNum - minNum) * 1.0 / (n - 1)
-  if (average === 0) {
-    ++average
-  }
+  // if (average === 0) {
+  //   ++average
+  // }
 
   const localMin = new Array(n).fill(-1)
   const localMax = new Array(n).fill(-1)
@@ -85,9 +85,9 @@ export default function maximumGap (nums: number[]) {
     while ((right < n && localMin[right] === -1)) {
       ++right
     }
-    if (right >= n) {
-      break
-    }
+    // if (right >= n) {
+    //   break
+    // }
     ans = max(ans, localMin[right] - localMax[left])
     left = right
     ++right

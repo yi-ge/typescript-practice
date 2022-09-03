@@ -1,6 +1,8 @@
 import { updateMatrix } from '../../src/array/01-matrix'
 
 test('01 矩阵', () => {
+  expect(updateMatrix([])).toEqual([])
+
   expect(updateMatrix([
     [0, 0, 0],
     [0, 1, 0],

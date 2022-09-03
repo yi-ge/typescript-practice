@@ -1,8 +1,4 @@
-/**
- * @param {string} s
- * @return {character}
- */
-export const firstUniqChar = function (s:string) {
+export const firstUniqChar = function (s: string): string {
   const due = new Set()
   const queue = new Set()
   for (const n of s) {
@@ -14,5 +10,5 @@ export const firstUniqChar = function (s:string) {
     }
   }
 
-  return Array.from(queue)[0] || ' '
+  return Array.from(queue)?.[0] as string || ' '
 }

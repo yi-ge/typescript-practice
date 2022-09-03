@@ -1,6 +1,8 @@
 import removeDuplicates from '../../src/array/remove-duplicates-from-sorted-array'
 
 test('removeDuplicates', () => {
+  expect(removeDuplicates([])).toBe(0)
+
   const nums = [1, 1, 2]
   expect(removeDuplicates(nums)).toBe(2)
 

@@ -1,4 +1,4 @@
-export const firstUniqueNumber = function (nums: number[], number: number): number {
+export const firstUniqueNumber = function (nums: number[], number_: number): number {
   const due = new Set()
   const queue = new Set()
   for (const n of nums) {
@@ -9,10 +9,10 @@ export const firstUniqueNumber = function (nums: number[], number: number): numb
       queue.add(n)
     }
 
-    if (n === number) break
+    if (n === number_) break
   }
 
-  if (!due.has(number) && !queue.has(number)) return -1
+  if (!due.has(number_) && !queue.has(number_)) return -1
 
-  return Array.from(queue)[0] as number | undefined || -1
+  return Array.from(queue)[0] as number
 }
