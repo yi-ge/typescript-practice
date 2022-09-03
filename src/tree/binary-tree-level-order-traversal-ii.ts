@@ -1,15 +1,6 @@
-/**
- * Definition for a binary tree node.
- * function TreeNode(val) {
- *     this.val = val;
- *     this.left = this.right = null;
- * }
- */
-/**
- * @param {TreeNode} root
- * @return {number[][]}
- */
-export const levelOrder = function (root) {
+import { TreeNode } from '../lib/TreeNode'
+
+export const levelOrder = function (root: TreeNode | null) {
   const res = []
   const queue = [root]
   while (queue.length) { // BFS
@@ -21,7 +12,7 @@ export const levelOrder = function (root) {
       if (node && node.right) queue.push(node.right)
       if (node) tmp.push(node.val)
     }
-    if (tmp.length) res.push(tmp)
+    if (tmp.length) res.unshift(tmp)
   }
 
   return res

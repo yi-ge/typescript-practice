@@ -1,4 +1,4 @@
-import { TreeNode } from "./TreeNode"
+import { TreeNode } from "../lib/TreeNode"
 
 export const bfs = (node: TreeNode): number[] => {
   const res = []

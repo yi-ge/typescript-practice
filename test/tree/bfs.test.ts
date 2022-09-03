@@ -1,5 +1,5 @@
 import { bfs } from '../../src/tree/bfs'
-import { TreeNode } from '../../src/tree/TreeNode'
+import { TreeNode } from '../../src/lib/TreeNode'
 
 // * 为了方便查看整个Tree的定义方式。建议通过常规方法创建整棵树
 const tree: TreeNode = {

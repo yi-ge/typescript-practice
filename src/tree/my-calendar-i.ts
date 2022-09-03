@@ -11,9 +11,7 @@ type TreeNode = {
 
 export class MyCalendar {
   private root: TreeNode = null
-  constructor () {
-
-  }
+  constructor () { }
 
   book (start: number, end: number): boolean {
     if (!this.root) {

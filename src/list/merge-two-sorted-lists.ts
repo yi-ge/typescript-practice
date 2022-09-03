@@ -1,7 +1,7 @@
 import ListNode from "../lib/ListNode"
 
 export const mergeTwoLists = function (l1: ListNode | null, l2: ListNode | null): ListNode | null {
-  // src/list/merge-k-sorted-lists.js 中已经写过了
+  // src/list/merge-k-sorted-lists.ts 中已经写过了
   const dummyHead = new ListNode()
   let current = dummyHead
   while (l1 !== null && l2 !== null) {

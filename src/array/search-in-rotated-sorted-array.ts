@@ -3,8 +3,8 @@
  * @param {number} target
  * @return {number}
  */
-export const search = function (nums:number[], target:number):number {
-  // 参考 src/array/binary-search.js
+export const search = function (nums: number[], target: number): number {
+  // 参考 src/array/binary-search.ts
   let l = 0
   let r = nums.length - 1
   while (l <= r) {

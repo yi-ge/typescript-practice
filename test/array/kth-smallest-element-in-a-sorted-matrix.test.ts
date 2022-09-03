@@ -1,4 +1,4 @@
-import { kthSmallest } from '../../src/array/kth-smallest-element-in-a-sorted-matrix.js'
+import { kthSmallest } from '../../src/array/kth-smallest-element-in-a-sorted-matrix'
 
 test('有序矩阵中第K小的元素', () => {
   expect(kthSmallest([

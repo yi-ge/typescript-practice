@@ -1,5 +1,5 @@
 import { isValidBST } from '../../src/tree/validate-binary-search-tree'
-import Tree from './Tree'
+import Tree from '../../src/tree/Tree'
 
 test('验证二叉搜索树', () => {
   expect(isValidBST(Tree.arrToTree([1, 1]))).toBe(false)

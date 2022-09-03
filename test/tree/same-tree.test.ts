@@ -1,5 +1,5 @@
 import { isSameTree } from '../../src/tree/same-tree'
-import Tree from './Tree'
+import Tree from '../../src/tree/Tree'
 
 test('相同的树', () => {
   // 示例 1：

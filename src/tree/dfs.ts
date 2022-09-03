@@ -1,4 +1,4 @@
-import { TreeNode } from "./TreeNode"
+import { TreeNode } from "../lib/TreeNode"
 
 // const printTree = (node) => {
 //   if (node === null) return

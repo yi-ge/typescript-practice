@@ -1,5 +1,5 @@
 import { levelOrder } from '../../src/tree/binary-tree-level-order-traversal'
-import Tree from './Tree.js'
+import Tree from '../../src/tree/Tree'
 
 test('二叉树的层序遍历', () => {
   const source = [3, 9, 20, null, null, 15, 7]
@@ -9,6 +9,5 @@ test('二叉树的层序遍历', () => {
     [15, 7]
   ])
 
-  const source1 = []
-  expect(levelOrder(Tree.arrToTree(source1))).toEqual([])
+  expect(levelOrder(Tree.arrToTree([]))).toEqual([])
 })

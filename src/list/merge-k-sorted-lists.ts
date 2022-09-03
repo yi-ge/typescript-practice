@@ -34,7 +34,7 @@ export const mergeKLists = function (lists: (ListNode | null)[]): ListNode | nul
   if (lists.length === 1) return lists[0]
   if (lists.length === 2) return merge(lists[0], lists[1])
 
-  // 归并排序，见 src/array/reverse-pairs.js
+  // 归并排序，见 src/array/reverse-pairs.ts
   const mid = lists.length >> 1
 
   const left = []

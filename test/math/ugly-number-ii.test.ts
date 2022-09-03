@@ -1,4 +1,4 @@
-import { nthUglyNumber } from '../../src/math/ugly-number-ii.js'
+import { nthUglyNumber } from '../../src/math/ugly-number-ii'
 
 test('丑数 II', () => {
   expect(nthUglyNumber(9)).toBe(10)
