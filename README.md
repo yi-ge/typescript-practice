@@ -160,6 +160,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 数组/队列/集合/映射
 
+- [最长数对链](src/array/maximum-length-of-pair-chain.ts)  [贪心, 数组, 动态规划, 排序]
+
+  - LeetCode 646. 最长数对链 <https://leetcode.cn/problems/maximum-length-of-pair-chain>
+
 - [公交站间的距离](src/array/distance-between-bus-stops.ts)  [数组]
 
   - LeetCode 1184. 公交站间的距离 <https://leetcode.cn/problems/distance-between-bus-stops>
