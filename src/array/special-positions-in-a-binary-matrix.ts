@@ -1,6 +1,7 @@
 // 二进制矩阵中的特殊位置
 // https://leetcode.cn/problems/special-positions-in-a-binary-matrix
 // INLINE  ../../images/array/special-positions-in-a-binary-matrix.jpeg
+// 解题思路：参见官方题解2及注释
 
 export function numSpecial (mat: number[][]): number {
   const m = mat.length
