@@ -15,9 +15,13 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 每一道题都对应写有测试用例，但可能不够完整。如果您发现错误，欢迎给我留言，谢谢！
 
-运行`yarn start`可以自动从LeetCode获取代码函数和用例说明。保存文件后将自动同步到浏览器（比起VScode的LeetCode插件，此方法可以借助Wallaby获得更快和更友好的调试结果，支持Linux、MacOS、Windows）。
+需安装 `Node.js` v18.6.0+，`yarn` 1.22.x。
 
-特别说明：题目截图仅为了方便在代码编辑器中直接预览从而优化编码体验，题目以LeetCode官方页面为准，题目著作权及其他权利以LeetCode官方说明为准或属于LeetCode。请大家尊重版权，共同维护良好网络环境。
+运行`yarn`安装依赖，然后运行`yarn start`可以自动从LeetCode获取代码函数和用例说明。保存文件后将自动同步到浏览器（比起VScode的LeetCode插件，此方法可以借助Wallaby获得更快和更友好的调试结果，支持Linux、MacOS、Windows）。
+
+特别说明：部分题目截图仅为了方便在代码编辑器中直接预览从而优化编码体验，LeetCode题目以LeetCode官方页面为准，题目著作权及其他权利以LeetCode官方说明为准或属于LeetCode。已标注其来源的内容，版权均属于原作者。
+
+请大家尊重版权，共同维护良好网络环境。
 
 ## 基础排序算法
 
