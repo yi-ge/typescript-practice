@@ -17,6 +17,7 @@
     "babad",
     "backgrounding",
     "bcbcbc",
+    "bcbucbc",
     "breakpad",
     "cbbd",
     "cdefgab",
@@ -29,6 +30,7 @@
     "ekat",
     "eleetminicoworoep",
     "Gitpod",
+    "heapify",
     "holasss",
     "inorder",
     "killall",
@@ -70,7 +72,8 @@
     "yige",
     "zhan",
     "zhong",
-    "zhuan"
+    "zhuan",
+    "zzxn"
   ],
   "standard.options": {
     "globals": ["$", "jQuery", "fetch"],

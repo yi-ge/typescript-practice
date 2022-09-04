@@ -1,3 +1,6 @@
+// Fork from https://github.com/yangshun/lago
+// https://github.com/yangshun/lago/blob/master/src/data-structures/Heap.ts
+
 export default class Heap {
   private heap: number[] = [];
   static readonly HeapType = { Min: 'Min', Max: 'Max' } as const;

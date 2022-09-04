@@ -19,7 +19,7 @@ export const romanToInt = function (s: string): number {
   let i = 0
   while (i < s.length) {
     if (i + 1 < s.length && map.has(s.substring(i, i + 2))) {
-      ans += map.get(s.substring(i, i + 2)) || 0
+      ans += map.get(s.substring(i, i + 2)) as number
       i += 2
     } else {
       ans += map.get(s.substring(i, i + 1)) || 0

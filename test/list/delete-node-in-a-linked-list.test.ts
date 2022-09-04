@@ -19,4 +19,7 @@ test('删除链表中的节点', () => {
   const source4 = arrToList([4, 5, 9])
   deleteNode(source3!.next!.next)
   expect(source3).toEqual(source4)
+
+  expect(deleteNode(null)).toBeUndefined()
+  expect(deleteNode(arrToList([1]))).toBeUndefined()
 })

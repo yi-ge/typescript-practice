@@ -16,4 +16,10 @@ test('相同的树', () => {
   // 输入：p = [1,2,1], q = [1,1,2]
   // 输出：false
   expect(isSameTree(Tree.arrToTree([1, 2, 1]), Tree.arrToTree([1, 1, 2]))).toBeFalsy()
+
+  expect(isSameTree(Tree.arrToTree([]), Tree.arrToTree([]))).toBeTruthy()
+  expect(isSameTree(Tree.arrToTree([]), Tree.arrToTree([1, 1]))).toBeFalsy()
+  expect(isSameTree(Tree.arrToTree([1, 1, 2]), Tree.arrToTree([1, 1]))).toBeFalsy()
+  expect(isSameTree(Tree.arrToTree([1, 1]), Tree.arrToTree([1, 1, 2]))).toBeFalsy()
+  expect(isSameTree(Tree.arrToTree([1, null, 2]), Tree.arrToTree([1, 1, 2]))).toBeFalsy()
 })

@@ -40,4 +40,5 @@ test('合并K个排序链表 - 3', () => {
   ]
   const out = [2, 5, 6, 7]
   expect(mergeKLists(source)).toEqual(arrToList(out))
+  expect(mergeKLists([])).toBeNull()
 })

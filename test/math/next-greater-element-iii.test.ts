@@ -11,4 +11,6 @@ test('下一个更大元素 III', () => {
 
   expect(nextGreaterElement(12)).toBe(21)
   expect(nextGreaterElement(21)).toBe(-1)
+  expect(nextGreaterElement(230241)).toBe(230412)
+  expect(nextGreaterElement(2 ** 31 - 1 + 1)).toBe(-1)
 })

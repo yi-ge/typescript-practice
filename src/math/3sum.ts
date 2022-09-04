@@ -1,4 +1,4 @@
-// 一年前做过。复制自：https://leetcode-cn.com/problems/3sum/solution/three-sum-ti-jie-by-wonderful611/
+// 多次遇到。复制自：https://leetcode-cn.com/problems/3sum/solution/three-sum-ti-jie-by-wonderful611/
 /**
  * @param {number[]} nums
  * @return {number[][]}

@@ -24,4 +24,5 @@ test('最低加油次数', () => {
   expect(minRefuelStops(1, 1, [])).toBe(0)
   expect(minRefuelStops(100, 1, [[10, 100]])).toBe(-1)
   expect(minRefuelStops(100, 10, [[10, 60], [20, 30], [30, 30], [60, 40]])).toBe(2)
+  expect(minRefuelStops(31, 1, [[1, 10], [11, 0]])).toBe(-1)
 })

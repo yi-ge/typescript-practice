@@ -1,7 +1,3 @@
-/**
- * @param n: An integer
- * @return: return a  integer as description.
- */
 export const nthUglyNumber = function (n: number) {
   const res = [1]
   let inx2 = 0
