@@ -81,5 +81,7 @@
     "env": {
       "jest": true
     }
-  }
+  },
+  "jest.jestCommandLine": "npm run test:jest -- ",
+  "jest.autoRun": { "watch": false, "onSave": "test-src-file" }
 }
