@@ -13,4 +13,5 @@ test('螺旋矩阵', () => {
 
   expect(spiralOrder([[]])).toEqual([])
   expect(spiralOrder([])).toEqual([])
+  expect(spiralOrder([[3], [2]])).toEqual([3, 2])
 })

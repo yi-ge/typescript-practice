@@ -13,7 +13,7 @@ export function spiralOrder (matrix: number[][]): number[] {
   let top = 0
   let bottom = row - 1
 
-  while (left <= right || top <= bottom) {
+  while (left <= right && top <= bottom) {
     for (let i = left; i <= right; ++i) {
       result.push(matrix[top][i])
     }
@@ -22,13 +22,11 @@ export function spiralOrder (matrix: number[][]): number[] {
       result.push(matrix[i][right])
     }
 
-    if (left < right) {
+    if (left < right && top < bottom) {
       for (let i = right - 1; i > left; --i) {
         result.push(matrix[bottom][i])
       }
-    }
 
-    if (top < bottom) {
       for (let i = bottom; i > top; --i) {
         result.push(matrix[i][left])
       }
