@@ -164,6 +164,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 数组/队列/集合/映射
 
+- [螺旋矩阵](src/array/spiral-matrix.ts)  [数组, 矩阵, 模拟]
+
+  - LeetCode 54. 螺旋矩阵 <https://leetcode.cn/problems/spiral-matrix/>
+
 - [二进制矩阵中的特殊位置](src/array/special-positions-in-a-binary-matrix.ts)  [数组, 矩阵]
 
   - LeetCode 1582. 二进制矩阵中的特殊位置 <https://leetcode.cn/problems/special-positions-in-a-binary-matrix>
