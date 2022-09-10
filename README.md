@@ -588,6 +588,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 树
 
+- [修剪二叉搜索树](src/tree/trim-a-binary-search-tree.ts)  [树, 深度优先搜索, 二叉搜索树, 二叉树]
+
+  - LeetCode 669. 修剪二叉搜索树 <https://leetcode.cn/problems/trim-a-binary-search-tree>
+
 - [相同的树](src/tree/same-tree.ts)  [树, 深度优先搜索, 广度优先搜索, 二叉树]
 
   - LeetCode 100. 相同的树 <https://leetcode.cn/problems/same-tree/>
