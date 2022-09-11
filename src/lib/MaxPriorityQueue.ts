@@ -20,7 +20,7 @@ export class MaxPriorityQueue<T extends number> {
     this.maxHeap.insert(e)
   }
 
-  dequeue (): T | null {
+  dequeue (): T {
     return this.maxHeap.extract() as T
   }
 

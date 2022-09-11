@@ -164,6 +164,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 数组/队列/集合/映射
 
+- [雇佣 K 名工人的最低成本](src/array/minimum-cost-to-hire-k-workers.ts)  [贪心, 数组, 排序, 堆（优先队列）]
+
+  - LeetCode 857. 雇佣 K 名工人的最低成本 <https://leetcode.cn/problems/minimum-cost-to-hire-k-workers>
+
 - [螺旋矩阵](src/array/spiral-matrix.ts)  [数组, 矩阵, 模拟]
 
   - LeetCode 54. 螺旋矩阵 <https://leetcode.cn/problems/spiral-matrix/>
