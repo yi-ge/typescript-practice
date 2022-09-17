@@ -713,6 +713,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 其它
 
+- [两个相同字符之间的最长子字符串](src/map/largest-substring-between-two-equal-characters.ts)  [哈希表, 字符串]
+
+  - LeetCode 1624. 两个相同字符之间的最长子字符串 <https://leetcode.cn/problems/largest-substring-between-two-equal-characters>
+
 - [数组嵌套](src/search/array-nesting.ts)  [深度优先搜索, 数组]
 
   - LeetCode 565. 数组嵌套 <https://leetcode.cn/problems/array-nesting>
