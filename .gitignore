@@ -65,3 +65,6 @@ junit.xml
 
 # MacOS
 .DS_Store
+
+# VIP题目，为保护版权不宜公开截图
+images/map/longest-substring-with-at-most-k-distinct-characters.jpeg

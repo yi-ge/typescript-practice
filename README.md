@@ -717,6 +717,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 其它
 
+- [至多包含 K 个不同字符的最长子串](src/map/longest-substring-with-at-most-k-distinct-characters.ts)  [哈希表, 字符串, 滑动窗口]
+
+  - LeetCode 340. 至多包含 K 个不同字符的最长子串 <https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/>
+
 - [两个相同字符之间的最长子字符串](src/map/largest-substring-between-two-equal-characters.ts)  [哈希表, 字符串]
 
   - LeetCode 1624. 两个相同字符之间的最长子字符串 <https://leetcode.cn/problems/largest-substring-between-two-equal-characters>
