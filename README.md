@@ -488,6 +488,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 栈
 
+- [简化路径](src/stack/simplify-path.ts)  [栈, 字符串]
+
+  - LeetCode 71. 简化路径 <https://leetcode.cn/problems/simplify-path/>
+
 - [最大矩阵](src/stack/maximal-rectangle.ts)
 
   - LeetCode 85. 最大矩阵 <https://leetcode-cn.com/problems/maximal-rectangle/>
