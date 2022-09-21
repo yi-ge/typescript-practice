@@ -19,15 +19,14 @@
       "ES2021",
       "ESNext"
     ],
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "noImplicitAny": true,
-    "allowJs": true
+    "noImplicitAny": true
   },
   "include": ["./src/**/*.ts", "./src/**/*.json"],
   "exclude": ["dist", "node_modules"]
