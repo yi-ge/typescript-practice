@@ -7,7 +7,7 @@
     "test:jest": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js",
     "test": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js --verbose --setTimeout=10000",
     "coverage:ci": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node node_modules/jest/bin/jest.js --coverage --ci --reporters=default --reporters=jest-junit",
-    "start": "lcp"
+    "start": "lcp typescript"
   },
   "repository": {
     "type": "git",
@@ -67,6 +67,6 @@
     ]
   },
   "dependencies": {
-    "leetcode-test-helper": "^0.2.7"
+    "leetcode-test-helper": "^0.2.8"
   }
 }
