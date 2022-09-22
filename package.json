@@ -1,5 +1,5 @@
 {
-  "name": "arithmetic-practice",
+  "name": "typescript-practice",
   "version": "0.2.0",
   "description": "Typescript Practice.",
   "type": "module",
@@ -11,18 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yi-ge/arithmetic-practice.git"
+    "url": "git+https://github.com/yi-ge/typescript-practice.git"
   },
   "keywords": [
-    "practice",
-    "arithmetic"
+    "arithmetic",
+    "typescript",
+    "practice"
   ],
   "author": "yi-ge <a@wyr.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yi-ge/arithmetic-practice/issues"
+    "url": "https://github.com/yi-ge/typescript-practice/issues"
   },
-  "homepage": "https://github.com/yi-ge/arithmetic-practice#readme",
+  "homepage": "https://github.com/yi-ge/typescript-practice#readme",
   "devDependencies": {
     "@types/jest": "^29.0.3",
     "@types/node": "^18.7.18",
