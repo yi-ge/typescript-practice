@@ -1,6 +1,6 @@
 {
   "name": "arithmetic-practice",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Typescript Practice.",
   "type": "module",
   "scripts": {
@@ -66,6 +66,6 @@
     ]
   },
   "dependencies": {
-    "leetcode-test-helper": "^0.2.2"
+    "leetcode-test-helper": "^0.2.7"
   }
 }
