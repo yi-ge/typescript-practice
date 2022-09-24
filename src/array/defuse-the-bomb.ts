@@ -5,7 +5,7 @@
 
 export function decrypt (code: number[], k: number): number[] {
   if (k === 0) return new Array(code.length).fill(0)
-  const codes = [...code, ...code, ...code]
+  const codes = [...code, ...code]
   const res = []
   if (k > 0) {
     for (let i = 0; i < code.length; i++) {
