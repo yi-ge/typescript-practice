@@ -164,6 +164,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 数组/队列/集合/映射
 
+- [拆炸弹](src/array/defuse-the-bomb.ts)  [数组]
+
+  - LeetCode 1652. 拆炸弹 <https://leetcode.cn/problems/defuse-the-bomb>
+
 - [统计好三元组](src/array/count-good-triplets.ts)  [数组, 枚举]
 
   - LeetCode 1534. 统计好三元组 <https://leetcode.cn/problems/count-good-triplets/>
