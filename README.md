@@ -33,8 +33,19 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ## 基础数据结构
 
+### ECMAScript标准内置的数据结构（部分）
+
+- [数组及数组操作（栈、队列）](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [集合 Set](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [键 - 值对 Map](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
+### 通过JavaScript实现的数据结构及其常见操作
+
 - [二叉树深度优先遍历|前序遍历|中序遍历|后序遍历](src/tree/dfs.ts)
 - [二叉树广度优先遍历|层序遍历](src/tree/bfs.ts)
+- [链表结点](src/lib/ListNode.ts)
+- [树结点](src/lib/TreeNode.ts)
+- [堆操作](src/lib/Heap.ts)
 
 ## 算法题
 
