@@ -1,4 +1,4 @@
-import { minimumAbsDifference } from '../../src/array/minimum-absolute-difference'
+import { minimumAbsDifference } from '../../src/sort/minimum-absolute-difference'
 
 test('最小绝对差', () => {
   // 示例 1：

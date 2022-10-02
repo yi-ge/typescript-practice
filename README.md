@@ -175,6 +175,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 数组/队列/集合/映射
 
+- [最短单词距离](src/array/shortest-word-distance.ts)  [数组, 字符串]
+
+  - LeetCode 243. 最短单词距离 <https://leetcode.cn/problems/shortest-word-distance/>
+
 - [拆炸弹](src/array/defuse-the-bomb.ts)  [数组]
 
   - LeetCode 1652. 拆炸弹 <https://leetcode.cn/problems/defuse-the-bomb>
@@ -206,10 +210,6 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 - [存在重复元素 III](src/array/contains-duplicate-iii.ts)  [数组, 桶排序, 有序集合, 排序, 滑动窗口]
 
   - LeetCode 220. 存在重复元素 III <https://leetcode.cn/problems/contains-duplicate-iii/>
-
-- [最小绝对差](src/array/minimum-absolute-difference.ts)  [数组, 排序]
-
-  - LeetCode 1200. 最小绝对差 <https://leetcode.cn/problems/minimum-absolute-difference>
 
 - [回旋镖的数量](src/array/number-of-boomerangs.ts)  [数组, 哈希表, 数学]
 
@@ -733,6 +733,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
   - LintCode 615. 课程表 <https://www.lintcode.com/problem/course-schedule/description>
 
 ### 排序
+
+- [最小绝对差](src/sort/minimum-absolute-difference.ts)  [数组, 排序]
+
+  - LeetCode 1200. 最小绝对差 <https://leetcode.cn/problems/minimum-absolute-difference>
 
 ### 其它
 

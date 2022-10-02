@@ -1,6 +1,6 @@
 // 最小绝对差
 // https://leetcode.cn/problems/minimum-absolute-difference
-// INLINE  ../../images/array/minimum-absolute-difference.jpeg
+// INLINE  ../../images/sort/minimum-absolute-difference.jpeg
 
 export function minimumAbsDifference (arr: number[]): number[][] {
   arr.sort((a, b) => a - b)
