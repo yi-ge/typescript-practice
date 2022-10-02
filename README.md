@@ -51,6 +51,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 字符串
 
+- [检查二进制字符串字段](src/string/check-if-binary-string-has-at-most-one-segment-of-ones.ts)  [字符串]
+
+  - LeetCode 1784. 检查二进制字符串字段 <https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/>
+
 - [数组中的字符串匹配](src/string/string-matching-in-an-array.ts)  [字符串, 字符串匹配]
 
   - LeetCode 1408. 数组中的字符串匹配 <https://leetcode.cn/problems/string-matching-in-an-array>
