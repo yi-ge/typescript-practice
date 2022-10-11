@@ -744,6 +744,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 其它
 
+- [仅执行一次字符串交换能否使两个字符串相等](src/map/check-if-one-string-swap-can-make-strings-equal.ts)  [哈希表, 字符串, 计数]
+
+  - LeetCode 1790. 仅执行一次字符串交换能否使两个字符串相等 <https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal>
+
 - [至多包含 K 个不同字符的最长子串](src/map/longest-substring-with-at-most-k-distinct-characters.ts)  [哈希表, 字符串, 滑动窗口]
 
   - LeetCode 340. 至多包含 K 个不同字符的最长子串 <https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/>
