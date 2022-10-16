@@ -511,6 +511,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 栈
 
+- [用栈操作构建数组](src/stack/build-an-array-with-stack-operations.ts)  [栈, 数组, 模拟]
+
+  - LeetCode 1441. 用栈操作构建数组 <https://leetcode.cn/problems/build-an-array-with-stack-operations>
+
 - [简化路径](src/stack/simplify-path.ts)  [栈, 字符串]
 
   - LeetCode 71. 简化路径 <https://leetcode.cn/problems/simplify-path/>
