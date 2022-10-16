@@ -730,6 +730,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 图
 
+- [可能的二分法](src/graphs/possible-bipartition.ts)  [深度优先搜索, 广度优先搜索, 并查集, 图]
+
+  - LeetCode 886. 可能的二分法 <https://leetcode.cn/problems/possible-bipartition>
+
 - [找到小镇的法官](src/graphs/find-the-town-judge.ts)  [图, 数组, 哈希表]
 
   - LeetCode 997. 找到小镇的法官 <https://leetcode.cn/problems/find-the-town-judge>
