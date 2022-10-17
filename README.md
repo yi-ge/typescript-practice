@@ -179,6 +179,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 数组/队列/集合/映射
 
+- [水果成篮](src/array/fruit-into-baskets.ts)  [数组, 哈希表, 滑动窗口]
+
+  - LeetCode 904. 水果成篮 <https://leetcode.cn/problems/fruit-into-baskets>
+
 - [最短单词距离](src/array/shortest-word-distance.ts)  [数组, 字符串]
 
   - LeetCode 243. 最短单词距离 <https://leetcode.cn/problems/shortest-word-distance/>
