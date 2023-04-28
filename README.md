@@ -515,6 +515,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 栈
 
+- [餐盘栈](src/stack/dinner-plate-stacks.ts)  [栈, 设计, 哈希表, 堆（优先队列）]
+
+  - LeetCode 1172. 餐盘栈 <https://leetcode.cn/problems/dinner-plate-stacks>
+
 - [用栈操作构建数组](src/stack/build-an-array-with-stack-operations.ts)  [栈, 数组, 模拟]
 
   - LeetCode 1441. 用栈操作构建数组 <https://leetcode.cn/problems/build-an-array-with-stack-operations>
