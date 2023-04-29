@@ -760,6 +760,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 其它
 
+- [删除字符使频率相同](src/map/remove-letter-to-equalize-frequency.ts)  [哈希表, 字符串, 计数]
+
+  - LeetCode 2423. 删除字符使频率相同 <https://leetcode.cn/problems/remove-letter-to-equalize-frequency>
+
 - [仅执行一次字符串交换能否使两个字符串相等](src/map/check-if-one-string-swap-can-make-strings-equal.ts)  [哈希表, 字符串, 计数]
 
   - LeetCode 1790. 仅执行一次字符串交换能否使两个字符串相等 <https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal>
