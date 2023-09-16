@@ -179,6 +179,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 数组/队列/集合/映射
 
+- [打家劫舍](src/array/house-robber.ts)  [数组, 动态规划]
+
+  - LeetCode 198. 打家劫舍 <https://leetcode.cn/problems/house-robber>
+
 - [水果成篮](src/array/fruit-into-baskets.ts)  [数组, 哈希表, 滑动窗口]
 
   - LeetCode 904. 水果成篮 <https://leetcode.cn/problems/fruit-into-baskets>
