@@ -742,6 +742,10 @@ TypeScript / JavaScript 基础算法、数据结构练习，包含 LeetCode 或�
 
 ### 图
 
+- [最小化旅行的价格总和](src/graphs/minimize-the-total-price-of-the-trips.ts)  [树, 深度优先搜索, 图, 数组, 动态规划]
+
+  - LeetCode 2646. 最小化旅行的价格总和 <https://leetcode.cn/problems/minimize-the-total-price-of-the-trips>
+
 - [可能的二分法](src/graphs/possible-bipartition.ts)  [深度优先搜索, 广度优先搜索, 并查集, 图]
 
   - LeetCode 886. 可能的二分法 <https://leetcode.cn/problems/possible-bipartition>
