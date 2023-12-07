@@ -67,6 +67,6 @@
     ]
   },
   "dependencies": {
-    "leetcode-test-helper": "^0.4.7"
+    "leetcode-test-helper": "^0.4.8"
   }
 }
